@@ -22,15 +22,16 @@ FuturePath is being built as an offline-first application with one shared React 
 
 - Supabase email/password authentication and student profiles.
 - Student dashboard with recorded quiz scores and activity.
-- Five subjects: English, Mathematics, Biology, Chemistry and Physics.
-- Topic-based study notes stored in Supabase.
+- All 25 approved UTME subject entries, including Use of English, Agricultural Science, Arabic, Art (Fine Art), Biology, Chemistry, CRS, Commerce, Economics, French, Geography, Government, Hausa, History, Home Economics, Igbo, Islamic Studies, Literature in English, Mathematics, Music, Physics, Principles of Accounts, Yoruba, Computer Studies and Physical and Health Education.
+- A topic catalogue across all subjects (275 syllabus-aligned topic headings added in the curriculum seed, plus the original starter topics retained).
+- Topic-by-topic study catalogue stored in Supabase and included in offline downloads.
 - Randomised quiz and mock-question flows.
 - Offline answer marking and local attempt recording, with server synchronisation when online.
 - Past-question archive filters by subject and year.
 - Admin-only content publishing for questions and study notes.
 - Row Level Security on the learning and student data tables.
 
-The current database starts with five original demonstration questions and five starter notes. These are **not** official JAMB past questions. The archive will be expanded using verified, licensed or user-provided source material, with the correct year and source label.
+The current database currently has five published starter notes and five original demonstration questions. The new 25-subject curriculum contains 288 topic records in total, including the original starter topics. Full explanatory lesson notes and verified past-question papers still need to be added topic by topic. These are **not** official JAMB past questions. The archive will be expanded using verified, licensed or user-provided source material, with the correct year and source label. Do not copy entire third-party question banks into FuturePath without permission from the rights holder.
 
 ## Run locally
 
