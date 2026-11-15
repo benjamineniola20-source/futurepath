@@ -2898,6 +2898,168 @@
       "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
     },
     {
+      "id": "3fdca8c1-771a-4635-be61-ff06c8658531",
+      "subject_id": "2aaefff5-9761-43ed-90dd-858f03f79c0b",
+      "topic_id": "95f880b2-19bd-4951-a072-7eae7f4f3558",
+      "topic_title": "Agricultural ecology and environmental factors",
+      "question_text": "The practice of growing different crops on the same land in successive seasons is",
+      "options": [
+        "Crop rotation",
+        "Monocropping",
+        "Overgrazing",
+        "Bush burning"
+      ],
+      "correct_option": 0,
+      "explanation": "Crop rotation changes the crop grown on a field across seasons.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "704e72a1-6ab6-4d92-824a-7cbef1fd73cf",
+      "subject_id": "2aaefff5-9761-43ed-90dd-858f03f79c0b",
+      "topic_id": "95f880b2-19bd-4951-a072-7eae7f4f3558",
+      "topic_title": "Agricultural ecology and environmental factors",
+      "question_text": "A disease that spreads from one animal to another is described as",
+      "options": [
+        "Contagious",
+        "Nutritional",
+        "Inherited only",
+        "Deficiency-related"
+      ],
+      "correct_option": 0,
+      "explanation": "A contagious disease can pass between animals through contact or other routes.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "826e6f4a-f86a-4238-809d-8d2a72ad95e8",
+      "subject_id": "2aaefff5-9761-43ed-90dd-858f03f79c0b",
+      "topic_id": "95f880b2-19bd-4951-a072-7eae7f4f3558",
+      "topic_title": "Agricultural ecology and environmental factors",
+      "question_text": "Which farm operation loosens the soil before planting?",
+      "options": [
+        "Ploughing",
+        "Harvesting",
+        "Winnowing",
+        "Threshing"
+      ],
+      "correct_option": 0,
+      "explanation": "Ploughing turns and loosens soil as part of primary tillage.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "a6da243d-a9c7-4e6d-ac53-85e0f4370859",
+      "subject_id": "2aaefff5-9761-43ed-90dd-858f03f79c0b",
+      "topic_id": "95f880b2-19bd-4951-a072-7eae7f4f3558",
+      "topic_title": "Agricultural ecology and environmental factors",
+      "question_text": "A young plant raised in a nursery before field planting is a",
+      "options": [
+        "Seedling",
+        "Scion",
+        "Rootstock",
+        "Tuber"
+      ],
+      "correct_option": 0,
+      "explanation": "A seedling is a young plant grown from seed.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "d0c5ddde-2556-4ac1-a99d-043dbf9a6c49",
+      "subject_id": "2aaefff5-9761-43ed-90dd-858f03f79c0b",
+      "topic_id": "95f880b2-19bd-4951-a072-7eae7f4f3558",
+      "topic_title": "Agricultural ecology and environmental factors",
+      "question_text": "Which farm structure is mainly used to keep harvested grain dry and protected?",
+      "options": [
+        "Silo",
+        "Milking parlour",
+        "Pigsty",
+        "Fish pond"
+      ],
+      "correct_option": 0,
+      "explanation": "A silo stores bulk grain under conditions that help protect it.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "d5c5a4cf-de73-49ef-b94f-87c94870011e",
+      "subject_id": "2aaefff5-9761-43ed-90dd-858f03f79c0b",
+      "topic_id": "95f880b2-19bd-4951-a072-7eae7f4f3558",
+      "topic_title": "Agricultural ecology and environmental factors",
+      "question_text": "Which nutrient is most associated with leafy vegetative growth?",
+      "options": [
+        "Nitrogen",
+        "Phosphorus",
+        "Calcium",
+        "Chlorine"
+      ],
+      "correct_option": 0,
+      "explanation": "Nitrogen is a major component of chlorophyll and proteins and supports vegetative growth.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "e4ffe9b0-3d64-4197-9436-44364b19de65",
+      "subject_id": "2aaefff5-9761-43ed-90dd-858f03f79c0b",
+      "topic_id": "95f880b2-19bd-4951-a072-7eae7f4f3558",
+      "topic_title": "Agricultural ecology and environmental factors",
+      "question_text": "The process by which soil particles are carried away by wind or water is",
+      "options": [
+        "Soil erosion",
+        "Leaching only",
+        "Humification",
+        "Germination"
+      ],
+      "correct_option": 0,
+      "explanation": "Erosion is the removal and transport of soil particles by agents such as water and wind.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "f036c325-c933-4b7d-9f21-6ab91b5d3948",
+      "subject_id": "2aaefff5-9761-43ed-90dd-858f03f79c0b",
+      "topic_id": "95f880b2-19bd-4951-a072-7eae7f4f3558",
+      "topic_title": "Agricultural ecology and environmental factors",
+      "question_text": "Which implement is commonly used to remove weeds between crop rows?",
+      "options": [
+        "Hoe",
+        "Sickle",
+        "Milking pail",
+        "Watering can"
+      ],
+      "correct_option": 0,
+      "explanation": "A hoe is used for shallow cultivation and weed control.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "bce8c1bf-bd1a-42c1-a2f2-2dbf7627f80a",
+      "subject_id": "2aaefff5-9761-43ed-90dd-858f03f79c0b",
+      "topic_id": "95f880b2-19bd-4951-a072-7eae7f4f3558",
+      "topic_title": "Agricultural ecology and environmental factors",
+      "question_text": "Which practice helps reduce post-harvest losses in stored maize?",
+      "options": [
+        "Drying grain to a safe moisture level",
+        "Storing wet grain in a sealed heap",
+        "Mixing grain with damp soil",
+        "Leaving bags exposed to rain"
+      ],
+      "correct_option": 0,
+      "explanation": "Drying grain adequately before storage reduces mould growth and spoilage.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
       "id": "215eb455-fa89-4245-9065-71693d299aef",
       "subject_id": "3009bf5c-7108-47c9-a81f-886a61e0e088",
       "topic_id": "bb021252-0279-4289-b5ec-0e1ada553e58",
@@ -3312,6 +3474,150 @@
       "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
     },
     {
+      "id": "66d44bf6-0f4d-4218-9ef7-7e203f1e560e",
+      "subject_id": "3009bf5c-7108-47c9-a81f-886a61e0e088",
+      "topic_id": "bb021252-0279-4289-b5ec-0e1ada553e58",
+      "topic_title": "Arabic alphabet, sounds and writing",
+      "question_text": "The Arabic word بيت means",
+      "options": [
+        "House",
+        "School",
+        "Pen",
+        "Teacher"
+      ],
+      "correct_option": 0,
+      "explanation": "بيت (bayt) means house or home.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "7178a66e-06ff-400f-96f7-6ae00908552f",
+      "subject_id": "3009bf5c-7108-47c9-a81f-886a61e0e088",
+      "topic_id": "bb021252-0279-4289-b5ec-0e1ada553e58",
+      "topic_title": "Arabic alphabet, sounds and writing",
+      "question_text": "The opposite of كبير (big) is",
+      "options": [
+        "صغير",
+        "طويل",
+        "قريب",
+        "قديم"
+      ],
+      "correct_option": 0,
+      "explanation": "صغير means small, the opposite of كبير.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "760526cb-c555-4798-afba-dd569c4d3326",
+      "subject_id": "3009bf5c-7108-47c9-a81f-886a61e0e088",
+      "topic_id": "bb021252-0279-4289-b5ec-0e1ada553e58",
+      "topic_title": "Arabic alphabet, sounds and writing",
+      "question_text": "Which Arabic pronoun means 'I'?",
+      "options": [
+        "أنا",
+        "أنتَ",
+        "هو",
+        "هم"
+      ],
+      "correct_option": 0,
+      "explanation": "أنا (anā) is the first-person singular pronoun meaning I.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "96387804-a1bd-4875-a7d4-74e80d2ec28a",
+      "subject_id": "3009bf5c-7108-47c9-a81f-886a61e0e088",
+      "topic_id": "bb021252-0279-4289-b5ec-0e1ada553e58",
+      "topic_title": "Arabic alphabet, sounds and writing",
+      "question_text": "Which word means 'today' in Arabic?",
+      "options": [
+        "اليوم",
+        "أمس",
+        "غداً",
+        "ليلاً"
+      ],
+      "correct_option": 0,
+      "explanation": "اليوم (al-yawm) means today.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "a774bbd6-4639-4d17-8040-6b8345816622",
+      "subject_id": "3009bf5c-7108-47c9-a81f-886a61e0e088",
+      "topic_id": "bb021252-0279-4289-b5ec-0e1ada553e58",
+      "topic_title": "Arabic alphabet, sounds and writing",
+      "question_text": "The phrase صباح الخير is used to say",
+      "options": [
+        "Good morning",
+        "Good night",
+        "Goodbye",
+        "Thank you"
+      ],
+      "correct_option": 0,
+      "explanation": "صباح الخير is a common morning greeting.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "a7d1d723-5c7d-4e3c-86a4-9979c233d728",
+      "subject_id": "3009bf5c-7108-47c9-a81f-886a61e0e088",
+      "topic_id": "bb021252-0279-4289-b5ec-0e1ada553e58",
+      "topic_title": "Arabic alphabet, sounds and writing",
+      "question_text": "Which Arabic word means 'water'?",
+      "options": [
+        "ماء",
+        "نار",
+        "باب",
+        "قلم"
+      ],
+      "correct_option": 0,
+      "explanation": "ماء (māʾ) means water.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "ea3bde39-9c05-48e6-a1ab-48701a088c3b",
+      "subject_id": "3009bf5c-7108-47c9-a81f-886a61e0e088",
+      "topic_id": "bb021252-0279-4289-b5ec-0e1ada553e58",
+      "topic_title": "Arabic alphabet, sounds and writing",
+      "question_text": "In Arabic grammar, a verb is called",
+      "options": [
+        "فعل",
+        "اسم",
+        "حرف",
+        "صفة"
+      ],
+      "correct_option": 0,
+      "explanation": "فعل is the Arabic grammatical term for a verb.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "fc1a08e6-6440-4241-8622-34ae70548f33",
+      "subject_id": "3009bf5c-7108-47c9-a81f-886a61e0e088",
+      "topic_id": "bb021252-0279-4289-b5ec-0e1ada553e58",
+      "topic_title": "Arabic alphabet, sounds and writing",
+      "question_text": "Choose the correct plural of طالب (male student).",
+      "options": [
+        "طلاب",
+        "طالبة",
+        "كتاب",
+        "مدرسة"
+      ],
+      "correct_option": 0,
+      "explanation": "طلاب is a common broken plural of طالب.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
       "id": "8383536d-766e-4a6c-8bd3-8b8ddbd7b6c7",
       "subject_id": "d93d310d-ca16-48f6-8f77-b16b65c0f16e",
       "topic_id": "a172883a-d040-4169-92ad-a9c6f51ab623",
@@ -3703,6 +4009,168 @@
       ],
       "correct_option": 0,
       "explanation": "Carving is a subtractive process in which material is cut away.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "064767a4-bad1-47fb-8508-fa561fcb4520",
+      "subject_id": "d93d310d-ca16-48f6-8f77-b16b65c0f16e",
+      "topic_id": "c63a1906-2a13-4093-867d-bedf3b2aac4d",
+      "topic_title": "African and Nigerian art history",
+      "question_text": "The illusion of depth created by converging parallel lines is",
+      "options": [
+        "Linear perspective",
+        "Symmetry",
+        "Repetition",
+        "Emphasis"
+      ],
+      "correct_option": 0,
+      "explanation": "Linear perspective represents depth using converging lines and a vanishing point.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "1fccbdad-d3f5-4d3a-98b7-8d6ce1d09eef",
+      "subject_id": "d93d310d-ca16-48f6-8f77-b16b65c0f16e",
+      "topic_id": "c63a1906-2a13-4093-867d-bedf3b2aac4d",
+      "topic_title": "African and Nigerian art history",
+      "question_text": "Which material is commonly used as a support for oil painting?",
+      "options": [
+        "Canvas",
+        "Clay slab",
+        "Copper wire only",
+        "Wool yarn"
+      ],
+      "correct_option": 0,
+      "explanation": "Canvas is a common fabric support for oil painting.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "26270e47-5f51-4c93-ae10-baa83ee58322",
+      "subject_id": "d93d310d-ca16-48f6-8f77-b16b65c0f16e",
+      "topic_id": "c63a1906-2a13-4093-867d-bedf3b2aac4d",
+      "topic_title": "African and Nigerian art history",
+      "question_text": "A pigment mixed with water and applied transparently is typical of",
+      "options": [
+        "Watercolour",
+        "Oil pastel",
+        "Enamel firing",
+        "Bronze casting"
+      ],
+      "correct_option": 0,
+      "explanation": "Watercolour uses water-soluble pigment often applied in transparent washes.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "6917935b-b31c-4a49-a753-a5b19b34cbe6",
+      "subject_id": "d93d310d-ca16-48f6-8f77-b16b65c0f16e",
+      "topic_id": "c63a1906-2a13-4093-867d-bedf3b2aac4d",
+      "topic_title": "African and Nigerian art history",
+      "question_text": "Which Nigerian terracotta tradition is especially associated with early sculptural heads?",
+      "options": [
+        "Nok",
+        "Benin brass",
+        "Ife bronze only",
+        "Esie soapstone only"
+      ],
+      "correct_option": 0,
+      "explanation": "Nok culture is known for early terracotta figurative sculptures.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "77fc267b-6091-4839-8a42-617a3338621e",
+      "subject_id": "d93d310d-ca16-48f6-8f77-b16b65c0f16e",
+      "topic_id": "c63a1906-2a13-4093-867d-bedf3b2aac4d",
+      "topic_title": "African and Nigerian art history",
+      "question_text": "A three-dimensional artwork made by joining found objects is",
+      "options": [
+        "Assemblage",
+        "Engraving",
+        "Watercolour wash",
+        "Calligraphy"
+      ],
+      "correct_option": 0,
+      "explanation": "Assemblage constructs a three-dimensional work from found or separate objects.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "9753b34e-6d4c-4209-8cf2-117238ee61e6",
+      "subject_id": "d93d310d-ca16-48f6-8f77-b16b65c0f16e",
+      "topic_id": "c63a1906-2a13-4093-867d-bedf3b2aac4d",
+      "topic_title": "African and Nigerian art history",
+      "question_text": "The repeated use of similar shapes can create",
+      "options": [
+        "Unity",
+        "Randomness only",
+        "Disorder",
+        "Foreshortening"
+      ],
+      "correct_option": 0,
+      "explanation": "Repeating related forms helps create visual unity.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "a0225aa9-98ff-4d6d-97e2-1708c7ae8e30",
+      "subject_id": "d93d310d-ca16-48f6-8f77-b16b65c0f16e",
+      "topic_id": "c63a1906-2a13-4093-867d-bedf3b2aac4d",
+      "topic_title": "African and Nigerian art history",
+      "question_text": "A drawing made quickly to record an idea is a",
+      "options": [
+        "Sketch",
+        "Fresco",
+        "Mosaic",
+        "Relief cast"
+      ],
+      "correct_option": 0,
+      "explanation": "A sketch is a rapid preliminary drawing used to explore or record ideas.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "d54ae9e1-23c2-42fd-8fe8-12deaaa415e7",
+      "subject_id": "d93d310d-ca16-48f6-8f77-b16b65c0f16e",
+      "topic_id": "c63a1906-2a13-4093-867d-bedf3b2aac4d",
+      "topic_title": "African and Nigerian art history",
+      "question_text": "The gradual change from light to dark in an artwork is called",
+      "options": [
+        "Tonal gradation",
+        " foreshortening",
+        "Etching",
+        "Stippling only"
+      ],
+      "correct_option": 0,
+      "explanation": "Tonal gradation is a gradual transition between light and dark values.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "54d391a2-dbce-490a-86bb-85087103625c",
+      "subject_id": "d93d310d-ca16-48f6-8f77-b16b65c0f16e",
+      "topic_id": "c63a1906-2a13-4093-867d-bedf3b2aac4d",
+      "topic_title": "African and Nigerian art history",
+      "question_text": "A sculpture made by pouring molten material into a mould uses which process?",
+      "options": [
+        "Casting",
+        "Carving",
+        "Collage",
+        "Drawing"
+      ],
+      "correct_option": 0,
+      "explanation": "Casting forms an object by pouring a liquid material into a mould and allowing it to set.",
       "exam_type": "PRACTICE",
       "exam_year": null,
       "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
@@ -4284,6 +4752,150 @@
       "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
     },
     {
+      "id": "57519e7c-5b50-4f7a-9ab0-12c23c44d92a",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": "d1f69853-4d4c-44dd-aff7-d38759c1a66d",
+      "topic_title": "Cell processes and biological molecules",
+      "question_text": "Which vitamin is synthesised in human skin in the presence of sunlight?",
+      "options": [
+        "Vitamin D",
+        "Vitamin A",
+        "Vitamin B12",
+        "Vitamin K only"
+      ],
+      "correct_option": 0,
+      "explanation": "UVB exposure enables the skin to synthesise vitamin D precursors.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "aa2d70bf-be99-4885-82fc-6717d974320b",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": "d1f69853-4d4c-44dd-aff7-d38759c1a66d",
+      "topic_title": "Cell processes and biological molecules",
+      "question_text": "An organism's observable characteristics are its",
+      "options": [
+        "Phenotype",
+        "Genotype",
+        "Alleles",
+        "Karyotype"
+      ],
+      "correct_option": 0,
+      "explanation": "Phenotype refers to observable traits resulting from genes and environment.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "c6341d7d-ba23-47b9-8186-222134e95fcf",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": "d1f69853-4d4c-44dd-aff7-d38759c1a66d",
+      "topic_title": "Cell processes and biological molecules",
+      "question_text": "Which ecological relationship benefits one organism while harming the other?",
+      "options": [
+        "Parasitism",
+        "Mutualism",
+        "Commensalism",
+        "Neutralism"
+      ],
+      "correct_option": 0,
+      "explanation": "A parasite benefits while its host is harmed.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "cfdf1d02-c53a-458b-948c-1b6f19cf8f34",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": "d1f69853-4d4c-44dd-aff7-d38759c1a66d",
+      "topic_title": "Cell processes and biological molecules",
+      "question_text": "Which blood vessel carries oxygenated blood from the lungs to the heart?",
+      "options": [
+        "Pulmonary vein",
+        "Pulmonary artery",
+        "Vena cava",
+        "Hepatic portal vein"
+      ],
+      "correct_option": 0,
+      "explanation": "Pulmonary veins return oxygenated blood to the left atrium.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "d67300be-9ecc-4310-8dfe-d7d0d0a96eb7",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": "d1f69853-4d4c-44dd-aff7-d38759c1a66d",
+      "topic_title": "Cell processes and biological molecules",
+      "question_text": "The movement of pollen from anther to stigma is",
+      "options": [
+        "Pollination",
+        "Fertilisation",
+        "Germination",
+        "Transpiration"
+      ],
+      "correct_option": 0,
+      "explanation": "Pollination is the transfer of pollen grains from anther to stigma.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "da6315b3-bbd8-4504-82b2-dbf205631860",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": "d1f69853-4d4c-44dd-aff7-d38759c1a66d",
+      "topic_title": "Cell processes and biological molecules",
+      "question_text": "Which part of the nephron filters blood to form glomerular filtrate?",
+      "options": [
+        "Glomerulus",
+        "Collecting duct",
+        "Loop of Henle",
+        "Ureter"
+      ],
+      "correct_option": 0,
+      "explanation": "Blood pressure drives ultrafiltration from glomerular capillaries into Bowman's capsule.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "e62473c4-3bfe-4ec3-8f54-e06f35d1000a",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": "d1f69853-4d4c-44dd-aff7-d38759c1a66d",
+      "topic_title": "Cell processes and biological molecules",
+      "question_text": "The loss of water vapour from aerial parts of a plant is",
+      "options": [
+        "Transpiration",
+        "Translocation",
+        "Respiration",
+        "Guttation only"
+      ],
+      "correct_option": 0,
+      "explanation": "Transpiration is water-vapour loss, mainly through stomata.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "f62e402f-a8ea-4a63-ae29-c7da6b45e99a",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": "d1f69853-4d4c-44dd-aff7-d38759c1a66d",
+      "topic_title": "Cell processes and biological molecules",
+      "question_text": "The functional unit of the nervous system is the",
+      "options": [
+        "Neuron",
+        "Nephron",
+        "Alveolus",
+        "Villus"
+      ],
+      "correct_option": 0,
+      "explanation": "A neuron is a specialised cell that transmits nerve impulses.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
       "id": "c05846ea-5171-488a-98a1-9c8a77abdec9",
       "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
       "topic_id": "6ad70051-081d-4c37-817f-70c503666318",
@@ -4860,6 +5472,132 @@
       "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
     },
     {
+      "id": "49e1d340-734f-40b8-bb9f-ef173d6a6b2e",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "375d2148-1f90-4082-987d-5ac6f05fb258",
+      "topic_title": "Acids, bases, salts and pH",
+      "question_text": "The catalyst used in the Haber process is finely divided",
+      "options": [
+        "Iron",
+        "Nickel",
+        "Platinum",
+        "Copper"
+      ],
+      "correct_option": 0,
+      "explanation": "The Haber process uses an iron-based catalyst.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "67afe5a3-5e31-470e-830f-607ad9396514",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "375d2148-1f90-4082-987d-5ac6f05fb258",
+      "topic_title": "Acids, bases, salts and pH",
+      "question_text": "The bond formed by sharing a pair of electrons is",
+      "options": [
+        "Covalent bond",
+        "Ionic bond",
+        "Metallic bond",
+        "Hydrogen bond"
+      ],
+      "correct_option": 0,
+      "explanation": "A covalent bond involves shared electron pairs between atoms.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "98115492-b0eb-42a3-986a-40c161424dc1",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "375d2148-1f90-4082-987d-5ac6f05fb258",
+      "topic_title": "Acids, bases, salts and pH",
+      "question_text": "The oxidation number of oxygen in most compounds is",
+      "options": [
+        "−2",
+        "+2",
+        "0",
+        "+1"
+      ],
+      "correct_option": 0,
+      "explanation": "Oxygen commonly has oxidation state −2, with recognised exceptions.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "a45ddba5-789d-4be1-8992-53a01f088fca",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "375d2148-1f90-4082-987d-5ac6f05fb258",
+      "topic_title": "Acids, bases, salts and pH",
+      "question_text": "Which element is a halogen?",
+      "options": [
+        "Bromine",
+        "Sodium",
+        "Magnesium",
+        "Neon"
+      ],
+      "correct_option": 0,
+      "explanation": "Bromine belongs to Group 17, the halogens.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "b9a0b90d-a0ed-415f-b881-d619e8252c5b",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "375d2148-1f90-4082-987d-5ac6f05fb258",
+      "topic_title": "Acids, bases, salts and pH",
+      "question_text": "A reaction that releases heat to its surroundings is",
+      "options": [
+        "Exothermic",
+        "Endothermic",
+        "Photolytic only",
+        "Reversible only"
+      ],
+      "correct_option": 0,
+      "explanation": "An exothermic reaction transfers heat to the surroundings.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "c59f9628-ba00-493a-bce1-9f161b4e6d24",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "375d2148-1f90-4082-987d-5ac6f05fb258",
+      "topic_title": "Acids, bases, salts and pH",
+      "question_text": "What is the molar mass of water, H₂O?",
+      "options": [
+        "18 g mol⁻¹",
+        "16 g mol⁻¹",
+        "20 g mol⁻¹",
+        " ಎರಡು g mol⁻¹"
+      ],
+      "correct_option": 0,
+      "explanation": "Water has molar mass 2(1) + 16 = 18 g mol⁻¹.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "ec09e6c0-1f68-4812-8222-2f01a5f14cb5",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "375d2148-1f90-4082-987d-5ac6f05fb258",
+      "topic_title": "Acids, bases, salts and pH",
+      "question_text": "Which process separates a mixture based on differences in boiling points?",
+      "options": [
+        "Fractional distillation",
+        "Filtration",
+        "Decantation",
+        "Magnetic separation"
+      ],
+      "correct_option": 0,
+      "explanation": "Fractional distillation separates miscible liquids with different boiling points.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
       "id": "0866b69e-840e-4153-a76f-3d6b55616026",
       "subject_id": "422dd28a-6ba2-491f-a8d5-e68a1af5ac9f",
       "topic_id": "244448e8-7e86-448e-aad2-e44d0bf61033",
@@ -5251,6 +5989,132 @@
       ],
       "correct_option": 0,
       "explanation": "Acts describes believers sharing resources so that members in need were cared for.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "0aa78f55-7207-4d2b-bce4-383107d3eb6f",
+      "subject_id": "422dd28a-6ba2-491f-a8d5-e68a1af5ac9f",
+      "topic_id": "5db59693-c05b-42e0-b34a-d78ac9b20129",
+      "topic_title": "Christian ethics, faith and service",
+      "question_text": "In the parable of the Good Samaritan, the neighbour is shown by",
+      "options": [
+        "Practical compassion",
+        "Tribal status",
+        "Wealth",
+        "Religious title"
+      ],
+      "correct_option": 0,
+      "explanation": "The Samaritan acts compassionately toward an injured stranger.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "467f1b82-06b5-4b13-b95b-f68b795738d4",
+      "subject_id": "422dd28a-6ba2-491f-a8d5-e68a1af5ac9f",
+      "topic_id": "5db59693-c05b-42e0-b34a-d78ac9b20129",
+      "topic_title": "Christian ethics, faith and service",
+      "question_text": "Who succeeded Moses as leader of the Israelites?",
+      "options": [
+        "Joshua",
+        "Aaron",
+        "Caleb",
+        "Samuel"
+      ],
+      "correct_option": 0,
+      "explanation": "Joshua was commissioned to lead Israel after Moses.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "71872ff7-635d-4ceb-acf0-d1f189faf65b",
+      "subject_id": "422dd28a-6ba2-491f-a8d5-e68a1af5ac9f",
+      "topic_id": "5db59693-c05b-42e0-b34a-d78ac9b20129",
+      "topic_title": "Christian ethics, faith and service",
+      "question_text": "Which judge led Israel and is associated with the song in Judges 5?",
+      "options": [
+        "Deborah",
+        "Gideon",
+        "Samson",
+        "Jephthah"
+      ],
+      "correct_option": 0,
+      "explanation": "Deborah was a prophetess and judge who led Israel with Barak.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "95e1b0cb-9468-4e84-8038-6cece096e8ad",
+      "subject_id": "422dd28a-6ba2-491f-a8d5-e68a1af5ac9f",
+      "topic_id": "5db59693-c05b-42e0-b34a-d78ac9b20129",
+      "topic_title": "Christian ethics, faith and service",
+      "question_text": "The event celebrated at Pentecost in Acts 2 is the",
+      "options": [
+        "Coming of the Holy Spirit",
+        "Birth of Jesus",
+        "Crossing of the Red Sea",
+        "Ascension of Elijah"
+      ],
+      "correct_option": 0,
+      "explanation": "Acts 2 describes the Holy Spirit coming upon the disciples at Pentecost.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "a38a4e9c-4a3f-45ff-95a2-03f56a1188df",
+      "subject_id": "422dd28a-6ba2-491f-a8d5-e68a1af5ac9f",
+      "topic_id": "5db59693-c05b-42e0-b34a-d78ac9b20129",
+      "topic_title": "Christian ethics, faith and service",
+      "question_text": "The biblical teaching to forgive others is strongly illustrated by",
+      "options": [
+        "The unforgiving servant parable",
+        "The rich fool only",
+        "The sower only",
+        "The talents only"
+      ],
+      "correct_option": 0,
+      "explanation": "The parable of the unforgiving servant teaches the importance of extending forgiveness.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "fa5f94c3-fbce-4b5e-808f-104a208582a8",
+      "subject_id": "422dd28a-6ba2-491f-a8d5-e68a1af5ac9f",
+      "topic_id": "5db59693-c05b-42e0-b34a-d78ac9b20129",
+      "topic_title": "Christian ethics, faith and service",
+      "question_text": "The feast commemorating Israel's deliverance from Egypt is",
+      "options": [
+        "Passover",
+        "Pentecost",
+        "Purim",
+        "Tabernacles only"
+      ],
+      "correct_option": 0,
+      "explanation": "Passover recalls the deliverance from Egypt described in Exodus.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "ef20a0c7-a599-4fea-b980-65980467d6a4",
+      "subject_id": "422dd28a-6ba2-491f-a8d5-e68a1af5ac9f",
+      "topic_id": "5db59693-c05b-42e0-b34a-d78ac9b20129",
+      "topic_title": "Christian ethics, faith and service",
+      "question_text": "In the book of Acts, who was chosen with Matthias to fill the place among the Twelve?",
+      "options": [
+        "Matthias",
+        "Barnabas",
+        "Silas",
+        "Timothy"
+      ],
+      "correct_option": 0,
+      "explanation": "Acts 1 describes the selection of Matthias to take Judas's place among the Twelve.",
       "exam_type": "PRACTICE",
       "exam_year": null,
       "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
@@ -5652,6 +6516,168 @@
       "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
     },
     {
+      "id": "584294ac-df2b-4bf2-ae2e-2f07b255111d",
+      "subject_id": "02b101b7-0add-4d88-8235-9ada09e45008",
+      "topic_id": "d119cf35-075e-4194-89cb-a01aebe7c4a8",
+      "topic_title": "Advertising, marketing and consumer protection",
+      "question_text": "A bank instruction allowing regular payments from an account is a",
+      "options": [
+        "Standing order",
+        "Bank draft",
+        "Credit note",
+        "Bill of lading"
+      ],
+      "correct_option": 0,
+      "explanation": "A standing order directs a bank to make regular fixed payments.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "5f83571a-2ae5-479c-a14e-c85ed6addd44",
+      "subject_id": "02b101b7-0add-4d88-8235-9ada09e45008",
+      "topic_id": "d119cf35-075e-4194-89cb-a01aebe7c4a8",
+      "topic_title": "Advertising, marketing and consumer protection",
+      "question_text": "The document sent by a seller showing prices of goods offered is a",
+      "options": [
+        "Quotation",
+        "Receipt",
+        "Credit note",
+        "Delivery note"
+      ],
+      "correct_option": 0,
+      "explanation": "A quotation states the prices and terms offered for goods or services.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "7dbc6660-d6e6-4fe3-98a1-84e8d8ab1c68",
+      "subject_id": "02b101b7-0add-4d88-8235-9ada09e45008",
+      "topic_id": "d119cf35-075e-4194-89cb-a01aebe7c4a8",
+      "topic_title": "Advertising, marketing and consumer protection",
+      "question_text": "A reduction in price granted to clear damaged or imperfect goods is often a",
+      "options": [
+        "Allowance",
+        "Commission",
+        "Dividend",
+        "Premium"
+      ],
+      "correct_option": 0,
+      "explanation": "An allowance is a price reduction for goods with defects or other agreed reasons.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "ade98308-5d73-4f74-b909-ed9cb825a867",
+      "subject_id": "02b101b7-0add-4d88-8235-9ada09e45008",
+      "topic_id": "d119cf35-075e-4194-89cb-a01aebe7c4a8",
+      "topic_title": "Advertising, marketing and consumer protection",
+      "question_text": "A wholesaler mainly sells goods to",
+      "options": [
+        "Retailers",
+        "Final consumers only",
+        "Government auditors",
+        "Factory workers"
+      ],
+      "correct_option": 0,
+      "explanation": "Wholesalers buy in bulk and resell mainly to retailers or other businesses.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "d0c9a7bb-6606-4e05-8708-ce6f23220b7e",
+      "subject_id": "02b101b7-0add-4d88-8235-9ada09e45008",
+      "topic_id": "d119cf35-075e-4194-89cb-a01aebe7c4a8",
+      "topic_title": "Advertising, marketing and consumer protection",
+      "question_text": "A business owned and controlled by one person is a",
+      "options": [
+        "Sole proprietorship",
+        "Public corporation",
+        "Co-operative society",
+        "Limited partnership only"
+      ],
+      "correct_option": 0,
+      "explanation": "A sole proprietorship is owned by a single individual.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "d69c1f98-f8d8-4be4-a48e-0795a2cccd27",
+      "subject_id": "02b101b7-0add-4d88-8235-9ada09e45008",
+      "topic_id": "d119cf35-075e-4194-89cb-a01aebe7c4a8",
+      "topic_title": "Advertising, marketing and consumer protection",
+      "question_text": "The movement of goods from producer to consumer is the",
+      "options": [
+        "Channel of distribution",
+        "Product life cycle",
+        "Trade barrier",
+        "Market survey only"
+      ],
+      "correct_option": 0,
+      "explanation": "Distribution channels connect producers with final users through intermediaries or direct sales.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "e12dc9b5-e075-4655-8b9f-edd60fc8f195",
+      "subject_id": "02b101b7-0add-4d88-8235-9ada09e45008",
+      "topic_id": "d119cf35-075e-4194-89cb-a01aebe7c4a8",
+      "topic_title": "Advertising, marketing and consumer protection",
+      "question_text": "Which transport mode is generally most suitable for bulky goods over long inland distances?",
+      "options": [
+        "Rail",
+        "Air",
+        "Motorcycle",
+        "Courier bicycle"
+      ],
+      "correct_option": 0,
+      "explanation": "Rail can move large volumes of bulky freight efficiently over land.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "ec9597a6-93a1-4b17-9f06-eed179e36af6",
+      "subject_id": "02b101b7-0add-4d88-8235-9ada09e45008",
+      "topic_id": "d119cf35-075e-4194-89cb-a01aebe7c4a8",
+      "topic_title": "Advertising, marketing and consumer protection",
+      "question_text": "The insurance principle requiring full disclosure of relevant facts is",
+      "options": [
+        "Utmost good faith",
+        "Indemnity",
+        "Contribution",
+        "Subrogation"
+      ],
+      "correct_option": 0,
+      "explanation": "Utmost good faith requires parties to disclose material facts honestly.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "d3a49d77-8deb-4b20-827e-1f38f619c267",
+      "subject_id": "02b101b7-0add-4d88-8235-9ada09e45008",
+      "topic_id": "d119cf35-075e-4194-89cb-a01aebe7c4a8",
+      "topic_title": "Advertising, marketing and consumer protection",
+      "question_text": "A document issued by a carrier acknowledging receipt of goods for shipment is a",
+      "options": [
+        "Bill of lading",
+        "Cash receipt",
+        "Debit note",
+        "Price list"
+      ],
+      "correct_option": 0,
+      "explanation": "A bill of lading acknowledges receipt of goods for carriage and sets out key shipment details.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
       "id": "6d002bc6-acde-4518-a2c2-cc671120dcad",
       "subject_id": "78cef5a3-3258-4fec-ac1a-6cf3f05d8ad0",
       "topic_id": "62a24850-effb-47bf-b676-9082664a760b",
@@ -6043,6 +7069,150 @@
       ],
       "correct_option": 0,
       "explanation": "An algorithm is a finite, ordered set of instructions for solving a problem.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "2f3a4f34-e4be-41a2-b87a-ba9926d109cc",
+      "subject_id": "78cef5a3-3258-4fec-ac1a-6cf3f05d8ad0",
+      "topic_id": "5ee3564c-edae-4639-9f52-2fa23ec42c06",
+      "topic_title": "Algorithms, flowcharts and programming basics",
+      "question_text": "A set of related data organised for easy access is a",
+      "options": [
+        "Database",
+        "Compiler",
+        "Flowchart",
+        "Web browser"
+      ],
+      "correct_option": 0,
+      "explanation": "A database stores structured information for retrieval and management.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "47ad00ba-e667-4903-83c5-441e05284445",
+      "subject_id": "78cef5a3-3258-4fec-ac1a-6cf3f05d8ad0",
+      "topic_id": "5ee3564c-edae-4639-9f52-2fa23ec42c06",
+      "topic_title": "Algorithms, flowcharts and programming basics",
+      "question_text": "Which of these is an output device?",
+      "options": [
+        "Monitor",
+        "Mouse",
+        "Microphone",
+        "Keyboard"
+      ],
+      "correct_option": 0,
+      "explanation": "A monitor presents visual output from a computer.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "60876ab1-a7b0-4b9c-8e7b-c56c805bc753",
+      "subject_id": "78cef5a3-3258-4fec-ac1a-6cf3f05d8ad0",
+      "topic_id": "5ee3564c-edae-4639-9f52-2fa23ec42c06",
+      "topic_title": "Algorithms, flowcharts and programming basics",
+      "question_text": "Which device converts a hard copy document into a digital image?",
+      "options": [
+        "Scanner",
+        "Plotter",
+        "Speaker",
+        "Router"
+      ],
+      "correct_option": 0,
+      "explanation": "A scanner captures a paper document as digital data.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "675d50d9-1cb2-470b-ad3d-01d1a496a6fe",
+      "subject_id": "78cef5a3-3258-4fec-ac1a-6cf3f05d8ad0",
+      "topic_id": "5ee3564c-edae-4639-9f52-2fa23ec42c06",
+      "topic_title": "Algorithms, flowcharts and programming basics",
+      "question_text": "The process of converting source code into machine code is",
+      "options": [
+        "Compilation",
+        "Formatting",
+        "Browsing",
+        "Defragmentation"
+      ],
+      "correct_option": 0,
+      "explanation": "A compiler translates source code into another form, commonly machine code or bytecode.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "84aba02b-fad6-450b-a73e-ec11e11d06fd",
+      "subject_id": "78cef5a3-3258-4fec-ac1a-6cf3f05d8ad0",
+      "topic_id": "5ee3564c-edae-4639-9f52-2fa23ec42c06",
+      "topic_title": "Algorithms, flowcharts and programming basics",
+      "question_text": "Which protocol is used to transfer web pages securely?",
+      "options": [
+        "HTTPS",
+        "FTP only",
+        "SMTP",
+        "POP3"
+      ],
+      "correct_option": 0,
+      "explanation": "HTTPS uses HTTP over an encrypted TLS connection.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "98ce6603-8f68-4185-8d87-0f609226a88b",
+      "subject_id": "78cef5a3-3258-4fec-ac1a-6cf3f05d8ad0",
+      "topic_id": "5ee3564c-edae-4639-9f52-2fa23ec42c06",
+      "topic_title": "Algorithms, flowcharts and programming basics",
+      "question_text": "In a spreadsheet, a formula usually begins with which symbol?",
+      "options": [
+        "=",
+        "#",
+        "@",
+        "&"
+      ],
+      "correct_option": 0,
+      "explanation": "Spreadsheet formulas commonly begin with an equals sign.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "aa4cb5c2-b8ed-45f0-85d2-7433a13c9177",
+      "subject_id": "78cef5a3-3258-4fec-ac1a-6cf3f05d8ad0",
+      "topic_id": "5ee3564c-edae-4639-9f52-2fa23ec42c06",
+      "topic_title": "Algorithms, flowcharts and programming basics",
+      "question_text": "A strong password should generally be",
+      "options": [
+        "Long and difficult to guess",
+        "The user's first name",
+        "12345678",
+        "The word password"
+      ],
+      "correct_option": 0,
+      "explanation": "Long, unique passwords reduce the risk of guessing and credential reuse.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "c46e8cfe-b450-4a3b-8a5b-7064de257ae0",
+      "subject_id": "78cef5a3-3258-4fec-ac1a-6cf3f05d8ad0",
+      "topic_id": "5ee3564c-edae-4639-9f52-2fa23ec42c06",
+      "topic_title": "Algorithms, flowcharts and programming basics",
+      "question_text": "Which network device forwards data between different networks?",
+      "options": [
+        "Router",
+        "Keyboard",
+        "Monitor",
+        "Repeater only"
+      ],
+      "correct_option": 0,
+      "explanation": "A router directs packets between separate networks.",
       "exam_type": "PRACTICE",
       "exam_year": null,
       "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
@@ -6444,6 +7614,150 @@
       "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
     },
     {
+      "id": "33860385-c218-4cfb-a10c-30db96a973e4",
+      "subject_id": "18471ef1-9c66-4120-9534-79442b2fb7a9",
+      "topic_id": "f90c4702-5518-47ce-a016-365e7d47e434",
+      "topic_title": "Basic economic concepts and scarcity",
+      "question_text": "The total value of final goods and services produced within a country in a period is",
+      "options": [
+        "Gross domestic product",
+        "Net exports only",
+        "Personal savings",
+        "National debt"
+      ],
+      "correct_option": 0,
+      "explanation": "GDP measures the value of final production within a country's borders.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "679cb10f-711e-47b1-a9ab-e095b9895e35",
+      "subject_id": "18471ef1-9c66-4120-9534-79442b2fb7a9",
+      "topic_id": "f90c4702-5518-47ce-a016-365e7d47e434",
+      "topic_title": "Basic economic concepts and scarcity",
+      "question_text": "Unemployment caused by a mismatch between workers' skills and available jobs is",
+      "options": [
+        "Structural unemployment",
+        "Frictional unemployment",
+        "Seasonal unemployment",
+        "Voluntary leisure"
+      ],
+      "correct_option": 0,
+      "explanation": "Structural unemployment arises from changes in the economy and skill or location mismatches.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "74712f8d-381e-4633-a9f5-6204ddf614e1",
+      "subject_id": "18471ef1-9c66-4120-9534-79442b2fb7a9",
+      "topic_id": "f90c4702-5518-47ce-a016-365e7d47e434",
+      "topic_title": "Basic economic concepts and scarcity",
+      "question_text": "When a country can produce a good at lower opportunity cost, it has",
+      "options": [
+        "Comparative advantage",
+        "Absolute monopoly",
+        "Price control",
+        "Diseconomies only"
+      ],
+      "correct_option": 0,
+      "explanation": "Comparative advantage is based on lower opportunity cost.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "847534b0-137d-4d23-ad60-99b20d933ca2",
+      "subject_id": "18471ef1-9c66-4120-9534-79442b2fb7a9",
+      "topic_id": "f90c4702-5518-47ce-a016-365e7d47e434",
+      "topic_title": "Basic economic concepts and scarcity",
+      "question_text": "A rise in the general price level reduces the",
+      "options": [
+        "Purchasing power of money",
+        "Number of currency units",
+        "Physical size of banknotes",
+        "Legal tender status"
+      ],
+      "correct_option": 0,
+      "explanation": "With higher prices, each unit of money buys fewer goods and services.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "dba27502-cc54-4f42-903e-5f2629241bfd",
+      "subject_id": "18471ef1-9c66-4120-9534-79442b2fb7a9",
+      "topic_id": "f90c4702-5518-47ce-a016-365e7d47e434",
+      "topic_title": "Basic economic concepts and scarcity",
+      "question_text": "A persistent general rise in the price level is",
+      "options": [
+        "Inflation",
+        "Deflation",
+        "Appreciation",
+        "Depression"
+      ],
+      "correct_option": 0,
+      "explanation": "Inflation is a sustained increase in the general price level.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "dbbc0d28-9688-436c-9c1e-4e4d27305c8c",
+      "subject_id": "18471ef1-9c66-4120-9534-79442b2fb7a9",
+      "topic_id": "f90c4702-5518-47ce-a016-365e7d47e434",
+      "topic_title": "Basic economic concepts and scarcity",
+      "question_text": "The law of demand states that, other things equal, quantity demanded usually",
+      "options": [
+        "Falls as price rises",
+        "Rises as price rises",
+        "Never changes",
+        "Equals quantity supplied"
+      ],
+      "correct_option": 0,
+      "explanation": "The law of demand describes an inverse relationship between price and quantity demanded.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "f16b7eed-f3e8-496a-986e-0a202fdbbfa1",
+      "subject_id": "18471ef1-9c66-4120-9534-79442b2fb7a9",
+      "topic_id": "f90c4702-5518-47ce-a016-365e7d47e434",
+      "topic_title": "Basic economic concepts and scarcity",
+      "question_text": "The institution responsible for monetary policy in Nigeria is the",
+      "options": [
+        "Central Bank of Nigeria",
+        "Federal Inland Revenue Service",
+        "Nigerian Ports Authority",
+        "National Population Commission"
+      ],
+      "correct_option": 0,
+      "explanation": "The Central Bank of Nigeria conducts monetary policy.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "f9993f42-c627-4e3c-b4ec-32d11cdd530d",
+      "subject_id": "18471ef1-9c66-4120-9534-79442b2fb7a9",
+      "topic_id": "f90c4702-5518-47ce-a016-365e7d47e434",
+      "topic_title": "Basic economic concepts and scarcity",
+      "question_text": "A tax whose rate rises as income rises is",
+      "options": [
+        "Progressive tax",
+        "Regressive tax",
+        "Proportional tax",
+        "Specific tax"
+      ],
+      "correct_option": 0,
+      "explanation": "A progressive tax takes a higher percentage of income as income increases.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
       "id": "aa93eb64-3e6b-434c-83b3-0339f721b130",
       "subject_id": "6908b1e7-d0e5-4ff5-a4e0-5c94dd4b174c",
       "topic_id": "f996d056-0a17-49ce-a8ad-465dcff9a4d5",
@@ -6835,6 +8149,150 @@
       ],
       "correct_option": 0,
       "explanation": "Je voudrais is the polite conditional form meaning I would like.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "037c6553-a676-4f63-89b3-921657a63d72",
+      "subject_id": "6908b1e7-d0e5-4ff5-a4e0-5c94dd4b174c",
+      "topic_id": "ad1b18dd-4c04-499b-b01a-c76437c42b67",
+      "topic_title": "Adjectives, agreement and comparison",
+      "question_text": "Choose the correct French word for 'yesterday'.",
+      "options": [
+        "Hier",
+        "Demain",
+        "Aujourd'hui",
+        "Maintenant"
+      ],
+      "correct_option": 0,
+      "explanation": "Hier means yesterday.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "6598e35a-6282-41d7-bb34-b95bd79305b3",
+      "subject_id": "6908b1e7-d0e5-4ff5-a4e0-5c94dd4b174c",
+      "topic_id": "ad1b18dd-4c04-499b-b01a-c76437c42b67",
+      "topic_title": "Adjectives, agreement and comparison",
+      "question_text": "Complete: Ils ____ au marché chaque samedi.",
+      "options": [
+        "vont",
+        "va",
+        "allez",
+        "vas"
+      ],
+      "correct_option": 0,
+      "explanation": "Ils is third-person plural, so the present tense of aller is vont.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "796a5f34-c235-4988-be68-eb1ff03923c4",
+      "subject_id": "6908b1e7-d0e5-4ff5-a4e0-5c94dd4b174c",
+      "topic_id": "ad1b18dd-4c04-499b-b01a-c76437c42b67",
+      "topic_title": "Adjectives, agreement and comparison",
+      "question_text": "What does toujours mean?",
+      "options": [
+        "Always",
+        "Never",
+        "Sometimes",
+        "Tomorrow"
+      ],
+      "correct_option": 0,
+      "explanation": "Toujours means always or still, depending on context.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "85baeb8a-41f9-4bd4-b9dd-e178d4bafc9f",
+      "subject_id": "6908b1e7-d0e5-4ff5-a4e0-5c94dd4b174c",
+      "topic_id": "ad1b18dd-4c04-499b-b01a-c76437c42b67",
+      "topic_title": "Adjectives, agreement and comparison",
+      "question_text": "Which noun is masculine?",
+      "options": [
+        "Le soleil",
+        "La lune",
+        "La table",
+        "La voiture"
+      ],
+      "correct_option": 0,
+      "explanation": "Soleil is masculine: le soleil.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "9c12319c-d248-4792-a298-c5317400cba8",
+      "subject_id": "6908b1e7-d0e5-4ff5-a4e0-5c94dd4b174c",
+      "topic_id": "ad1b18dd-4c04-499b-b01a-c76437c42b67",
+      "topic_title": "Adjectives, agreement and comparison",
+      "question_text": "The French word for 'window' is",
+      "options": [
+        "Fenêtre",
+        "Chaise",
+        "Porte",
+        "Livre"
+      ],
+      "correct_option": 0,
+      "explanation": "Fenêtre means window.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "b1c75086-8e7c-499b-83a1-1f27aa125c0c",
+      "subject_id": "6908b1e7-d0e5-4ff5-a4e0-5c94dd4b174c",
+      "topic_id": "ad1b18dd-4c04-499b-b01a-c76437c42b67",
+      "topic_title": "Adjectives, agreement and comparison",
+      "question_text": "Choose the correct negative form of 'Je parle'.",
+      "options": [
+        "Je ne parle pas",
+        "Je pas parle",
+        "Je parle ne",
+        "Je n'est parle"
+      ],
+      "correct_option": 0,
+      "explanation": "Standard French negation places ne and pas around the conjugated verb.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "be1bcede-adc2-41f1-9a25-07d391db7af3",
+      "subject_id": "6908b1e7-d0e5-4ff5-a4e0-5c94dd4b174c",
+      "topic_id": "ad1b18dd-4c04-499b-b01a-c76437c42b67",
+      "topic_title": "Adjectives, agreement and comparison",
+      "question_text": "Complete: Vous ____ français?",
+      "options": [
+        "parlez",
+        "parle",
+        "parlons",
+        "parlent"
+      ],
+      "correct_option": 0,
+      "explanation": "Vous takes the second-person plural form parlez.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "e6940e6b-8935-4125-82ef-88d80ee6417f",
+      "subject_id": "6908b1e7-d0e5-4ff5-a4e0-5c94dd4b174c",
+      "topic_id": "ad1b18dd-4c04-499b-b01a-c76437c42b67",
+      "topic_title": "Adjectives, agreement and comparison",
+      "question_text": "The French expression avoir faim means",
+      "options": [
+        "To be hungry",
+        "To be thirsty",
+        "To be sleepy",
+        "To be late"
+      ],
+      "correct_option": 0,
+      "explanation": "Avoir faim literally means to have hunger and is used for being hungry.",
       "exam_type": "PRACTICE",
       "exam_year": null,
       "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
@@ -7236,6 +8694,150 @@
       "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
     },
     {
+      "id": "35154918-5d68-4e44-a552-b1c5c8183622",
+      "subject_id": "4293ebb4-25f9-40d1-8a5d-10dd266c8d0b",
+      "topic_id": "5e50e430-10c6-4c7f-ba2c-522c2a853246",
+      "topic_title": "Agriculture, industry and trade",
+      "question_text": "The imaginary line at 0° latitude is the",
+      "options": [
+        "Equator",
+        "Prime Meridian",
+        "Tropic of Cancer",
+        "Arctic Circle"
+      ],
+      "correct_option": 0,
+      "explanation": "The Equator divides Earth into the Northern and Southern Hemispheres.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "53b2d474-f6a7-48d5-b5db-8300e5294fba",
+      "subject_id": "4293ebb4-25f9-40d1-8a5d-10dd266c8d0b",
+      "topic_id": "5e50e430-10c6-4c7f-ba2c-522c2a853246",
+      "topic_title": "Agriculture, industry and trade",
+      "question_text": "The daily rise and fall of sea level is called",
+      "options": [
+        "Tide",
+        "Current",
+        "Wave refraction",
+        "Evaporation"
+      ],
+      "correct_option": 0,
+      "explanation": "Tides are periodic sea-level changes mainly caused by gravitational forces.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "7ac5bbf6-7d39-4b8c-859b-1f27075dfbc3",
+      "subject_id": "4293ebb4-25f9-40d1-8a5d-10dd266c8d0b",
+      "topic_id": "5e50e430-10c6-4c7f-ba2c-522c2a853246",
+      "topic_title": "Agriculture, industry and trade",
+      "question_text": "A densely populated urban area with continuous built-up development may form a",
+      "options": [
+        "Conurbation",
+        "Hamlet",
+        "Nomadic camp",
+        "Plantation"
+      ],
+      "correct_option": 0,
+      "explanation": "A conurbation forms when expanding towns or cities merge into a continuous urban area.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "8da66571-3d11-4f75-9fa0-c9d021c54735",
+      "subject_id": "4293ebb4-25f9-40d1-8a5d-10dd266c8d0b",
+      "topic_id": "5e50e430-10c6-4c7f-ba2c-522c2a853246",
+      "topic_title": "Agriculture, industry and trade",
+      "question_text": "A map showing relief and elevation is commonly a",
+      "options": [
+        "Topographic map",
+        "Political map",
+        "Road map only",
+        "Weather chart"
+      ],
+      "correct_option": 0,
+      "explanation": "Topographic maps represent terrain and elevation, often with contour lines.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "b75c6b45-3d47-42ab-9d28-78aad93b8d70",
+      "subject_id": "4293ebb4-25f9-40d1-8a5d-10dd266c8d0b",
+      "topic_id": "5e50e430-10c6-4c7f-ba2c-522c2a853246",
+      "topic_title": "Agriculture, industry and trade",
+      "question_text": "The breaking down of rocks in place without transport is",
+      "options": [
+        "Weathering",
+        "Erosion",
+        "Deposition",
+        "Mass movement"
+      ],
+      "correct_option": 0,
+      "explanation": "Weathering is the in-situ breakdown of rocks.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "bde553f2-3cb0-4e1b-bf13-8790ede106aa",
+      "subject_id": "4293ebb4-25f9-40d1-8a5d-10dd266c8d0b",
+      "topic_id": "5e50e430-10c6-4c7f-ba2c-522c2a853246",
+      "topic_title": "Agriculture, industry and trade",
+      "question_text": "The seasonal movement of people with livestock in search of pasture is",
+      "options": [
+        "Transhumance",
+        "Urbanisation",
+        "Commuting",
+        "Emigration"
+      ],
+      "correct_option": 0,
+      "explanation": "Transhumance is seasonal movement of livestock and herders between grazing areas.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "c6f7cca2-f471-4dfa-a5b1-5aadc0ea044e",
+      "subject_id": "4293ebb4-25f9-40d1-8a5d-10dd266c8d0b",
+      "topic_id": "5e50e430-10c6-4c7f-ba2c-522c2a853246",
+      "topic_title": "Agriculture, industry and trade",
+      "question_text": "Which layer of the atmosphere contains most weather phenomena?",
+      "options": [
+        "Troposphere",
+        "Stratosphere",
+        "Mesosphere",
+        "Thermosphere"
+      ],
+      "correct_option": 0,
+      "explanation": "Most clouds and weather occur in the troposphere.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "ffe6b834-0bd7-459b-bb69-2ab96b6febfb",
+      "subject_id": "4293ebb4-25f9-40d1-8a5d-10dd266c8d0b",
+      "topic_id": "5e50e430-10c6-4c7f-ba2c-522c2a853246",
+      "topic_title": "Agriculture, industry and trade",
+      "question_text": "Which instrument records earthquake vibrations?",
+      "options": [
+        "Seismograph",
+        "Barometer",
+        "Thermometer",
+        "Anemometer"
+      ],
+      "correct_option": 0,
+      "explanation": "A seismograph records ground motion caused by earthquakes.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
       "id": "0bf80415-65aa-423e-888c-c070163dc449",
       "subject_id": "b58891f9-9d76-4b04-aa11-7bb475c29b97",
       "topic_id": "70abcfb4-cabc-4bc2-b056-5d41d6cff943",
@@ -7627,6 +9229,150 @@
       ],
       "correct_option": 0,
       "explanation": "Rule of law requires public authorities and citizens to act within the law.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "0f96cbc5-3a97-4dc8-a632-5d358224ec71",
+      "subject_id": "b58891f9-9d76-4b04-aa11-7bb475c29b97",
+      "topic_id": "70abcfb4-cabc-4bc2-b056-5d41d6cff943",
+      "topic_title": "Basic concepts of government and the state",
+      "question_text": "A legislature with two chambers is described as",
+      "options": [
+        "Bicameral",
+        "Unicameral",
+        "Federal only",
+        "Collective"
+      ],
+      "correct_option": 0,
+      "explanation": "A bicameral legislature has two legislative chambers.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "209598bf-b406-454f-aeb1-a78f83d8256e",
+      "subject_id": "b58891f9-9d76-4b04-aa11-7bb475c29b97",
+      "topic_id": "70abcfb4-cabc-4bc2-b056-5d41d6cff943",
+      "topic_title": "Basic concepts of government and the state",
+      "question_text": "The principle that citizens participate in choosing their leaders is",
+      "options": [
+        "Political participation",
+        "Judicial review",
+        "Military rule",
+        "Censorship"
+      ],
+      "correct_option": 0,
+      "explanation": "Political participation includes voting and other ways citizens influence public affairs.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "5a447d72-bdc5-4a10-b40c-532014d54be4",
+      "subject_id": "b58891f9-9d76-4b04-aa11-7bb475c29b97",
+      "topic_id": "70abcfb4-cabc-4bc2-b056-5d41d6cff943",
+      "topic_title": "Basic concepts of government and the state",
+      "question_text": "A government in which the head of state is also head of government is commonly a",
+      "options": [
+        "Presidential system",
+        "Parliamentary system",
+        "Absolute confederacy",
+        "Constitutional monarchy only"
+      ],
+      "correct_option": 0,
+      "explanation": "In a presidential system, the president commonly combines the roles of head of state and government.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "6eb96a9a-6ca4-495d-8265-aa7dc65ff2de",
+      "subject_id": "b58891f9-9d76-4b04-aa11-7bb475c29b97",
+      "topic_id": "70abcfb4-cabc-4bc2-b056-5d41d6cff943",
+      "topic_title": "Basic concepts of government and the state",
+      "question_text": "The process of formally removing a public official for serious misconduct under constitutional procedure is",
+      "options": [
+        "Impeachment",
+        "Referendum",
+        "Prorogation",
+        "Filibuster"
+      ],
+      "correct_option": 0,
+      "explanation": "Impeachment is a constitutional process for addressing specified misconduct by certain officeholders.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "74cd842d-01e4-41fc-97ec-811a6bf21ac2",
+      "subject_id": "b58891f9-9d76-4b04-aa11-7bb475c29b97",
+      "topic_id": "70abcfb4-cabc-4bc2-b056-5d41d6cff943",
+      "topic_title": "Basic concepts of government and the state",
+      "question_text": "The permanent officials who advise and implement government policy are the",
+      "options": [
+        "Civil service",
+        "Legislature",
+        "Electorate",
+        "Pressure groups"
+      ],
+      "correct_option": 0,
+      "explanation": "The civil service provides continuous administrative support and implements policy.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "7d5e9f2d-f42e-4fc8-8dbf-e5604554688e",
+      "subject_id": "b58891f9-9d76-4b04-aa11-7bb475c29b97",
+      "topic_id": "70abcfb4-cabc-4bc2-b056-5d41d6cff943",
+      "topic_title": "Basic concepts of government and the state",
+      "question_text": "The right of a court to examine whether government action is constitutional is",
+      "options": [
+        "Judicial review",
+        "Universal suffrage",
+        "Collective responsibility",
+        "Delegated legislation"
+      ],
+      "correct_option": 0,
+      "explanation": "Judicial review allows courts to assess the legality or constitutionality of public action.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "ce9c19d4-a184-4413-9990-16bf38092c7c",
+      "subject_id": "b58891f9-9d76-4b04-aa11-7bb475c29b97",
+      "topic_id": "70abcfb4-cabc-4bc2-b056-5d41d6cff943",
+      "topic_title": "Basic concepts of government and the state",
+      "question_text": "The idea that political authority ultimately comes from the people is",
+      "options": [
+        "Popular sovereignty",
+        "Divine right",
+        "Colonialism",
+        "Oligarchy"
+      ],
+      "correct_option": 0,
+      "explanation": "Popular sovereignty locates ultimate political authority in the people.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "e2e25aa5-143c-48e3-a9f1-76de9e439f38",
+      "subject_id": "b58891f9-9d76-4b04-aa11-7bb475c29b97",
+      "topic_id": "70abcfb4-cabc-4bc2-b056-5d41d6cff943",
+      "topic_title": "Basic concepts of government and the state",
+      "question_text": "A system where citizens vote directly on a particular public issue is a",
+      "options": [
+        "Referendum",
+        "By-election",
+        "Cabinet reshuffle",
+        "Party primary"
+      ],
+      "correct_option": 0,
+      "explanation": "A referendum puts a specific question to the electorate for direct decision.",
       "exam_type": "PRACTICE",
       "exam_year": null,
       "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
@@ -8028,6 +9774,150 @@
       "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
     },
     {
+      "id": "73902f1f-66ea-4b4d-97ab-1fbd69fcf365",
+      "subject_id": "b5b45fe1-f394-4c7c-a7e5-03cbf64cf181",
+      "topic_id": "bb866274-d96e-429b-a68a-3862db2d58ee",
+      "topic_title": "Composition and translation",
+      "question_text": "The Hausa word makaranta means",
+      "options": [
+        "School",
+        "Hospital",
+        "Market",
+        "Farm"
+      ],
+      "correct_option": 0,
+      "explanation": "Makaranta means school.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "8e5c56b7-f303-4e9c-9f8f-db4716a2aed9",
+      "subject_id": "b5b45fe1-f394-4c7c-a7e5-03cbf64cf181",
+      "topic_id": "bb866274-d96e-429b-a68a-3862db2d58ee",
+      "topic_title": "Composition and translation",
+      "question_text": "Which term refers to a Hausa poem or song?",
+      "options": [
+        "Waƙa",
+        "Karin magana",
+        "Wasiyya",
+        "Lissafi"
+      ],
+      "correct_option": 0,
+      "explanation": "Waƙa means song or poem.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "9956edf6-7b94-4d09-acc1-22fd847ce82f",
+      "subject_id": "b5b45fe1-f394-4c7c-a7e5-03cbf64cf181",
+      "topic_id": "bb866274-d96e-429b-a68a-3862db2d58ee",
+      "topic_title": "Composition and translation",
+      "question_text": "Which word means 'teacher' in Hausa?",
+      "options": [
+        "Malami",
+        "Dalibi",
+        "Manomi",
+        "Likita"
+      ],
+      "correct_option": 0,
+      "explanation": "Malami means teacher or scholar.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "9f2bd848-dd94-4f54-91de-ed23b48687c2",
+      "subject_id": "b5b45fe1-f394-4c7c-a7e5-03cbf64cf181",
+      "topic_id": "bb866274-d96e-429b-a68a-3862db2d58ee",
+      "topic_title": "Composition and translation",
+      "question_text": "The expression Barka da zuwa is used to welcome someone who has",
+      "options": [
+        "Arrived",
+        "Departed",
+        "Slept",
+        "Fallen ill"
+      ],
+      "correct_option": 0,
+      "explanation": "Barka da zuwa is a welcoming expression meaning welcome.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "b17beeb9-0597-468e-b990-f0884958959d",
+      "subject_id": "b5b45fe1-f394-4c7c-a7e5-03cbf64cf181",
+      "topic_id": "bb866274-d96e-429b-a68a-3862db2d58ee",
+      "topic_title": "Composition and translation",
+      "question_text": "A synonym is a word with",
+      "options": [
+        "A similar meaning",
+        "An opposite meaning",
+        "No meaning",
+        "A different spelling only"
+      ],
+      "correct_option": 0,
+      "explanation": "Synonyms are words with similar or nearly similar meanings.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "d512e972-2d64-4ece-a1bf-32ddebd7d913",
+      "subject_id": "b5b45fe1-f394-4c7c-a7e5-03cbf64cf181",
+      "topic_id": "bb866274-d96e-429b-a68a-3862db2d58ee",
+      "topic_title": "Composition and translation",
+      "question_text": "Which Hausa word means 'food'?",
+      "options": [
+        "Abinci",
+        "Ruwa",
+        "Wuta",
+        "Hanya"
+      ],
+      "correct_option": 0,
+      "explanation": "Abinci means food.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "ed8e6d97-d015-4a4a-9e67-341cf31d2fc5",
+      "subject_id": "b5b45fe1-f394-4c7c-a7e5-03cbf64cf181",
+      "topic_id": "bb866274-d96e-429b-a68a-3862db2d58ee",
+      "topic_title": "Composition and translation",
+      "question_text": "The Hausa word rana can mean",
+      "options": [
+        "Sun or day",
+        "Night only",
+        "River",
+        "Market"
+      ],
+      "correct_option": 0,
+      "explanation": "Rana is used for sun and day in Hausa.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "605debc0-be0e-4a33-b58b-20723a7ed1a7",
+      "subject_id": "b5b45fe1-f394-4c7c-a7e5-03cbf64cf181",
+      "topic_id": "bb866274-d96e-429b-a68a-3862db2d58ee",
+      "topic_title": "Composition and translation",
+      "question_text": "Which Hausa word means 'today'?",
+      "options": [
+        "Yau",
+        "Jiya",
+        "Gobe",
+        "Jiya da safe"
+      ],
+      "correct_option": 0,
+      "explanation": "Yau means today; jiya means yesterday and gobe means tomorrow.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
       "id": "bdd32da5-9214-465e-8b9f-0dc654ef6506",
       "subject_id": "b058ea4e-8e71-4bde-a894-8a1bdcecb5aa",
       "topic_id": "df378e44-b856-4097-a07e-a503f6f249a6",
@@ -8419,6 +10309,150 @@
       ],
       "correct_option": 0,
       "explanation": "Ernest Ikoli was among the founders of the Nigerian Youth Movement in 1934.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "3ca9ef17-160b-4e56-a460-fd3ce1495284",
+      "subject_id": "b058ea4e-8e71-4bde-a894-8a1bdcecb5aa",
+      "topic_id": "8189b65a-32ac-47ca-8b24-6b604d0f442c",
+      "topic_title": "African nationalism and independence",
+      "question_text": "The Sokoto Caliphate was established following the jihad led by",
+      "options": [
+        "Usman dan Fodio",
+        "Jaja of Opobo",
+        "Nana of Itsekiri",
+        "Oba Ovonramwen"
+      ],
+      "correct_option": 0,
+      "explanation": "Usman dan Fodio led the early nineteenth-century jihad that established the Sokoto Caliphate.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "47c68e6e-2c3c-4805-9626-3a719778637f",
+      "subject_id": "b058ea4e-8e71-4bde-a894-8a1bdcecb5aa",
+      "topic_id": "8189b65a-32ac-47ca-8b24-6b604d0f442c",
+      "topic_title": "African nationalism and independence",
+      "question_text": "The National Youth Service Corps was established in",
+      "options": [
+        "1973",
+        "1960",
+        "1985",
+        "1999"
+      ],
+      "correct_option": 0,
+      "explanation": "The NYSC scheme was established in 1973 to promote national integration.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "4ea4835d-797d-45a5-87b5-03b0512663ed",
+      "subject_id": "b058ea4e-8e71-4bde-a894-8a1bdcecb5aa",
+      "topic_id": "8189b65a-32ac-47ca-8b24-6b604d0f442c",
+      "topic_title": "African nationalism and independence",
+      "question_text": "The first military coup in Nigeria occurred in",
+      "options": [
+        "1966",
+        "1960",
+        "1975",
+        "1983"
+      ],
+      "correct_option": 0,
+      "explanation": "The first Nigerian military coup took place in January 1966.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "6b33df31-50ce-4af0-be32-87380172a1ff",
+      "subject_id": "b058ea4e-8e71-4bde-a894-8a1bdcecb5aa",
+      "topic_id": "8189b65a-32ac-47ca-8b24-6b604d0f442c",
+      "topic_title": "African nationalism and independence",
+      "question_text": "The Nigerian independence date is",
+      "options": [
+        "1 October 1960",
+        "1 January 1963",
+        "29 May 1999",
+        "1 October 1979"
+      ],
+      "correct_option": 0,
+      "explanation": "Nigeria became independent on 1 October 1960.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "827b3253-e760-4a40-9440-52c07f511231",
+      "subject_id": "b058ea4e-8e71-4bde-a894-8a1bdcecb5aa",
+      "topic_id": "8189b65a-32ac-47ca-8b24-6b604d0f442c",
+      "topic_title": "African nationalism and independence",
+      "question_text": "The Aba Women's protest took place in",
+      "options": [
+        "1929",
+        "1914",
+        "1945",
+        "1966"
+      ],
+      "correct_option": 0,
+      "explanation": "The Women's War or Aba Women's protest occurred in 1929 in southeastern Nigeria.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "b96967e4-6f01-448d-9a6e-26bcf901f388",
+      "subject_id": "b058ea4e-8e71-4bde-a894-8a1bdcecb5aa",
+      "topic_id": "8189b65a-32ac-47ca-8b24-6b604d0f442c",
+      "topic_title": "African nationalism and independence",
+      "question_text": "The 1967–1970 Nigerian conflict is commonly called the",
+      "options": [
+        "Nigerian Civil War",
+        "Biafran War of 1914",
+        "Aba War",
+        "Kano uprising"
+      ],
+      "correct_option": 0,
+      "explanation": "The Nigerian Civil War lasted from 1967 to 1970.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "e0577b50-aa1b-4c53-b9f0-b7157eeecd60",
+      "subject_id": "b058ea4e-8e71-4bde-a894-8a1bdcecb5aa",
+      "topic_id": "8189b65a-32ac-47ca-8b24-6b604d0f442c",
+      "topic_title": "African nationalism and independence",
+      "question_text": "Which ancient city was a major centre of the Songhai Empire?",
+      "options": [
+        "Gao",
+        "Lagos",
+        "Kano only",
+        "Benin City"
+      ],
+      "correct_option": 0,
+      "explanation": "Gao was an important political and commercial centre of the Songhai Empire.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "e606083f-a26c-4f06-b7f3-a12c792fe794",
+      "subject_id": "b058ea4e-8e71-4bde-a894-8a1bdcecb5aa",
+      "topic_id": "8189b65a-32ac-47ca-8b24-6b604d0f442c",
+      "topic_title": "African nationalism and independence",
+      "question_text": "The Atlantic slave trade connected Africa with the Americas and",
+      "options": [
+        "Europe",
+        "Antarctica",
+        "Australia only",
+        "Central Asia only"
+      ],
+      "correct_option": 0,
+      "explanation": "The transatlantic system linked African coastal regions, Europe and the Americas.",
       "exam_type": "PRACTICE",
       "exam_year": null,
       "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
@@ -8820,6 +10854,150 @@
       "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
     },
     {
+      "id": "48e33cdb-8bfc-4595-a030-d0c4a3d343d2",
+      "subject_id": "be49cf5b-f0ef-42f8-8e00-b5f53d139f6a",
+      "topic_id": "ad806830-25af-4e5a-ac5a-fdb05c92da01",
+      "topic_title": "Child development and family health",
+      "question_text": "Which factor is most important when selecting clothes for a young child?",
+      "options": [
+        "Comfort and safety",
+        "Fashion alone",
+        "Highest price",
+        "Complex fastenings"
+      ],
+      "correct_option": 0,
+      "explanation": "Children's clothing should allow movement and avoid hazards while being comfortable.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "5a9248f6-87b4-4a70-baae-f250ccfa7bd6",
+      "subject_id": "be49cf5b-f0ef-42f8-8e00-b5f53d139f6a",
+      "topic_id": "ad806830-25af-4e5a-ac5a-fdb05c92da01",
+      "topic_title": "Child development and family health",
+      "question_text": "Which is an example of a non-renewable household energy source?",
+      "options": [
+        "Kerosene",
+        "Sunlight",
+        "Wind",
+        "Biogas from waste"
+      ],
+      "correct_option": 0,
+      "explanation": "Kerosene is a fossil-derived fuel and is non-renewable.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "76457c5c-04a1-4eaa-82f4-f8d069a62183",
+      "subject_id": "be49cf5b-f0ef-42f8-8e00-b5f53d139f6a",
+      "topic_id": "ad806830-25af-4e5a-ac5a-fdb05c92da01",
+      "topic_title": "Child development and family health",
+      "question_text": "A fabric made from flax fibres is",
+      "options": [
+        "Linen",
+        "Nylon",
+        "Polyester",
+        "Acrylic"
+      ],
+      "correct_option": 0,
+      "explanation": "Linen is made from fibres of the flax plant.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "9a3cb245-3e51-4120-8610-dc628db55d6e",
+      "subject_id": "be49cf5b-f0ef-42f8-8e00-b5f53d139f6a",
+      "topic_id": "ad806830-25af-4e5a-ac5a-fdb05c92da01",
+      "topic_title": "Child development and family health",
+      "question_text": "A household first-aid box should contain",
+      "options": [
+        "Basic first-aid supplies",
+        "Unlabelled chemicals",
+        "Expired medicines only",
+        "Food leftovers"
+      ],
+      "correct_option": 0,
+      "explanation": "A first-aid kit contains suitable basic supplies for minor injuries and emergencies.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "a8f30e07-77df-4409-8568-84c4739071a1",
+      "subject_id": "be49cf5b-f0ef-42f8-8e00-b5f53d139f6a",
+      "topic_id": "ad806830-25af-4e5a-ac5a-fdb05c92da01",
+      "topic_title": "Child development and family health",
+      "question_text": "A family tree is used to show",
+      "options": [
+        "Relationships among family members",
+        "Monthly food prices",
+        "Household electricity use",
+        "Clothing measurements"
+      ],
+      "correct_option": 0,
+      "explanation": "A family tree displays relationships and generations within a family.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "d1f31c24-8a4a-4f2e-af4f-1ba325aa7e22",
+      "subject_id": "be49cf5b-f0ef-42f8-8e00-b5f53d139f6a",
+      "topic_id": "ad806830-25af-4e5a-ac5a-fdb05c92da01",
+      "topic_title": "Child development and family health",
+      "question_text": "The careful arrangement of income and expenditure is",
+      "options": [
+        "Budgeting",
+        "Marketing",
+        "Decoration",
+        "Food preservation"
+      ],
+      "correct_option": 0,
+      "explanation": "Budgeting plans how available income will be allocated to expenses and savings.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "dbf5d0e8-e804-4539-906c-f53626c99a9a",
+      "subject_id": "be49cf5b-f0ef-42f8-8e00-b5f53d139f6a",
+      "topic_id": "ad806830-25af-4e5a-ac5a-fdb05c92da01",
+      "topic_title": "Child development and family health",
+      "question_text": "The process of removing dirt and microbes from hands with soap and water is",
+      "options": [
+        "Handwashing",
+        "Pasteurisation",
+        "Sterilisation of utensils",
+        "Fermentation"
+      ],
+      "correct_option": 0,
+      "explanation": "Proper handwashing reduces the transfer of harmful microorganisms.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "ed470f40-c762-4ccd-8cde-2259884be8a5",
+      "subject_id": "be49cf5b-f0ef-42f8-8e00-b5f53d139f6a",
+      "topic_id": "ad806830-25af-4e5a-ac5a-fdb05c92da01",
+      "topic_title": "Child development and family health",
+      "question_text": "Which practice helps conserve household water?",
+      "options": [
+        "Repairing leaking taps",
+        "Leaving taps running",
+        "Washing one item at a time under a running tap",
+        "Ignoring pipe leaks"
+      ],
+      "correct_option": 0,
+      "explanation": "Repairing leaks prevents unnecessary water loss.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
       "id": "c620c135-11c3-463a-bbc2-fbac9712b342",
       "subject_id": "fd50b236-53b4-4aa1-a664-fb9d46f908ee",
       "topic_id": "ab0de18e-973c-42ac-ad7d-fe3e9b721ee0",
@@ -9211,6 +11389,150 @@
       ],
       "correct_option": 0,
       "explanation": "Akwụkwọ nri is a common Igbo expression for leafy vegetables.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "6ef96e22-d404-4b0f-8524-7a24b2a283b6",
+      "subject_id": "fd50b236-53b4-4aa1-a664-fb9d46f908ee",
+      "topic_id": "88820e2c-3e55-4ec8-9edd-8fa669648a2b",
+      "topic_title": "Composition and translation",
+      "question_text": "The Igbo word ọnwa can mean",
+      "options": [
+        "Moon or month",
+        "Water",
+        "Market",
+        "Teacher"
+      ],
+      "correct_option": 0,
+      "explanation": "Ọnwa is used for moon and month in Igbo.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "8f5c011d-5550-481c-89cf-37f972377f97",
+      "subject_id": "fd50b236-53b4-4aa1-a664-fb9d46f908ee",
+      "topic_id": "88820e2c-3e55-4ec8-9edd-8fa669648a2b",
+      "topic_title": "Composition and translation",
+      "question_text": "Which expression is used to say 'please' in Igbo?",
+      "options": [
+        "Biko",
+        "Daalụ",
+        "Ndewo",
+        "Ka ọ dị"
+      ],
+      "correct_option": 0,
+      "explanation": "Biko is used to say please.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "984758d9-12b4-4b80-ad2f-f56c33da86fa",
+      "subject_id": "fd50b236-53b4-4aa1-a664-fb9d46f908ee",
+      "topic_id": "88820e2c-3e55-4ec8-9edd-8fa669648a2b",
+      "topic_title": "Composition and translation",
+      "question_text": "In Igbo, nna means",
+      "options": [
+        "Father",
+        "Mother",
+        "Child",
+        "Friend"
+      ],
+      "correct_option": 0,
+      "explanation": "Nna means father.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "996bf416-f685-4ba1-8d3a-e5cf7b97fd82",
+      "subject_id": "fd50b236-53b4-4aa1-a664-fb9d46f908ee",
+      "topic_id": "88820e2c-3e55-4ec8-9edd-8fa669648a2b",
+      "topic_title": "Composition and translation",
+      "question_text": "A biography is an account of",
+      "options": [
+        "Another person's life",
+        "An imaginary planet only",
+        "A weather forecast",
+        "A mathematical formula"
+      ],
+      "correct_option": 0,
+      "explanation": "A biography recounts the life of a person written by someone else.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "99a19e5d-4ec2-42ef-89e6-e605be8f0f8a",
+      "subject_id": "fd50b236-53b4-4aa1-a664-fb9d46f908ee",
+      "topic_id": "88820e2c-3e55-4ec8-9edd-8fa669648a2b",
+      "topic_title": "Composition and translation",
+      "question_text": "The word nri means",
+      "options": [
+        "Food",
+        "Book",
+        "Road",
+        "House"
+      ],
+      "correct_option": 0,
+      "explanation": "Nri means food.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "b1e47935-af8c-4929-9e39-30a849f853de",
+      "subject_id": "fd50b236-53b4-4aa1-a664-fb9d46f908ee",
+      "topic_id": "88820e2c-3e55-4ec8-9edd-8fa669648a2b",
+      "topic_title": "Composition and translation",
+      "question_text": "In Igbo, anyanwụ means",
+      "options": [
+        "Sun",
+        "Moon",
+        "Rain",
+        "River"
+      ],
+      "correct_option": 0,
+      "explanation": "Anyanwụ means sun.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "d615e0c8-3320-48a7-8601-582911714505",
+      "subject_id": "fd50b236-53b4-4aa1-a664-fb9d46f908ee",
+      "topic_id": "88820e2c-3e55-4ec8-9edd-8fa669648a2b",
+      "topic_title": "Composition and translation",
+      "question_text": "Which Igbo expression means 'good afternoon'?",
+      "options": [
+        "Ehihie ọma",
+        "Ụtụtụ ọma",
+        "Ka chi fo",
+        "Daalụ"
+      ],
+      "correct_option": 0,
+      "explanation": "Ehihie ọma is a greeting for the afternoon.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "d86cd35b-69b4-4314-9618-1c4d4643e4bf",
+      "subject_id": "fd50b236-53b4-4aa1-a664-fb9d46f908ee",
+      "topic_id": "88820e2c-3e55-4ec8-9edd-8fa669648a2b",
+      "topic_title": "Composition and translation",
+      "question_text": "The Igbo word akwụkwọ can also mean",
+      "options": [
+        "Leaf",
+        "Stone",
+        "Fire",
+        "Fish"
+      ],
+      "correct_option": 0,
+      "explanation": "Akwụkwọ can mean leaf as well as book, depending on context.",
       "exam_type": "PRACTICE",
       "exam_year": null,
       "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
@@ -9630,6 +11952,150 @@
       "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
     },
     {
+      "id": "1de99e6b-c6cf-4195-b579-1406e69b73d4",
+      "subject_id": "157480e7-2b54-40b1-94c4-1050c2bb5974",
+      "topic_id": "2eaedbe3-0052-4bdc-a4ed-a3aad15502d3",
+      "topic_title": "Family life, morality and social responsibilities",
+      "question_text": "The declaration of faith in Islam is called",
+      "options": [
+        "Shahadah",
+        "Zakah",
+        "Sawm",
+        "Hajj"
+      ],
+      "correct_option": 0,
+      "explanation": "Shahadah is the testimony of faith and the first pillar of Islam.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "5b7a39cf-1f65-4631-8c8b-f003ad60481f",
+      "subject_id": "157480e7-2b54-40b1-94c4-1050c2bb5974",
+      "topic_id": "2eaedbe3-0052-4bdc-a4ed-a3aad15502d3",
+      "topic_title": "Family life, morality and social responsibilities",
+      "question_text": "The angel traditionally associated with bringing revelation to prophets is",
+      "options": [
+        "Jibril",
+        "Mikail",
+        "Israfil",
+        "Malik"
+      ],
+      "correct_option": 0,
+      "explanation": "Jibril is identified in Islamic tradition as the angel who conveyed revelation.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "77920463-373d-4b12-a0d5-b11a50bb56bd",
+      "subject_id": "157480e7-2b54-40b1-94c4-1050c2bb5974",
+      "topic_id": "2eaedbe3-0052-4bdc-a4ed-a3aad15502d3",
+      "topic_title": "Family life, morality and social responsibilities",
+      "question_text": "The call announcing that prayer time has begun is the",
+      "options": [
+        "Adhan",
+        "Khutbah",
+        "Tawaf",
+        "Ihram"
+      ],
+      "correct_option": 0,
+      "explanation": "The adhan is the call to prayer.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "9f7ef753-ac35-4688-8575-87eeae6669d4",
+      "subject_id": "157480e7-2b54-40b1-94c4-1050c2bb5974",
+      "topic_id": "2eaedbe3-0052-4bdc-a4ed-a3aad15502d3",
+      "topic_title": "Family life, morality and social responsibilities",
+      "question_text": "The practice of giving obligatory charity to eligible recipients is",
+      "options": [
+        "Zakah",
+        "Riba",
+        "Ghibah",
+        "Tayammum"
+      ],
+      "correct_option": 0,
+      "explanation": "Zakah is obligatory almsgiving subject to specified conditions.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "ad44f8d3-5bb0-4794-9bf2-fb7ceeb6a274",
+      "subject_id": "157480e7-2b54-40b1-94c4-1050c2bb5974",
+      "topic_id": "2eaedbe3-0052-4bdc-a4ed-a3aad15502d3",
+      "topic_title": "Family life, morality and social responsibilities",
+      "question_text": "The first month of the Islamic lunar calendar is",
+      "options": [
+        "Muharram",
+        "Ramadan",
+        "Dhul-Hijjah",
+        "Safar"
+      ],
+      "correct_option": 0,
+      "explanation": "Muharram is the first month of the Hijri calendar.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "bad53437-1128-4e99-8e6b-8e15b3068a85",
+      "subject_id": "157480e7-2b54-40b1-94c4-1050c2bb5974",
+      "topic_id": "2eaedbe3-0052-4bdc-a4ed-a3aad15502d3",
+      "topic_title": "Family life, morality and social responsibilities",
+      "question_text": "The migration to Madinah took place in which year CE?",
+      "options": [
+        "622",
+        "570",
+        "610",
+        "632"
+      ],
+      "correct_option": 0,
+      "explanation": "The Hijrah occurred in 622 CE.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "c32c1ffd-f3dc-479b-8762-b02f4fc030d3",
+      "subject_id": "157480e7-2b54-40b1-94c4-1050c2bb5974",
+      "topic_id": "2eaedbe3-0052-4bdc-a4ed-a3aad15502d3",
+      "topic_title": "Family life, morality and social responsibilities",
+      "question_text": "The final prophet in Islamic belief is",
+      "options": [
+        "Muhammad",
+        "Musa",
+        "Isa",
+        "Ibrahim"
+      ],
+      "correct_option": 0,
+      "explanation": "Islam teaches that Prophet Muhammad is the final prophet.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "fd1a8c06-c0ba-4b12-857a-97e67903a20f",
+      "subject_id": "157480e7-2b54-40b1-94c4-1050c2bb5974",
+      "topic_id": "2eaedbe3-0052-4bdc-a4ed-a3aad15502d3",
+      "topic_title": "Family life, morality and social responsibilities",
+      "question_text": "The Friday congregational prayer is known as",
+      "options": [
+        "Jumu'ah",
+        "Witr",
+        "Duha",
+        "Tahajjud"
+      ],
+      "correct_option": 0,
+      "explanation": "Jumu'ah is the Friday congregational prayer.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
       "id": "28347a76-caeb-4bc9-97a6-179195b046ff",
       "subject_id": "78d05c7e-666f-4702-b2fc-7d49c4741541",
       "topic_id": "4b1e2d48-4e3c-4ca5-969d-82cdd198f71a",
@@ -10039,6 +12505,150 @@
       ],
       "correct_option": 0,
       "explanation": "An elegy is a poem of mourning or lament, often for someone who has died.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "080a363f-118a-47f2-8c57-0d356dd3b075",
+      "subject_id": "78d05c7e-666f-4702-b2fc-7d49c4741541",
+      "topic_id": "8071f93d-8fe9-485b-b7b9-cd98fa2a505c",
+      "topic_title": "Characterisation, dialogue and stagecraft",
+      "question_text": "The use of words that imitate sounds is",
+      "options": [
+        "Onomatopoeia",
+        "Hyperbole",
+        "Litotes",
+        "Metonymy"
+      ],
+      "correct_option": 0,
+      "explanation": "Onomatopoeia uses sound-imitating words such as buzz or clang.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "0f2e4393-2a22-450c-8dba-bc04790a052e",
+      "subject_id": "78d05c7e-666f-4702-b2fc-7d49c4741541",
+      "topic_id": "8071f93d-8fe9-485b-b7b9-cd98fa2a505c",
+      "topic_title": "Characterisation, dialogue and stagecraft",
+      "question_text": "A fourteen-line poem traditionally associated with a structured rhyme pattern is a",
+      "options": [
+        "Sonnet",
+        "Ballad",
+        "Haiku",
+        "Epic"
+      ],
+      "correct_option": 0,
+      "explanation": "A sonnet traditionally contains fourteen lines, often in established forms.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "25c4f614-d8e2-4f58-8dd8-0b5ca8ed2509",
+      "subject_id": "78d05c7e-666f-4702-b2fc-7d49c4741541",
+      "topic_id": "8071f93d-8fe9-485b-b7b9-cd98fa2a505c",
+      "topic_title": "Characterisation, dialogue and stagecraft",
+      "question_text": "A speech by a character addressed to themselves on stage is a",
+      "options": [
+        "Soliloquy",
+        "Dialogue",
+        "Aside to audience",
+        "Prologue"
+      ],
+      "correct_option": 0,
+      "explanation": "A soliloquy reveals a character's thoughts while alone or apparently alone.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "6c96276f-289f-46c6-840b-404077b44dae",
+      "subject_id": "78d05c7e-666f-4702-b2fc-7d49c4741541",
+      "topic_id": "8071f93d-8fe9-485b-b7b9-cd98fa2a505c",
+      "topic_title": "Characterisation, dialogue and stagecraft",
+      "question_text": "A brief remark heard by the audience but not by other characters is an",
+      "options": [
+        "Aside",
+        "Epilogue",
+        "Chorus",
+        "Stage direction"
+      ],
+      "correct_option": 0,
+      "explanation": "An aside is directed to the audience and conventionally unheard by other characters.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "7b7cc224-fe34-4f0b-a290-a562173ef8cd",
+      "subject_id": "78d05c7e-666f-4702-b2fc-7d49c4741541",
+      "topic_id": "8071f93d-8fe9-485b-b7b9-cd98fa2a505c",
+      "topic_title": "Characterisation, dialogue and stagecraft",
+      "question_text": "A play's written instructions about movement, setting and action are",
+      "options": [
+        "Stage directions",
+        "Dialogue",
+        "Acts",
+        "Scenes only"
+      ],
+      "correct_option": 0,
+      "explanation": "Stage directions guide performance, movement, setting and other non-spoken elements.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "a8e6455e-3f06-4a71-815f-07acccc76a71",
+      "subject_id": "78d05c7e-666f-4702-b2fc-7d49c4741541",
+      "topic_id": "8071f93d-8fe9-485b-b7b9-cd98fa2a505c",
+      "topic_title": "Characterisation, dialogue and stagecraft",
+      "question_text": "A story told by a narrator who uses 'I' is in the",
+      "options": [
+        "First-person point of view",
+        "Third-person omniscient only",
+        "Objective point of view",
+        "Second-person only"
+      ],
+      "correct_option": 0,
+      "explanation": "First-person narration uses a narrator who refers to themselves as I or we.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "b34dc442-f41d-41f0-8123-17743ad4920e",
+      "subject_id": "78d05c7e-666f-4702-b2fc-7d49c4741541",
+      "topic_id": "8071f93d-8fe9-485b-b7b9-cd98fa2a505c",
+      "topic_title": "Characterisation, dialogue and stagecraft",
+      "question_text": "A contrast between expectation and reality is often called",
+      "options": [
+        "Irony",
+        "Alliteration",
+        "Assonance",
+        "Euphony"
+      ],
+      "correct_option": 0,
+      "explanation": "Irony involves a meaningful contrast between appearance, expectation and reality.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "e816acc5-b530-43f6-a10e-9e8b1eca0ed5",
+      "subject_id": "78d05c7e-666f-4702-b2fc-7d49c4741541",
+      "topic_id": "8071f93d-8fe9-485b-b7b9-cd98fa2a505c",
+      "topic_title": "Characterisation, dialogue and stagecraft",
+      "question_text": "The central message or underlying idea of a literary work is its",
+      "options": [
+        "Theme",
+        "Setting",
+        "Rhyme",
+        "Stanza"
+      ],
+      "correct_option": 0,
+      "explanation": "Theme is the central idea or insight explored in a work.",
       "exam_type": "PRACTICE",
       "exam_year": null,
       "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
@@ -10602,6 +13212,132 @@
       "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
     },
     {
+      "id": "3f7dea75-c634-4055-853d-6ffec0a1844a",
+      "subject_id": "771b85be-8273-4479-8eaf-92b861c2c586",
+      "topic_id": "9b9de790-8535-411b-9f29-6cab8fe87c51",
+      "topic_title": "Algebra",
+      "question_text": "Solve the inequality 2x + 3 < 11.",
+      "options": [
+        "x < 4",
+        "x > 4",
+        "x < 7",
+        "x > 7"
+      ],
+      "correct_option": 0,
+      "explanation": "Subtract 3 to get 2x < 8; divide by 2.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "3fedebfa-7545-455f-ab23-5e012c0354aa",
+      "subject_id": "771b85be-8273-4479-8eaf-92b861c2c586",
+      "topic_id": "9b9de790-8535-411b-9f29-6cab8fe87c51",
+      "topic_title": "Algebra",
+      "question_text": "Convert 0.375 to a fraction in its simplest form.",
+      "options": [
+        "3/8",
+        "5/8",
+        "3/4",
+        "1/8"
+      ],
+      "correct_option": 0,
+      "explanation": "0.375 = 375/1000 = 3/8 after simplification.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "6e0184af-85c7-4625-a987-4f0fbda19058",
+      "subject_id": "771b85be-8273-4479-8eaf-92b861c2c586",
+      "topic_id": "9b9de790-8535-411b-9f29-6cab8fe87c51",
+      "topic_title": "Algebra",
+      "question_text": "Simplify 3(2x − 5) + 4.",
+      "options": [
+        "6x − 11",
+        "6x − 1",
+        "5x − 11",
+        "6x + 11"
+      ],
+      "correct_option": 0,
+      "explanation": "Expanding gives 6x − 15 + 4 = 6x − 11.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "9090c921-669a-4b0a-87c5-b0d81699af8a",
+      "subject_id": "771b85be-8273-4479-8eaf-92b861c2c586",
+      "topic_id": "9b9de790-8535-411b-9f29-6cab8fe87c51",
+      "topic_title": "Algebra",
+      "question_text": "Evaluate sin 30°.",
+      "options": [
+        "1/2",
+        "√3/2",
+        "1",
+        "0"
+      ],
+      "correct_option": 0,
+      "explanation": "The exact value of sin 30° is one-half.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "9948b885-36c4-4d3a-b9b3-22a34833ac53",
+      "subject_id": "771b85be-8273-4479-8eaf-92b861c2c586",
+      "topic_id": "9b9de790-8535-411b-9f29-6cab8fe87c51",
+      "topic_title": "Algebra",
+      "question_text": "The probability of getting an even number on a fair six-sided die is",
+      "options": [
+        "1/2",
+        "1/3",
+        "2/3",
+        "1/6"
+      ],
+      "correct_option": 0,
+      "explanation": "There are three even outcomes among six equally likely outcomes.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "c51bf5f9-7e14-498b-91dd-32e1ce87dda1",
+      "subject_id": "771b85be-8273-4479-8eaf-92b861c2c586",
+      "topic_id": "9b9de790-8535-411b-9f29-6cab8fe87c51",
+      "topic_title": "Algebra",
+      "question_text": "If y varies directly as x and y = 18 when x = 6, find y when x = 10.",
+      "options": [
+        "30",
+        "24",
+        "36",
+        "12"
+      ],
+      "correct_option": 0,
+      "explanation": "Direct variation gives y/x = 18/6 = 3, so y = 3 × 10 = 30.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "d58cc394-f1cc-44f3-914f-11236be3075b",
+      "subject_id": "771b85be-8273-4479-8eaf-92b861c2c586",
+      "topic_id": "9b9de790-8535-411b-9f29-6cab8fe87c51",
+      "topic_title": "Algebra",
+      "question_text": "The gradient of a horizontal straight line is",
+      "options": [
+        "0",
+        "1",
+        "Undefined",
+        "−1"
+      ],
+      "correct_option": 0,
+      "explanation": "A horizontal line has no vertical change, so its gradient is zero.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
       "id": "09948bae-cfce-4806-b5e6-87cd4983b6e1",
       "subject_id": "6ae71913-c6f4-4c2a-84ec-c56dd82502b3",
       "topic_id": "e1544a16-031b-4d25-9e48-d5fe8f2fbbd6",
@@ -10998,6 +13734,150 @@
       "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
     },
     {
+      "id": "21dbdcd2-c819-4425-be5c-c420b1823816",
+      "subject_id": "6ae71913-c6f4-4c2a-84ec-c56dd82502b3",
+      "topic_id": "e1544a16-031b-4d25-9e48-d5fe8f2fbbd6",
+      "topic_title": "Elements of music: pitch, rhythm and tone",
+      "question_text": "A repeated rhythmic or melodic pattern is an",
+      "options": [
+        "Ostinato",
+        "Accidental",
+        "Interval",
+        "Fermata"
+      ],
+      "correct_option": 0,
+      "explanation": "An ostinato is a recurring musical pattern.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "4d73a507-1ef4-40d5-a5f9-37e87a4632dd",
+      "subject_id": "6ae71913-c6f4-4c2a-84ec-c56dd82502b3",
+      "topic_id": "e1544a16-031b-4d25-9e48-d5fe8f2fbbd6",
+      "topic_title": "Elements of music: pitch, rhythm and tone",
+      "question_text": "A group of four beats in a bar is commonly represented by",
+      "options": [
+        "4/4 time",
+        "2/4 time",
+        "3/8 time",
+        "6/8 time"
+      ],
+      "correct_option": 0,
+      "explanation": "A 4/4 time signature indicates four quarter-note beats per bar.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "4f330300-4d78-4943-856b-5866708f9e59",
+      "subject_id": "6ae71913-c6f4-4c2a-84ec-c56dd82502b3",
+      "topic_id": "e1544a16-031b-4d25-9e48-d5fe8f2fbbd6",
+      "topic_title": "Elements of music: pitch, rhythm and tone",
+      "question_text": "The five-line stave used for higher pitches is commonly the",
+      "options": [
+        "Treble clef staff",
+        "Bass clef staff only",
+        "Percussion stave only",
+        "Tablature"
+      ],
+      "correct_option": 0,
+      "explanation": "The treble clef is commonly used for higher-pitched instruments and voices.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "60501777-b5fa-4c1b-a7b1-2e4c5900fef3",
+      "subject_id": "6ae71913-c6f4-4c2a-84ec-c56dd82502b3",
+      "topic_id": "e1544a16-031b-4d25-9e48-d5fe8f2fbbd6",
+      "topic_title": "Elements of music: pitch, rhythm and tone",
+      "question_text": "A note held for four crotchet beats in common time is a",
+      "options": [
+        "Semibreve",
+        "Minim",
+        "Quaver",
+        "Semiquaver"
+      ],
+      "correct_option": 0,
+      "explanation": "A semibreve lasts four crotchet beats in common time.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "65b6858a-c08b-4103-b652-dcade77cb471",
+      "subject_id": "6ae71913-c6f4-4c2a-84ec-c56dd82502b3",
+      "topic_id": "e1544a16-031b-4d25-9e48-d5fe8f2fbbd6",
+      "topic_title": "Elements of music: pitch, rhythm and tone",
+      "question_text": "The symbol p in music commonly indicates",
+      "options": [
+        "Soft",
+        "Loud",
+        "Very loud",
+        "Gradually faster"
+      ],
+      "correct_option": 0,
+      "explanation": "Piano (p) is a dynamic marking meaning soft.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "c99b70bf-8d9a-41ea-8de1-a424c48a31d1",
+      "subject_id": "6ae71913-c6f4-4c2a-84ec-c56dd82502b3",
+      "topic_id": "e1544a16-031b-4d25-9e48-d5fe8f2fbbd6",
+      "topic_title": "Elements of music: pitch, rhythm and tone",
+      "question_text": "A musical composition for two performers is a",
+      "options": [
+        "Duo",
+        "Trio",
+        "Quartet",
+        "Solo"
+      ],
+      "correct_option": 0,
+      "explanation": "A duo is a performance or composition for two performers.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "de4d99f6-7d87-4d9d-a16f-40bcc250e29c",
+      "subject_id": "6ae71913-c6f4-4c2a-84ec-c56dd82502b3",
+      "topic_id": "e1544a16-031b-4d25-9e48-d5fe8f2fbbd6",
+      "topic_title": "Elements of music: pitch, rhythm and tone",
+      "question_text": "The gradual increase in loudness is",
+      "options": [
+        "Crescendo",
+        "Diminuendo",
+        "Ritardando",
+        "Accelerando"
+      ],
+      "correct_option": 0,
+      "explanation": "Crescendo indicates a gradual increase in volume.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "e21448f6-6128-422e-8855-19fefe43dda2",
+      "subject_id": "6ae71913-c6f4-4c2a-84ec-c56dd82502b3",
+      "topic_id": "e1544a16-031b-4d25-9e48-d5fe8f2fbbd6",
+      "topic_title": "Elements of music: pitch, rhythm and tone",
+      "question_text": "The distance between two adjacent keys on a piano, including black keys, is a",
+      "options": [
+        "Semitone",
+        "Octave",
+        "Perfect fifth",
+        "Whole tone always"
+      ],
+      "correct_option": 0,
+      "explanation": "A semitone is the smallest standard interval in common Western equal temperament.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
       "id": "495e8be1-0d1b-4492-b87d-61b6a735fbc0",
       "subject_id": "93fb85f7-4dfe-4f6f-95fb-6df79d6174b4",
       "topic_id": "900f4c6d-c179-4ba0-af50-422f9cb7c5bb",
@@ -11389,6 +14269,150 @@
       ],
       "correct_option": 0,
       "explanation": "Long jump is a field event involving a horizontal jump into a landing pit.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "0c6dfc4e-aa16-42dc-b342-306097ad3a31",
+      "subject_id": "93fb85f7-4dfe-4f6f-95fb-6df79d6174b4",
+      "topic_id": "5de668c9-5d27-4487-ae5f-0fdb03eb0e2f",
+      "topic_title": "Athletics and track-and-field events",
+      "question_text": "In football, a player is penalised for deliberate handball under the laws, except for the",
+      "options": [
+        "Goalkeeper within their own penalty area, subject to the laws",
+        "Centre-forward anywhere",
+        "Defender anywhere",
+        "Referee"
+      ],
+      "correct_option": 0,
+      "explanation": "The goalkeeper has a limited handball privilege within their own penalty area, subject to the Laws of the Game.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "2117e758-ac5c-4d81-982f-e149f7f501d6",
+      "subject_id": "93fb85f7-4dfe-4f6f-95fb-6df79d6174b4",
+      "topic_id": "5de668c9-5d27-4487-ae5f-0fdb03eb0e2f",
+      "topic_title": "Athletics and track-and-field events",
+      "question_text": "A sprain involves injury mainly to a",
+      "options": [
+        "Ligament",
+        "Bone marrow",
+        "Tooth",
+        "Hair follicle"
+      ],
+      "correct_option": 0,
+      "explanation": "A sprain is an injury to a ligament around a joint.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "2763340d-60fe-4e42-b30f-1823d01a4200",
+      "subject_id": "93fb85f7-4dfe-4f6f-95fb-6df79d6174b4",
+      "topic_id": "5de668c9-5d27-4487-ae5f-0fdb03eb0e2f",
+      "topic_title": "Athletics and track-and-field events",
+      "question_text": "The official who controls a basketball game and enforces its rules is the",
+      "options": [
+        "Referee",
+        "Goalkeeper",
+        "Striker",
+        "Line judge only"
+      ],
+      "correct_option": 0,
+      "explanation": "The referee administers the game and enforces basketball rules.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "4680f4f8-9621-41d1-8f1d-66e2f83fa88d",
+      "subject_id": "93fb85f7-4dfe-4f6f-95fb-6df79d6174b4",
+      "topic_id": "5de668c9-5d27-4487-ae5f-0fdb03eb0e2f",
+      "topic_title": "Athletics and track-and-field events",
+      "question_text": "Which item is essential for safe swimming practice?",
+      "options": [
+        "Appropriate supervision",
+        "Swimming alone in deep water",
+        "Ignoring pool rules",
+        "Running on wet pool edges"
+      ],
+      "correct_option": 0,
+      "explanation": "Appropriate supervision and adherence to safety rules reduce swimming risks.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "4e340c9d-44b4-43a9-a06a-4422ad24bd60",
+      "subject_id": "93fb85f7-4dfe-4f6f-95fb-6df79d6174b4",
+      "topic_id": "5de668c9-5d27-4487-ae5f-0fdb03eb0e2f",
+      "topic_title": "Athletics and track-and-field events",
+      "question_text": "The ability of the heart and lungs to sustain activity is",
+      "options": [
+        "Cardiorespiratory endurance",
+        "Flexibility",
+        "Reaction time",
+        "Static balance"
+      ],
+      "correct_option": 0,
+      "explanation": "Cardiorespiratory endurance concerns sustained oxygen delivery during activity.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "64c692e1-dbe6-4ca4-9b3f-f1f02ea65e73",
+      "subject_id": "93fb85f7-4dfe-4f6f-95fb-6df79d6174b4",
+      "topic_id": "5de668c9-5d27-4487-ae5f-0fdb03eb0e2f",
+      "topic_title": "Athletics and track-and-field events",
+      "question_text": "The immediate purpose of cooling down after exercise is to",
+      "options": [
+        "Gradually return the body toward resting state",
+        "Increase exercise intensity",
+        "Replace warm-up",
+        "Stop breathing rate instantly"
+      ],
+      "correct_option": 0,
+      "explanation": "A gradual cool-down allows heart rate and circulation to return toward resting levels.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "86793bd1-1925-4bc9-8651-dfd61c8f9c2b",
+      "subject_id": "93fb85f7-4dfe-4f6f-95fb-6df79d6174b4",
+      "topic_id": "5de668c9-5d27-4487-ae5f-0fdb03eb0e2f",
+      "topic_title": "Athletics and track-and-field events",
+      "question_text": "The ability to exert force quickly is",
+      "options": [
+        "Power",
+        "Flexibility",
+        "Balance",
+        "Coordination only"
+      ],
+      "correct_option": 0,
+      "explanation": "Power combines force and speed of movement.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "fe21f3cf-5970-4300-aa87-3d40d4977c27",
+      "subject_id": "93fb85f7-4dfe-4f6f-95fb-6df79d6174b4",
+      "topic_id": "5de668c9-5d27-4487-ae5f-0fdb03eb0e2f",
+      "topic_title": "Athletics and track-and-field events",
+      "question_text": "Which fitness component is most directly tested by a sit-and-reach test?",
+      "options": [
+        "Flexibility",
+        "Speed",
+        "Power",
+        "Agility"
+      ],
+      "correct_option": 0,
+      "explanation": "The sit-and-reach test estimates flexibility, particularly of the lower back and hamstrings.",
       "exam_type": "PRACTICE",
       "exam_year": null,
       "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
@@ -11970,6 +14994,150 @@
       "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
     },
     {
+      "id": "0b1cd5e2-f658-4595-ade3-367bfd1abb83",
+      "subject_id": "75c0e8cc-e518-4310-8893-081787251b37",
+      "topic_id": "49a9514d-b40c-47e1-b929-cf06155d4668",
+      "topic_title": "Atomic and nuclear physics",
+      "question_text": "The image formed by a plane mirror is",
+      "options": [
+        "Virtual and upright",
+        "Real and inverted",
+        "Real and enlarged",
+        "Virtual and inverted"
+      ],
+      "correct_option": 0,
+      "explanation": "A plane mirror forms a virtual, upright image of the same size.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "0e02213b-3088-4fae-ae8c-0b9c27635d9e",
+      "subject_id": "75c0e8cc-e518-4310-8893-081787251b37",
+      "topic_id": "49a9514d-b40c-47e1-b929-cf06155d4668",
+      "topic_title": "Atomic and nuclear physics",
+      "question_text": "The SI unit of pressure is the",
+      "options": [
+        "Pascal",
+        "Newton",
+        "Joule",
+        "Watt"
+      ],
+      "correct_option": 0,
+      "explanation": "Pressure is measured in pascals, equivalent to newtons per square metre.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "1e5f33c8-6cf4-464f-99ac-338f4559fc0c",
+      "subject_id": "75c0e8cc-e518-4310-8893-081787251b37",
+      "topic_id": "49a9514d-b40c-47e1-b929-cf06155d4668",
+      "topic_title": "Atomic and nuclear physics",
+      "question_text": "The current through a conductor is directly proportional to voltage when temperature is constant. This is",
+      "options": [
+        "Ohm's law",
+        "Faraday's law",
+        "Hooke's law",
+        "Boyle's law"
+      ],
+      "correct_option": 0,
+      "explanation": "Ohm's law states V = IR under constant physical conditions such as temperature.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "5c4edfeb-6018-4bdd-8c2b-db8b1a0158bb",
+      "subject_id": "75c0e8cc-e518-4310-8893-081787251b37",
+      "topic_id": "49a9514d-b40c-47e1-b929-cf06155d4668",
+      "topic_title": "Atomic and nuclear physics",
+      "question_text": "The SI unit of power is the",
+      "options": [
+        "Watt",
+        "Joule",
+        "Newton",
+        "Pascal"
+      ],
+      "correct_option": 0,
+      "explanation": "Power is measured in watts, equivalent to joules per second.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "9441b5c1-7a68-46ef-bc3f-d0f6bb6ee3bd",
+      "subject_id": "75c0e8cc-e518-4310-8893-081787251b37",
+      "topic_id": "49a9514d-b40c-47e1-b929-cf06155d4668",
+      "topic_title": "Atomic and nuclear physics",
+      "question_text": "Which wave requires a material medium for propagation?",
+      "options": [
+        "Sound wave",
+        "Radio wave",
+        "Visible light",
+        "X-ray"
+      ],
+      "correct_option": 0,
+      "explanation": "Sound is a mechanical wave and requires a medium.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "baf951cb-fede-4764-b3a3-4f3fee2f7313",
+      "subject_id": "75c0e8cc-e518-4310-8893-081787251b37",
+      "topic_id": "49a9514d-b40c-47e1-b929-cf06155d4668",
+      "topic_title": "Atomic and nuclear physics",
+      "question_text": "Which type of radiation has the greatest penetrating power among alpha, beta and gamma?",
+      "options": [
+        "Gamma",
+        "Alpha",
+        "Beta",
+        "All equal"
+      ],
+      "correct_option": 0,
+      "explanation": "Gamma radiation is generally the most penetrating of the three.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "e3cee599-22bb-4336-8327-16ad4bcf0d12",
+      "subject_id": "75c0e8cc-e518-4310-8893-081787251b37",
+      "topic_id": "49a9514d-b40c-47e1-b929-cf06155d4668",
+      "topic_title": "Atomic and nuclear physics",
+      "question_text": "A device that converts electrical energy into mechanical energy is an",
+      "options": [
+        "Electric motor",
+        "Generator",
+        "Transformer",
+        "Rectifier"
+      ],
+      "correct_option": 0,
+      "explanation": "An electric motor converts electrical energy into mechanical work.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "fdd3a45c-6305-4497-8177-c8aa6bd24b5e",
+      "subject_id": "75c0e8cc-e518-4310-8893-081787251b37",
+      "topic_id": "49a9514d-b40c-47e1-b929-cf06155d4668",
+      "topic_title": "Atomic and nuclear physics",
+      "question_text": "The acceleration due to gravity near Earth's surface is approximately",
+      "options": [
+        "9.8 m s⁻²",
+        "3.0 m s⁻¹",
+        "6.7 m s⁻²",
+        "100 m s⁻²"
+      ],
+      "correct_option": 0,
+      "explanation": "The conventional near-surface value is approximately 9.8 metres per second squared.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
       "id": "32a71e84-6dfd-4000-b2bc-e500a938486d",
       "subject_id": "7705e91b-a2f7-46ca-b2c2-5352b656e456",
       "topic_id": "9a95cfa3-f10b-4bcf-8e49-1568f5c0e1aa",
@@ -12361,6 +15529,150 @@
       ],
       "correct_option": 0,
       "explanation": "A prepayment is an amount paid before the related expense is incurred.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "1513eda9-a3c9-4f1c-ad4d-7566e4f27d71",
+      "subject_id": "7705e91b-a2f7-46ca-b2c2-5352b656e456",
+      "topic_id": "9f1e29c4-ba2d-4c7b-83c0-2c7717767653",
+      "topic_title": "Accounting concepts and conventions",
+      "question_text": "An expense incurred but not yet paid is an",
+      "options": [
+        "Accrued expense",
+        "Prepaid expense",
+        "Drawings",
+        "Capital receipt"
+      ],
+      "correct_option": 0,
+      "explanation": "An accrued expense is recognised before cash payment is made.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "66e20c37-a47e-4881-a1bf-3ea602e081b8",
+      "subject_id": "7705e91b-a2f7-46ca-b2c2-5352b656e456",
+      "topic_id": "9f1e29c4-ba2d-4c7b-83c0-2c7717767653",
+      "topic_title": "Accounting concepts and conventions",
+      "question_text": "The statement showing a business's assets, liabilities and capital at a date is the",
+      "options": [
+        "Statement of financial position",
+        "Income statement",
+        "Cash book",
+        "Trial balance only"
+      ],
+      "correct_option": 0,
+      "explanation": "The statement of financial position reports assets, liabilities and equity at a specific date.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "83532a3c-b126-4186-98ff-758c1ebfaa51",
+      "subject_id": "7705e91b-a2f7-46ca-b2c2-5352b656e456",
+      "topic_id": "9f1e29c4-ba2d-4c7b-83c0-2c7717767653",
+      "topic_title": "Accounting concepts and conventions",
+      "question_text": "The amount by which sales exceed cost of goods sold is",
+      "options": [
+        "Gross profit",
+        "Net loss",
+        "Drawings",
+        "Capital reserve"
+      ],
+      "correct_option": 0,
+      "explanation": "Gross profit is sales revenue less cost of goods sold.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "9df646f7-4c91-488b-bd44-c41ce90b5d94",
+      "subject_id": "7705e91b-a2f7-46ca-b2c2-5352b656e456",
+      "topic_id": "9f1e29c4-ba2d-4c7b-83c0-2c7717767653",
+      "topic_title": "Accounting concepts and conventions",
+      "question_text": "The excess of current assets over current liabilities is",
+      "options": [
+        "Working capital",
+        "Gross profit",
+        "Capital employed only",
+        "Net sales"
+      ],
+      "correct_option": 0,
+      "explanation": "Working capital equals current assets minus current liabilities.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "a398de41-75c3-4ac4-a438-57b4f1fa9c09",
+      "subject_id": "7705e91b-a2f7-46ca-b2c2-5352b656e456",
+      "topic_id": "9f1e29c4-ba2d-4c7b-83c0-2c7717767653",
+      "topic_title": "Accounting concepts and conventions",
+      "question_text": "Goods returned by a customer are recorded in the",
+      "options": [
+        "Returns inward book",
+        "Returns outward book",
+        "Purchases journal",
+        "Petty cash book"
+      ],
+      "correct_option": 0,
+      "explanation": "Returns inward records goods returned to the business by customers.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "b8d49ce2-4271-49aa-894c-0380dacb3f67",
+      "subject_id": "7705e91b-a2f7-46ca-b2c2-5352b656e456",
+      "topic_id": "9f1e29c4-ba2d-4c7b-83c0-2c7717767653",
+      "topic_title": "Accounting concepts and conventions",
+      "question_text": "Depreciation is the allocation of the cost of a non-current asset over its",
+      "options": [
+        "Useful life",
+        "Purchase day only",
+        "Resale price only",
+        "First month"
+      ],
+      "correct_option": 0,
+      "explanation": "Depreciation allocates an asset's depreciable amount over its useful life.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "cec2a588-aa89-42e8-89ab-8aaa433dcd6b",
+      "subject_id": "7705e91b-a2f7-46ca-b2c2-5352b656e456",
+      "topic_id": "9f1e29c4-ba2d-4c7b-83c0-2c7717767653",
+      "topic_title": "Accounting concepts and conventions",
+      "question_text": "A trial balance is prepared mainly to test",
+      "options": [
+        "Arithmetical equality of ledger balances",
+        "Profitability in every respect",
+        "Cash availability only",
+        "Market value of assets"
+      ],
+      "correct_option": 0,
+      "explanation": "A trial balance checks whether total debit balances equal total credit balances.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "f5285786-1cf6-4384-82e1-49c43fe8daf4",
+      "subject_id": "7705e91b-a2f7-46ca-b2c2-5352b656e456",
+      "topic_id": "9f1e29c4-ba2d-4c7b-83c0-2c7717767653",
+      "topic_title": "Accounting concepts and conventions",
+      "question_text": "A source document for a credit sale is commonly a",
+      "options": [
+        "Sales invoice",
+        "Bank statement only",
+        "Petty cash voucher",
+        "Debit card"
+      ],
+      "correct_option": 0,
+      "explanation": "A sales invoice records details of goods sold on credit.",
       "exam_type": "PRACTICE",
       "exam_year": null,
       "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
@@ -12924,6 +16236,132 @@
       "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
     },
     {
+      "id": "0d6e8ad4-750a-4ec8-b215-ee266b2acf56",
+      "subject_id": "707da9a4-dc06-4c9b-8dd2-647620c800a8",
+      "topic_id": "f6cf1f75-bb56-4632-ba43-964c63b7b50d",
+      "topic_title": "Comprehension",
+      "question_text": "A group of words with a subject and a finite verb is a",
+      "options": [
+        "Clause",
+        "Phrase",
+        "Morpheme",
+        "Syllable"
+      ],
+      "correct_option": 0,
+      "explanation": "A clause contains a subject and a verb; an independent clause can stand as a sentence.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "0f3c7892-7e87-47ab-8dd2-178d08515b62",
+      "subject_id": "707da9a4-dc06-4c9b-8dd2-647620c800a8",
+      "topic_id": "f6cf1f75-bb56-4632-ba43-964c63b7b50d",
+      "topic_title": "Comprehension",
+      "question_text": "Choose the word opposite in meaning to 'scarce'.",
+      "options": [
+        "Abundant",
+        "Rare",
+        "Limited",
+        "Insufficient"
+      ],
+      "correct_option": 0,
+      "explanation": "Abundant means plentiful, the opposite of scarce.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "33adbfc1-d9ac-421d-9e9c-ea6adcb8c1b6",
+      "subject_id": "707da9a4-dc06-4c9b-8dd2-647620c800a8",
+      "topic_id": "f6cf1f75-bb56-4632-ba43-964c63b7b50d",
+      "topic_title": "Comprehension",
+      "question_text": "Choose the correct completion: The news ____ encouraging.",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "have been"
+      ],
+      "correct_option": 0,
+      "explanation": "News is an uncountable singular noun and takes a singular verb.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "4627ac3f-a5ab-4a9c-b800-2eeeaa5ee2b9",
+      "subject_id": "707da9a4-dc06-4c9b-8dd2-647620c800a8",
+      "topic_id": "f6cf1f75-bb56-4632-ba43-964c63b7b50d",
+      "topic_title": "Comprehension",
+      "question_text": "The word 'although' is commonly used as a",
+      "options": [
+        "Subordinating conjunction",
+        "Preposition of place",
+        "Interjection",
+        "Pronoun"
+      ],
+      "correct_option": 0,
+      "explanation": "Although introduces a subordinate concessive clause.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "9d3dfc8b-8692-4a5f-96fd-27f204b03c59",
+      "subject_id": "707da9a4-dc06-4c9b-8dd2-647620c800a8",
+      "topic_id": "f6cf1f75-bb56-4632-ba43-964c63b7b50d",
+      "topic_title": "Comprehension",
+      "question_text": "The expression 'once in a blue moon' means",
+      "options": [
+        "Very rarely",
+        "Every day",
+        "At midnight",
+        "Without warning"
+      ],
+      "correct_option": 0,
+      "explanation": "The idiom means something happens very infrequently.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "c1eea2e2-3528-446c-8528-a5d83280bf66",
+      "subject_id": "707da9a4-dc06-4c9b-8dd2-647620c800a8",
+      "topic_id": "f6cf1f75-bb56-4632-ba43-964c63b7b50d",
+      "topic_title": "Comprehension",
+      "question_text": "Choose the correct spelling.",
+      "options": [
+        "Pronunciation",
+        "Pronounciation",
+        "Pronuncation",
+        "Pronounciasion"
+      ],
+      "correct_option": 0,
+      "explanation": "Pronunciation is the correct spelling.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "ec5c09f1-27d5-47dc-803b-42aab1cce766",
+      "subject_id": "707da9a4-dc06-4c9b-8dd2-647620c800a8",
+      "topic_id": "f6cf1f75-bb56-4632-ba43-964c63b7b50d",
+      "topic_title": "Comprehension",
+      "question_text": "Which word is an adverb in 'She spoke calmly'?",
+      "options": [
+        "Calmly",
+        "She",
+        "Spoke",
+        "None"
+      ],
+      "correct_option": 0,
+      "explanation": "Calmly modifies the verb spoke and is an adverb.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
       "id": "0cc85c82-1d94-41f3-a17d-deb6b42d064f",
       "subject_id": "02eae437-9a5f-4eda-994d-e33952ddbd3f",
       "topic_id": "dc3224ce-6032-40f4-822b-06c4100cfd90",
@@ -13300,9 +16738,171 @@
       "exam_type": "PRACTICE",
       "exam_year": null,
       "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "19d0890a-ba43-4589-909d-3bcc7deb71ff",
+      "subject_id": "02eae437-9a5f-4eda-994d-e33952ddbd3f",
+      "topic_id": "951050cb-518a-4db0-a430-7266d8417f40",
+      "topic_title": "Composition and translation",
+      "question_text": "The Yoruba word for a person is",
+      "options": [
+        "Ẹni",
+        "Omi",
+        "Ọjọ́",
+        "Ilẹ̀"
+      ],
+      "correct_option": 0,
+      "explanation": "Ẹni means person or individual.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "2bb0ce03-d1da-45db-af5e-cc550536bfa2",
+      "subject_id": "02eae437-9a5f-4eda-994d-e33952ddbd3f",
+      "topic_id": "951050cb-518a-4db0-a430-7266d8417f40",
+      "topic_title": "Composition and translation",
+      "question_text": "A formal letter should normally include",
+      "options": [
+        "A clear purpose and appropriate salutation",
+        "Only slang expressions",
+        "No recipient",
+        "Unrelated stories"
+      ],
+      "correct_option": 0,
+      "explanation": "Formal letters use an appropriate greeting, clear purpose and suitable tone.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "3a590ae0-53b7-4b06-967e-00861947f816",
+      "subject_id": "02eae437-9a5f-4eda-994d-e33952ddbd3f",
+      "topic_id": "951050cb-518a-4db0-a430-7266d8417f40",
+      "topic_title": "Composition and translation",
+      "question_text": "Which word means 'tomorrow morning' in Yoruba?",
+      "options": [
+        "Ọ̀la òwúrọ̀",
+        "Àná alẹ́",
+        "Òní ọ̀sán",
+        "Òwúrọ̀ àná"
+      ],
+      "correct_option": 0,
+      "explanation": "Ọ̀la means tomorrow and òwúrọ̀ means morning.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "9a618b54-22b6-4cfc-9999-cbd2856b3ea6",
+      "subject_id": "02eae437-9a5f-4eda-994d-e33952ddbd3f",
+      "topic_id": "951050cb-518a-4db0-a430-7266d8417f40",
+      "topic_title": "Composition and translation",
+      "question_text": "The word ọmọde means",
+      "options": [
+        "Child",
+        "Elder",
+        "Teacher",
+        "Farmer"
+      ],
+      "correct_option": 0,
+      "explanation": "Ọmọde means child or young person.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "a04a5f38-bbaf-4544-b2ae-811674fe324f",
+      "subject_id": "02eae437-9a5f-4eda-994d-e33952ddbd3f",
+      "topic_id": "951050cb-518a-4db0-a430-7266d8417f40",
+      "topic_title": "Composition and translation",
+      "question_text": "In Yoruba, ilẹ̀ means",
+      "options": [
+        "Land or ground",
+        "Water",
+        "Book",
+        "Fire"
+      ],
+      "correct_option": 0,
+      "explanation": "Ilẹ̀ means land, earth or ground.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "e0e60b58-367a-4ace-895a-3ae8f9982dd2",
+      "subject_id": "02eae437-9a5f-4eda-994d-e33952ddbd3f",
+      "topic_id": "951050cb-518a-4db0-a430-7266d8417f40",
+      "topic_title": "Composition and translation",
+      "question_text": "In Yoruba, ọkọ can mean",
+      "options": [
+        "Husband or vehicle",
+        "Mother",
+        "Market",
+        "Rain"
+      ],
+      "correct_option": 0,
+      "explanation": "Ọkọ has several meanings, including husband and vehicle, depending on tone and context.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "e2573f53-40bb-4333-bc2f-d39344acadb3",
+      "subject_id": "02eae437-9a5f-4eda-994d-e33952ddbd3f",
+      "topic_id": "951050cb-518a-4db0-a430-7266d8417f40",
+      "topic_title": "Composition and translation",
+      "question_text": "Which Yoruba expression means 'good evening'?",
+      "options": [
+        "Ẹ káalẹ́",
+        "Ẹ káàárọ̀",
+        "Ẹ káàsán",
+        "Ẹ ṣé"
+      ],
+      "correct_option": 0,
+      "explanation": "Ẹ káalẹ́ is a respectful evening greeting.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "f0cd7db0-6eeb-43c4-aeaf-912c6b707716",
+      "subject_id": "02eae437-9a5f-4eda-994d-e33952ddbd3f",
+      "topic_id": "951050cb-518a-4db0-a430-7266d8417f40",
+      "topic_title": "Composition and translation",
+      "question_text": "The Yoruba word ìwé means",
+      "options": [
+        "Book or paper",
+        "Food",
+        "River",
+        "Clothing"
+      ],
+      "correct_option": 0,
+      "explanation": "Ìwé can mean book or paper in Yoruba.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
+    },
+    {
+      "id": "6a17e99f-64b3-4baf-9cbe-b0d35cf3e000",
+      "subject_id": "02eae437-9a5f-4eda-994d-e33952ddbd3f",
+      "topic_id": "951050cb-518a-4db0-a430-7266d8417f40",
+      "topic_title": "Composition and translation",
+      "question_text": "In Yoruba, àlàáfíà means",
+      "options": [
+        "Peace or well-being",
+        "Hunger",
+        "Market",
+        "Rain"
+      ],
+      "correct_option": 0,
+      "explanation": "Àlàáfíà means peace, health or well-being.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-informed practice question; not an official JAMB past question"
     }
   ],
   "description": "FuturePath UTME offline pack. Contains original syllabus-informed practice questions; these are not official JAMB past questions.",
-  "exported_at": "2026-11-15T21:09:27.323Z",
+  "exported_at": "2026-11-15T21:12:28.695Z",
   "format_version": 1
 }
