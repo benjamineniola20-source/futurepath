@@ -214,11 +214,13 @@ export default function App(){
   try{
    const parsed=parseQuestionImport(importText);
    if(!parsed.length)throw new Error("No questions were found in the import.");
+   const {data:authData}=await supabase.auth.getUser();
+   const createdBy=authData.user?.id;
    const rows=parsed.map((q:any)=>({
     subject_id:importSubjectId,question_text:q.question_text,options:q.options,
-    correct_option:q.correct_option,explanation:q.explanation||"",
-    exam_type:"UTME",exam_year:q.exam_year||Number(importYear),
-    source_label:importSource,published:true,created_by:(await supabase!.auth.getUser()).data.user?.id
+    correct_option:q.correct_option,explanation:q.explanation||'',
+    exam_type:'PRACTICE',exam_year:q.exam_year||Number(importYear),
+    source_label:importSource,published:true,created_by:createdBy
    }));
    const invalid=rows.findIndex((q:any)=>!q.question_text||!Array.isArray(q.options)||q.options.length!==4||q.options.some((o:any)=>!String(o||"").trim())||![0,1,2,3].includes(q.correct_option));
    if(invalid>=0)throw new Error("Question "+(invalid+1)+" is incomplete. Each question needs its text, four options (A–D), and a valid answer.");
