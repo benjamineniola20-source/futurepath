@@ -27,7 +27,8 @@ export default function AuthGate({ children }: Props) {
         if (!active) return;
         if (data.session) {
           setSession(data.session);
-          setOfflineAccount({ id: data.session.user.id, email: data.session.user.email || "", full_name: String(data.session.user.user_metadata?.full_name || "") });
+          const account = { id: data.session.user.id, email: data.session.user.email || "", full_name: String(data.session.user.user_metadata?.full_name || "") };
+          setOfflineAccount(account); await saveOfflineAccount(account);
         } else if (!navigator.onLine) {
           setOfflineAccount(await getOfflineAccount());
         }
