@@ -94,3 +94,13 @@ After deployment, add that address to Supabase Authentication → URL Configurat
 ## Content and copyright
 
 Do not label original practice questions as official JAMB questions. Add past-question content only when it is provided by the project owner or obtained from a source that permits its use. Keep source, year and subject metadata accurate.
+
+
+
+## Starter question bank and O'Level alignment
+
+A starter pack of 50 newly authored, syllabus-aligned practice questions has been added: two per each of the 25 UTME subjects. These are labelled as FuturePath original practice questions and are **not** represented as official or historical JAMB past questions. The five existing demonstration questions remain, so the published bank now has 55 questions across all 25 subjects.
+
+The O'Level crosswalk and audit checklist is in [docs/o-level-curriculum-alignment.md](docs/o-level-curriculum-alignment.md). The existing 288 topic records are a UTME topic map, not yet a verified, exhaustive WAEC/NECO syllabus transcription. Complete syllabus-by-syllabus validation, missing-topic additions and full lesson writing remain in progress.
+
+The starter question SQL is in [supabase/seed_all_subject_practice_questions.sql](supabase/seed_all_subject_practice_questions.sql).
