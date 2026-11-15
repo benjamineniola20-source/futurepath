@@ -18936,24 +18936,6 @@
       "source_label": "User-provided transcription labelled UTME 2018; exact official-paper provenance not independently verified"
     },
     {
-      "id": "4baac74f-7b13-41ad-a688-9669c41f939d",
-      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
-      "topic_id": "7fe3d4e1-a3c1-4ac8-88b0-2c5b8b3d9ee0",
-      "topic_title": "Energetics and thermochemistry",
-      "question_text": "In the traditional gunpowder mixture of charcoal, sulphur and potassium nitrate, sulphur mainly acts as a: (2018, Question 17)",
-      "options": [
-        "Oxidant",
-        "Fuel (reducing component)",
-        "Solvent",
-        "Catalyst"
-      ],
-      "correct_option": 1,
-      "explanation": "Sulphur is a combustible component of the mixture and acts as a fuel/reducing component. Potassium nitrate supplies the oxidising agent.",
-      "exam_type": "UTME",
-      "exam_year": 2018,
-      "source_label": "User-provided transcription labelled UTME 2018; exact official-paper provenance not independently verified"
-    },
-    {
       "id": "abbfda6a-10f4-4b8a-9ebe-c9d54bd559a8",
       "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
       "topic_id": "ba932921-fa41-44ca-b6c4-f0ea48ad3268",
