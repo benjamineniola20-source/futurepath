@@ -97,10 +97,8 @@ Do not label original practice questions as official JAMB questions. Add past-qu
 
 
 
-## Starter question bank and O'Level alignment
+## UTME question bank and curriculum
 
-A starter pack of 50 newly authored, syllabus-aligned practice questions has been added: two per each of the 25 UTME subjects. These are labelled as FuturePath original practice questions and are **not** represented as official or historical JAMB past questions. The five existing demonstration questions remain, so the published bank now has 55 questions across all 25 subjects.
+The published database contains original FuturePath UTME practice questions across all 25 subjects. These questions are newly authored revision material, not historical JAMB past questions. The question archive must label them accurately; a year filter is only for verified year-specific material. The additional 75-question pack is in [supabase/seed_utme_practice_pack_02.sql](supabase/seed_utme_practice_pack_02.sql), alongside the original [50-question pack](supabase/seed_all_subject_practice_questions.sql).
 
-The O'Level crosswalk and audit checklist is in [docs/o-level-curriculum-alignment.md](docs/o-level-curriculum-alignment.md). The existing 288 topic records are a UTME topic map, not yet a verified, exhaustive WAEC/NECO syllabus transcription. Complete syllabus-by-syllabus validation, missing-topic additions and full lesson writing remain in progress.
-
-The starter question SQL is in [supabase/seed_all_subject_practice_questions.sql](supabase/seed_all_subject_practice_questions.sql).
+The 25-subject catalogue and 288 topic headings are intended as a UTME study map. Continue validating topic coverage against the current JAMB IBASS syllabus and expanding complete topic-by-topic lessons. Do not describe this project as an O'Level preparation platform.
