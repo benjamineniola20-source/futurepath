@@ -7,6 +7,7 @@ type Props = { children: ReactNode };
 
 export default function AuthGate({ children }: Props) {
   const [session, setSession] = useState<Session | null>(null);
+  const [checkingSession, setCheckingSession] = useState(true);
   const [mode, setMode] = useState<"login" | "signup">("signup");
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
@@ -17,9 +18,13 @@ export default function AuthGate({ children }: Props) {
 
   useEffect(() => {
     if (!supabase) return;
-    supabase.auth.getSession().then(({ data }) => setSession(data.session));
+    supabase.auth.getSession().then(({ data }) => {
+      setSession(data.session);
+      setCheckingSession(false);
+    });
     const { data } = supabase.auth.onAuthStateChange((_event, nextSession) => {
       setSession(nextSession);
+      setCheckingSession(false);
     });
     return () => data.subscription.unsubscribe();
   }, []);
@@ -59,6 +64,10 @@ export default function AuthGate({ children }: Props) {
 
   if (!isSupabaseConfigured) {
     return <>{children}</>;
+  }
+
+  if (checkingSession && isSupabaseConfigured) {
+    return <main className="auth-screen"><div className="auth-loading">Preparing your learning space...</div></main>;
   }
 
   if (session) {
