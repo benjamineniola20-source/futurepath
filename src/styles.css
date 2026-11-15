@@ -30,3 +30,11 @@
 
 
 .fp-review-list{display:grid;gap:10px;margin-top:22px;text-align:left}.fp-review-list article{padding:13px;border:1px solid #e7edf4;border-radius:9px;background:#fbfcfe}.fp-review-list article>b{font-size:11px;line-height:1.6;color:#334861}.fp-review-list p{font-size:10px;color:#687b91;margin:7px 0}.fp-review-list .fp-review-status{font-weight:800;color:#2e7a50}.fp-review-list small{font-size:10px;line-height:1.6;color:#8290a1}
+
+/* Offline-first controls */
+.fp-offline-tools{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 18px;padding:10px 13px;background:#fff;border:1px solid #e6edf5;border-radius:10px}
+.fp-offline-tools>span{font-size:10px;font-weight:750}
+.fp-online{color:#28784c}.fp-offline{color:#a05b27}
+.fp-exam-meta{display:flex;align-items:center;justify-content:space-between;margin:-8px 0 18px;padding:10px 12px;border-radius:8px;background:#f2f6fb;color:#647a94;font-size:11px}
+.fp-exam-meta strong{font:800 17px Manrope;color:#254e7b;font-variant-numeric:tabular-nums}
+@media(max-width:650px){.fp-offline-tools{align-items:flex-start;flex-direction:column}.fp-offline-tools button{width:100%}}
