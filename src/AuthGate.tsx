@@ -2,11 +2,13 @@ import { FormEvent, ReactNode, useEffect, useState } from "react";
 import type { Session } from "@supabase/supabase-js";
 import { GraduationCap, LogIn, UserPlus } from "lucide-react";
 import { isSupabaseConfigured, supabase } from "./lib/supabase";
+import { clearOfflineAccount, getOfflineAccount, saveOfflineAccount, type OfflineAccount } from "./lib/offline";
 
 type Props = { children: ReactNode };
 
 export default function AuthGate({ children }: Props) {
   const [session, setSession] = useState<Session | null>(null);
+  const [offlineAccount, setOfflineAccount] = useState<OfflineAccount | null>(null);
   const [checkingSession, setCheckingSession] = useState(true);
   const [mode, setMode] = useState<"login" | "signup">("signup");
   const [fullName, setFullName] = useState("");
@@ -18,15 +20,40 @@ export default function AuthGate({ children }: Props) {
 
   useEffect(() => {
     if (!supabase) return;
-    supabase.auth.getSession().then(({ data }) => {
-      setSession(data.session);
-      setCheckingSession(false);
-    });
+    let active = true;
+    const loadSession = async () => {
+      try {
+        const { data } = await supabase.auth.getSession();
+        if (!active) return;
+        if (data.session) {
+          setSession(data.session);
+          setOfflineAccount({ id: data.session.user.id, email: data.session.user.email || "", full_name: String(data.session.user.user_metadata?.full_name || "") });
+        } else if (!navigator.onLine) {
+          setOfflineAccount(await getOfflineAccount());
+        }
+      } catch {
+        if (active) setOfflineAccount(await getOfflineAccount());
+      } finally {
+        if (active) setCheckingSession(false);
+      }
+    };
+    loadSession();
     const { data } = supabase.auth.onAuthStateChange((_event, nextSession) => {
       setSession(nextSession);
+      if (nextSession) {
+        const account = { id: nextSession.user.id, email: nextSession.user.email || "", full_name: String(nextSession.user.user_metadata?.full_name || "") };
+        setOfflineAccount(account);
+        saveOfflineAccount(account).catch(() => {});
+      } else if (navigator.onLine) {
+        setOfflineAccount(null);
+      }
       setCheckingSession(false);
     });
-    return () => data.subscription.unsubscribe();
+    const offline = () => {
+      if (!session) getOfflineAccount().then(setOfflineAccount).catch(() => {});
+    };
+    window.addEventListener("offline", offline);
+    return () => { active = false; window.removeEventListener("offline", offline); data.subscription.unsubscribe(); };
   }, []);
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
@@ -46,14 +73,20 @@ export default function AuthGate({ children }: Props) {
         if (!data.session) {
           setMessage("Your account has been created. Check your email for the confirmation link, then sign in.");
         } else {
+          const account = { id: data.session.user.id, email: data.session.user.email || "", full_name: fullName.trim() };
+          setOfflineAccount(account); await saveOfflineAccount(account);
           setMessage("Your account is ready. Welcome to FuturePath!");
         }
       } else {
-        const { error: authError } = await supabase.auth.signInWithPassword({
+        const { data, error: authError } = await supabase.auth.signInWithPassword({
           email: email.trim(),
           password,
         });
         if (authError) throw authError;
+        if (data.session) {
+          const account = { id: data.session.user.id, email: data.session.user.email || "", full_name: String(data.session.user.user_metadata?.full_name || "") };
+          setOfflineAccount(account); await saveOfflineAccount(account);
+        }
       }
     } catch (err) {
       setError(err instanceof Error ? err.message : "We couldn't complete that request. Please try again.");
@@ -70,11 +103,11 @@ export default function AuthGate({ children }: Props) {
     return <main className="auth-screen"><div className="auth-loading">Preparing your learning space...</div></main>;
   }
 
-  if (session) {
+  if (session || (!navigator.onLine && offlineAccount)) {
     return <div className="authenticated-app">
       <div className="account-strip">
-        <span>Signed in as <strong>{session.user.email}</strong></span>
-        <button onClick={() => supabase?.auth.signOut()}>Sign out</button>
+        <span>{session ? "Signed in as" : "Offline access for"} <strong>{session?.user.email || offlineAccount?.email}</strong></span>
+        <button onClick={async () => { await clearOfflineAccount(); setOfflineAccount(null); await supabase?.auth.signOut(); }}>Sign out</button>
       </div>
       {children}
     </div>;
