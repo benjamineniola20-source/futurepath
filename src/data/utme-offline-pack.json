@@ -18981,7 +18981,7 @@
         "Na₂CO₃",
         "CaCO₃",
         "ZnCO₃",
-        "ZnCO₃"
+        "MgCO₃"
       ],
       "correct_option": 0,
       "explanation": "Sodium carbonate is thermally stable at its melting point. Many other metal carbonates decompose on strong heating.",
@@ -19071,7 +19071,7 @@
         "Alkanal",
         "Alkanoate (ester)",
         "Alkanol",
-        "Alkanoate (ester)"
+        "Alkanoic acid"
       ],
       "correct_option": 1,
       "explanation": "This is esterification: an alcohol and a carboxylic acid form an ester and water. The repeated option in the supplied transcription has been consolidated as one correct concept.",
@@ -19251,7 +19251,7 @@
         "Propanoic acid, C₂H₅COOH",
         "Ethanoic acid, CH₃COOH",
         "Sulphuric acid, H₂SO₄",
-        "Ethanoic acid, CH₃COOH"
+        "Carbonic acid, H₂CO₃"
       ],
       "correct_option": 2,
       "explanation": "Sulphuric acid is a strong acid in its first dissociation; simple carboxylic acids such as ethanoic and propanoic acids are weak acids.",
@@ -19285,12 +19285,12 @@
       "question_text": "What mass of aluminium is liberated by the same quantity of electricity that liberates 0.10 g of copper? (Al = 27, Cu = 63.5; Al³⁺, Cu²⁺) (2019, Question 18)",
       "options": [
         "0.018 g",
-        "0.027 g",
+        "0.028 g",
         "0.054 g",
         "0.27 g"
       ],
       "correct_option": 1,
-      "explanation": "By Faraday’s law, mass is proportional to equivalent mass. m(Al) = 0.10 × (27/3)/(63.5/2) ≈ 0.028 g; the nearest listed option is 0.027 g.",
+      "explanation": "By Faraday’s law, mass is proportional to equivalent mass. m(Al) = 0.10 × (27/3)/(63.5/2) = 0.0283 g, so 0.028 g is the rounded answer.",
       "exam_type": "UTME",
       "exam_year": 2019,
       "source_label": "User-provided transcription labelled UTME 2019; exact official-paper provenance not independently verified"
@@ -19434,7 +19434,7 @@
         "Copper(II) tetraoxosulphate(VI) solution"
       ],
       "correct_option": 0,
-      "explanation": "White anhydrous copper(II) sulfate turns blue when it becomes hydrated, indicating water. The duplicate A/B wording in the supplied choices is retained as a transcription note.",
+      "explanation": "White anhydrous copper(II) sulfate turns blue when it becomes hydrated, indicating the presence of water.",
       "exam_type": "UTME",
       "exam_year": 2019,
       "source_label": "User-provided transcription labelled UTME 2019; exact official-paper provenance not independently verified"
