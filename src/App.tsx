@@ -1,82 +1,89 @@
-import { useMemo, useState } from "react";
-import { BookOpen, Brain, ChartNoAxesColumnIncreasing, CheckCircle2, ChevronRight, Clock3, GraduationCap, House, Menu, Search, Settings, Target, X } from "lucide-react";
+import { FormEvent, useEffect, useMemo, useState } from "react";
+import { Activity, BookOpen, Brain, CheckCircle2, ChevronRight, Clock3, GraduationCap, LayoutDashboard, LogOut, Menu, Search, ShieldCheck, Target, Trophy, X } from "lucide-react";
+import { supabase } from "./lib/supabase";
 
-type Subject = "English" | "Mathematics" | "Biology" | "Chemistry" | "Physics";
-type Question = { subject: Subject; topic: string; prompt: string; options: string[]; answer: number; explanation: string };
+type Subject={id:string;name:string;slug:string;description:string};
+type Note={id:string;subject_id:string;title:string;summary:string;content:string};
+type Question={id:string;subject_id:string;topic_title:string|null;question_text:string;options:string[]};
+type Attempt={id:string;subject_id:string|null;score_percent:number;correct_answers:number;total_questions:number;started_at:string;mode:string};
+type Page="dashboard"|"study"|"quiz"|"past"|"progress"|"admin";
+const letter=(i:number)=>String.fromCharCode(65+i);
+const score=(n:number)=>Number(n||0).toFixed(1);
 
-const questions: Question[] = [
-  { subject: "Biology", topic: "Cell biology", prompt: "Which cell structure is mainly responsible for releasing energy during aerobic respiration?", options: ["Ribosome", "Mitochondrion", "Nucleus", "Cell wall"], answer: 1, explanation: "Mitochondria are the main sites of aerobic respiration. They help produce ATP, the cell's usable energy currency." },
-  { subject: "Chemistry", topic: "Atomic structure", prompt: "The atomic number of an element is equal to the number of ____ in its nucleus.", options: ["Neutrons", "Electron shells", "Protons", "Isotopes"], answer: 2, explanation: "The atomic number is the number of protons in the nucleus. In a neutral atom, it also equals the number of electrons." },
-  { subject: "Physics", topic: "Motion", prompt: "A car travels 120 metres in 10 seconds. What is its average speed?", options: ["10 m/s", "12 m/s", "20 m/s", "1200 m/s"], answer: 1, explanation: "Average speed = distance ÷ time = 120 m ÷ 10 s = 12 m/s." },
-  { subject: "Mathematics", topic: "Algebra", prompt: "If 3x + 5 = 20, what is the value of x?", options: ["3", "5", "8", "15"], answer: 1, explanation: "Subtract 5 from both sides: 3x = 15. Divide by 3, so x = 5." },
-  { subject: "English", topic: "Grammar", prompt: "Choose the word that correctly completes the sentence: Neither the teacher nor the students ____ late.", options: ["was", "is", "were", "has"], answer: 2, explanation: "With 'neither...nor', the verb generally agrees with the nearer subject. 'Students' is plural, so 'were' is correct." }
-];
-
-const subjects: { name: Subject; color: string; detail: string }[] = [
-  { name: "English", color: "violet", detail: "Comprehension, grammar and lexis" },
-  { name: "Mathematics", color: "blue", detail: "Algebra, geometry and statistics" },
-  { name: "Biology", color: "green", detail: "Cells, ecology and genetics" },
-  { name: "Chemistry", color: "orange", detail: "Atoms, bonding and reactions" },
-  { name: "Physics", color: "pink", detail: "Motion, energy and electricity" }
-];
-
-function App() {
-  const [page, setPage] = useState<"home" | "practice" | "study">("home");
-  const [subject, setSubject] = useState<Subject>("Biology");
-  const [questionIndex, setQuestionIndex] = useState(0);
-  const [selected, setSelected] = useState<number | null>(null);
-  const [showAnswer, setShowAnswer] = useState(false);
-  const [mobileMenu, setMobileMenu] = useState(false);
-  const [search, setSearch] = useState("");
-
-  const filteredQuestions = useMemo(() => questions.filter(q => q.subject === subject), [subject]);
-  const currentQuestion = filteredQuestions[questionIndex % Math.max(filteredQuestions.length, 1)];
-
-  function startPractice(nextSubject: Subject = "Biology") {
-    setSubject(nextSubject);
-    setQuestionIndex(0);
-    setSelected(null);
-    setShowAnswer(false);
-    setPage("practice");
-    setMobileMenu(false);
-  }
-
-  function nextQuestion() {
-    setQuestionIndex(i => i + 1);
-    setSelected(null);
-    setShowAnswer(false);
-  }
-
-  const nav = [
-    { id: "home" as const, label: "Dashboard", icon: House },
-    { id: "study" as const, label: "Study notes", icon: BookOpen },
-    { id: "practice" as const, label: "CBT practice", icon: Brain }
-  ];
-
-  return <div className="app-shell">
-    <aside className={mobileMenu ? "sidebar open" : "sidebar"}>
-      <div className="brand"><div className="brand-mark"><GraduationCap size={23}/></div><span>Future<span className="brand-accent">Path</span></span><button className="close-menu" onClick={() => setMobileMenu(false)} aria-label="Close menu"><X size={20}/></button></div>
-      <div className="side-label">MENU</div>
-      <nav>{nav.map(item => <button key={item.id} className={page === item.id ? "nav-item active" : "nav-item"} onClick={() => { setPage(item.id); setMobileMenu(false); }}><item.icon size={19}/>{item.label}</button>)}</nav>
-      <div className="sidebar-bottom"><div className="help-card"><div className="help-icon"><Target size={18}/></div><strong>Small steps. Big goals.</strong><p>Stay consistent and keep moving towards your admission goal.</p></div><button className="nav-item muted"><Settings size={18}/>Settings</button></div>
-    </aside>
-    {mobileMenu && <button className="scrim" onClick={() => setMobileMenu(false)} aria-label="Close navigation"/>}
-    <main className="main-area">
-      <header className="topbar"><button className="menu-button" onClick={() => setMobileMenu(true)} aria-label="Open menu"><Menu/></button><div className="breadcrumb">Your learning space <ChevronRight size={15}/> <strong>{nav.find(n => n.id === page)?.label}</strong></div><div className="top-actions"><div className="avatar">S</div><div className="profile-copy"><strong>Student</strong><span>Keep learning</span></div></div></header>
-      <div className="page-content">
-        {page === "home" && <>
-          <section className="welcome-row"><div><div className="eyebrow">YOUR FUTURE STARTS HERE</div><h1>Welcome to <span>FuturePath.</span></h1><p className="subheading">Build your confidence, one question at a time.</p></div><div className="welcome-art"><div className="art-circle"><GraduationCap size={48}/></div><div className="art-star star-one">✦</div><div className="art-star star-two">✧</div></div></section>
-          <section className="hero-card"><div className="hero-content"><div className="hero-tag">YOUR NEXT STEP</div><h2>Ready to prepare<br/>for your big moment?</h2><p>Practise at your pace, understand every topic, and track your progress as you go.</p><button className="primary-button" onClick={() => startPractice()}>Start practising <ChevronRight size={17}/></button></div><div className="hero-graphic"><div className="orbit orbit-one"/><div className="orbit orbit-two"/><div className="hero-book"><BookOpen size={54}/></div><div className="floating-check"><CheckCircle2 size={22}/></div></div></section>
-          <div className="section-heading"><div><h2>Explore your subjects</h2><p>Choose a subject and start building your knowledge.</p></div><span className="subject-count">5 SUBJECTS</span></div>
-          <section className="subject-grid">{subjects.map(s => <button className="subject-card" key={s.name} onClick={() => startPractice(s.name)}><div className={"subject-icon " + s.color}><BookOpen size={21}/></div><div className="subject-info"><strong>{s.name}</strong><span>{s.detail}</span></div><ChevronRight className="subject-arrow" size={18}/></button>)}</section>
-          <section className="bottom-grid"><div className="panel"><div className="panel-title"><div><h3>Make today count</h3><p>A little revision goes a long way.</p></div><div className="panel-symbol"><Clock3 size={20}/></div></div><div className="study-tip"><div className="tip-line"/><div><strong>Try a 20-minute study session</strong><p>Pick one topic, focus on understanding it, then test yourself.</p></div></div><button className="text-button" onClick={() => setPage("study")}>Explore study notes <ChevronRight size={16}/></button></div><div className="panel progress-panel"><div className="panel-title"><div><h3>Your learning journey</h3><p>Your progress will appear here.</p></div><ChartNoAxesColumnIncreasing size={22} className="progress-icon"/></div><div className="empty-progress"><div className="progress-ring"><Target size={25}/></div><span>Ready when you are</span><small>Complete a practice session to get started.</small></div></div></section>
-        </>}
-        {page === "practice" && <section className="practice-wrap"><button className="back-link" onClick={() => setPage("home")}>← Back to dashboard</button><div className="eyebrow">CBT PRACTICE</div><h1>Test your understanding.</h1><p className="subheading">Choose an answer, check your reasoning, and learn as you go.</p><div className="practice-toolbar"><label htmlFor="subject-select">Subject</label><select id="subject-select" value={subject} onChange={e => startPractice(e.target.value as Subject)}>{subjects.map(s => <option key={s.name}>{s.name}</option>)}</select><span className="question-count">Question {questionIndex + 1}</span></div>{currentQuestion ? <div className="question-card"><div className="question-meta"><span>{currentQuestion.topic}</span><span>Practice question</span></div><h2>{currentQuestion.prompt}</h2><div className="option-list">{currentQuestion.options.map((option, i) => <button key={option} disabled={showAnswer} className={"option " + (selected === i ? "chosen " : "") + (showAnswer && i === currentQuestion.answer ? "correct" : "") + (showAnswer && selected === i && i !== currentQuestion.answer ? "incorrect" : "")} onClick={() => setSelected(i)}><span className="option-letter">{String.fromCharCode(65 + i)}</span>{option}{showAnswer && i === currentQuestion.answer && <CheckCircle2 size={19}/>}</button>)}</div>{showAnswer && <div className="explanation"><strong>{selected === currentQuestion.answer ? "Correct answer!" : "Let's understand this."}</strong><p>{currentQuestion.explanation}</p></div>}<div className="question-actions">{!showAnswer ? <button className="primary-button" disabled={selected === null} onClick={() => setShowAnswer(true)}>Check answer <ChevronRight size={17}/></button> : <button className="primary-button" onClick={nextQuestion}>Next question <ChevronRight size={17}/></button>}</div></div> : <div className="question-card">No practice questions are available for this subject yet.</div>}</section>}
-        {page === "study" && <section className="study-wrap"><div className="eyebrow">STUDY CENTRE</div><h1>Learn it. Understand it.</h1><p className="subheading">Short revision notes to help you build strong foundations.</p><div className="search-box"><Search size={18}/><input value={search} onChange={e => setSearch(e.target.value)} placeholder="Search subjects or topics..."/></div><div className="notes-grid">{[{s:"Biology",t:"Cell structure and functions",d:"Understand the cell as the basic unit of life, including the roles of the nucleus, cytoplasm, cell membrane and mitochondria.",tag:"CELL BIOLOGY"},{s:"Chemistry",t:"Atomic structure",d:"Atoms contain a nucleus of protons and neutrons, with electrons occupying regions around the nucleus. The proton number identifies an element.",tag:"FUNDAMENTALS"},{s:"Physics",t:"Distance, displacement and speed",d:"Distance is the total path travelled. Displacement is the straight-line change in position with direction. Average speed is total distance divided by total time.",tag:"MECHANICS"},{s:"Mathematics",t:"Introduction to algebra",d:"Algebra uses letters to represent numbers. To solve a simple equation, perform the same operation on both sides to keep the equality balanced.",tag:"ALGEBRA"},{s:"English",t:"Parts of speech",d:"Words perform different roles in sentences. Nouns name people or things, verbs express actions or states, and adjectives describe nouns.",tag:"GRAMMAR"}].filter(n => (n.s + n.t).toLowerCase().includes(search.toLowerCase())).map(note => <article className="note-card" key={note.s}><span className="note-tag">{note.tag}</span><h3>{note.t}</h3><p>{note.d}</p><button className="text-button" onClick={() => startPractice(note.s as Subject)}>Practise {note.s} <ChevronRight size={15}/></button></article>)}</div></section>}
-        <footer>© 2026 FuturePath <span>Learn with purpose. Prepare with confidence.</span></footer>
-      </div>
-    </main>
-  </div>;
+export default function App(){
+ const [page,setPage]=useState<Page>("dashboard"),[subjects,setSubjects]=useState<Subject[]>([]),[notes,setNotes]=useState<Note[]>([]),[attempts,setAttempts]=useState<Attempt[]>([]);
+ const [profile,setProfile]=useState<{full_name:string;role:string}|null>(null),[loading,setLoading]=useState(true),[error,setError]=useState(""),[notice,setNotice]=useState("");
+ const [subjectId,setSubjectId]=useState(""),[search,setSearch]=useState(""),[activeNote,setActiveNote]=useState<Note|null>(null),[mobile,setMobile]=useState(false);
+ const [questions,setQuestions]=useState<Question[]>([]),[answers,setAnswers]=useState<Record<string,number>>({}),[index,setIndex]=useState(0),[started,setStarted]=useState(false),[result,setResult]=useState<{score_percent:number;correct_answers:number;total_questions:number}|null>(null),[busy,setBusy]=useState(false);
+ const [year,setYear]=useState("2023"),[pastSubject,setPastSubject]=useState("");
+ const [adminTab,setAdminTab]=useState<"question"|"note">("question");
+ const [qForm,setQForm]=useState({subject_id:"",question_text:"",a:"",b:"",c:"",d:"",correct_option:"0",explanation:"",exam_type:"UTME",exam_year:""});
+ const [nForm,setNForm]=useState({subject_id:"",title:"",summary:"",content:""});
+ async function refresh(){
+  if(!supabase){setLoading(false);return} setLoading(true);
+  const [s,n,p,a]=await Promise.all([
+   supabase.from("subjects").select("id,name,slug,description").order("sort_order"),
+   supabase.from("study_notes").select("id,subject_id,title,summary,content").eq("published",true).order("title"),
+   supabase.from("profiles").select("full_name,role").maybeSingle(),
+   supabase.from("attempts").select("id,subject_id,score_percent,correct_answers,total_questions,started_at,mode").order("started_at",{ascending:false}).limit(100)
+  ]);
+  if(s.error)setError(s.error.message);else setSubjects(s.data||[]);
+  if(n.error)setError(n.error.message);else setNotes(n.data||[]);
+  if(p.data)setProfile(p.data);if(a.data)setAttempts(a.data);setLoading(false);
+ }
+ useEffect(()=>{refresh()},[]);
+ useEffect(()=>{if(!subjectId&&subjects.length)setSubjectId(subjects[0].id)},[subjects,subjectId]);
+ const subjectName=(id:string|null)=>subjects.find(s=>s.id===id)?.name||"General";
+ const avg=attempts.length?attempts.reduce((v,a)=>v+Number(a.score_percent),0)/attempts.length:0;
+ const count=attempts.reduce((v,a)=>v+Number(a.total_questions||0),0);
+ const visibleNotes=useMemo(()=>notes.filter(n=>(n.title+" "+n.summary+" "+subjectName(n.subject_id)).toLowerCase().includes(search.toLowerCase())&&(!subjectId||n.subject_id===subjectId)),[notes,search,subjectId,subjects]);
+ const nav=[["dashboard","Dashboard",LayoutDashboard],["study","Study notes",BookOpen],["quiz","Quiz activity",Brain],["past","Past questions",Clock3],["progress","My progress",Activity]] as const;
+ function go(p:Page){setPage(p);setMobile(false);setError("");setNotice("");setActiveNote(null)}
+ async function startQuiz(mode:"quiz"|"mock"="quiz",sid=subjectId,examYear:number|null=null){
+  if(!supabase||!sid){setError("Choose a subject first.");return}setBusy(true);setError("");setResult(null);setAnswers({});
+  const {data,error:e}=await supabase.rpc("get_random_questions",{p_subject_id:sid,p_limit:mode==="mock"?40:10,p_exam_type:examYear?"UTME":null,p_exam_year:examYear});
+  if(e)setError(e.message);else if(!data?.length)setError(examYear?"No questions for that year are in the library yet.":"No published questions are available for this subject yet.");
+  else{setQuestions(data as Question[]);setIndex(0);setStarted(true);setPage("quiz")}
+  setBusy(false);
+ }
+ async function submitQuiz(){
+  if(!supabase||!questions.length)return;setBusy(true);setError("");
+  const payload=questions.map(q=>({question_id:q.id,selected_option:answers[q.id]??null}));
+  const {data,error:e}=await supabase.rpc("submit_attempt",{p_subject_id:questions[0].subject_id,p_mode:"quiz",p_answers:payload,p_duration_seconds:0});
+  if(e)setError(e.message);else{setResult(data);setStarted(false);await refresh()}setBusy(false);
+ }
+ async function saveQuestion(e:FormEvent){
+  e.preventDefault();if(!supabase)return;setBusy(true);
+  const {error:e1}=await supabase.from("questions").insert({subject_id:qForm.subject_id,question_text:qForm.question_text,options:[qForm.a,qForm.b,qForm.c,qForm.d],correct_option:Number(qForm.correct_option),explanation:qForm.explanation,exam_type:qForm.exam_type,exam_year:qForm.exam_year?Number(qForm.exam_year):null,source_label:"Admin supplied material",published:true,created_by:(await supabase.auth.getUser()).data.user?.id});
+  if(e1)setError(e1.message);else{setNotice("Question published.");setQForm({...qForm,question_text:"",a:"",b:"",c:"",d:"",explanation:""})}setBusy(false);
+ }
+ async function saveNote(e:FormEvent){
+  e.preventDefault();if(!supabase)return;setBusy(true);
+  const {error:e1}=await supabase.from("study_notes").insert({...nForm,published:true,created_by:(await supabase.auth.getUser()).data.user?.id});
+  if(e1)setError(e1.message);else{setNotice("Study note published.");setNForm({...nForm,title:"",summary:"",content:""});await refresh()}setBusy(false);
+ }
+ const current=questions[index];
+ return <div className="fp-shell">
+  <aside className={mobile?"fp-sidebar open":"fp-sidebar"}><div className="fp-brand"><span className="fp-logo"><GraduationCap/></span>Future<span>Path</span><button className="fp-close" onClick={()=>setMobile(false)}><X/></button></div><small className="fp-side-label">LEARNING SPACE</small>
+   <nav>{nav.map(([id,label,Icon])=><button key={id} className={page===id?"fp-nav active":"fp-nav"} onClick={()=>go(id)}><Icon size={18}/>{label}</button>)}</nav>
+   {profile?.role==="admin"&&<button className={page==="admin"?"fp-nav active":"fp-nav"} onClick={()=>go("admin")}><ShieldCheck size={18}/>Admin dashboard</button>}
+   <div className="fp-side-bottom"><div className="fp-side-tip"><Target/><b>Keep moving forward</b><p>Consistent practice builds confidence.</p></div><button className="fp-nav" onClick={()=>supabase?.auth.signOut()}><LogOut size={18}/>Sign out</button></div>
+  </aside>{mobile&&<button className="fp-scrim" onClick={()=>setMobile(false)}/>}
+  <main className="fp-main"><header className="fp-topbar"><button className="fp-menu" onClick={()=>setMobile(true)}><Menu/></button><div><small>YOUR LEARNING SPACE</small><b>{page==="dashboard"?"Dashboard":page==="study"?"Study centre":page==="quiz"?"Quiz activity":page==="past"?"Past questions":page==="progress"?"My progress":"Admin dashboard"}</b></div><div className="fp-user"><span>{(profile?.full_name||"S")[0].toUpperCase()}</span><div><b>{profile?.full_name||"Student"}</b><small>{profile?.role==="admin"?"Administrator":"UTME Candidate"}</small></div></div></header>
+   <div className="fp-content">{loading&&<p className="fp-loading">Loading your learning space…</p>}
+    {error&&<div className="fp-alert error">{error}<button onClick={()=>setError("")}>×</button></div>}{notice&&<div className="fp-alert success">{notice}<button onClick={()=>setNotice("")}>×</button></div>}
+    {!loading&&page==="dashboard"&&<><section className="fp-welcome"><div><small>YOUR FUTURE STARTS HERE</small><h1>Welcome back, {profile?.full_name?.split(" ")[0]||"Student"}.</h1><p>Make every study session count. Your next step starts here.</p></div><GraduationCap size={54}/></section>
+     <section className="fp-hero"><span>YOUR NEXT STEP</span><h2>Prepare with purpose.<br/>Progress with confidence.</h2><p>Practise UTME-style questions, revise key topics and follow your improvement.</p><button onClick={()=>startQuiz()}>Start a quick quiz <ChevronRight size={16}/></button></section>
+     <section className="fp-stat-grid"><article><Trophy/><small>Average score</small><strong>{score(avg)}%</strong><em>Across your attempts</em></article><article><CheckCircle2/><small>Questions attempted</small><strong>{count}</strong><em>Keep practising</em></article><article><Activity/><small>Practice sessions</small><strong>{attempts.length}</strong><em>Your learning activity</em></article></section>
+     <div className="fp-section-head"><div><h2>Explore your subjects</h2><p>Choose a subject to study or practise.</p></div></div><section className="fp-subject-grid">{subjects.map(s=><article key={s.id}><BookOpen/><h3>{s.name}</h3><p>{s.description}</p><div><button onClick={()=>{setSubjectId(s.id);go("study")}}>Study notes</button><button onClick={()=>{setSubjectId(s.id);startQuiz("quiz",s.id)}}>Take quiz</button></div></article>)}</section>
+     <section className="fp-latest"><h2>Recent practice</h2>{attempts.slice(0,5).map(a=><div className="fp-attempt-row" key={a.id}><div><b>{subjectName(a.subject_id)} practice</b><small>{new Date(a.started_at).toLocaleDateString()}</small></div><strong>{score(Number(a.score_percent))}%</strong></div>)}{!attempts.length&&<p className="fp-empty">Your completed quizzes and scores will appear here.</p>}</section></>}
+    {!loading&&page==="study"&&<section className="fp-page"><small>STUDY CENTRE</small><h1>Build your understanding.</h1><p>Explore topic-by-topic revision notes across your UTME subjects.</p><div className="fp-filter-row"><label><Search/><input value={search} onChange={e=>setSearch(e.target.value)} placeholder="Search notes or topics"/></label><select value={subjectId} onChange={e=>setSubjectId(e.target.value)}><option value="">All subjects</option>{subjects.map(s=><option key={s.id} value={s.id}>{s.name}</option>)}</select></div>{activeNote?<article className="fp-note-reader"><button onClick={()=>setActiveNote(null)}>← All notes</button><small>{subjectName(activeNote.subject_id)}</small><h2>{activeNote.title}</h2><p>{activeNote.summary}</p><div className="fp-note-content">{activeNote.content.split("\n").map((line,i)=>line.startsWith("## ")?<h3 key={i}>{line.slice(3)}</h3>:line.startsWith("- ")?<p key={i}>• {line.slice(2).replaceAll("**","")}</p>:line?<p key={i}>{line.replaceAll("**","")}</p>:null)}</div><button className="fp-primary" onClick={()=>startQuiz("quiz",activeNote.subject_id)}>Practise this subject</button></article>:<div className="fp-note-grid">{visibleNotes.map(n=><article key={n.id}><small>{subjectName(n.subject_id)}</small><h3>{n.title}</h3><p>{n.summary}</p><button onClick={()=>setActiveNote(n)}>Read notes <ChevronRight size={15}/></button></article>)}{!visibleNotes.length&&<p className="fp-empty">No published notes match this filter yet.</p>}</div>}</section>}
+    {!loading&&page==="quiz"&&<section className="fp-page"><small>PRACTICE ARENA</small><h1>Challenge your knowledge.</h1><p>Randomised questions and recorded progress.</p>{result?<article className="fp-result"><Trophy size={40}/><small>QUIZ COMPLETED</small><h2>{score(result.score_percent)}%</h2><p>You answered {result.correct_answers} out of {result.total_questions} questions correctly.</p><button className="fp-primary" onClick={()=>startQuiz()}>Try another quiz</button><button onClick={()=>go("progress")}>View progress</button></article>:!started?<div className="fp-quiz-start"><Brain size={34}/><h2>Ready for a quick challenge?</h2><p>Choose a subject and begin a fresh set of random questions.</p><label>Subject<select value={subjectId} onChange={e=>setSubjectId(e.target.value)}>{subjects.map(s=><option key={s.id} value={s.id}>{s.name}</option>)}</select></label><button className="fp-primary" disabled={busy} onClick={()=>startQuiz()}>10-question quiz</button><button className="fp-secondary" disabled={busy} onClick={()=>startQuiz("mock")}>40-question mock</button></div>:current?<article className="fp-question-card"><div><b>{subjectName(current.subject_id)} · {current.topic_title||"General"}</b><strong>{index+1} / {questions.length}</strong></div><div className="fp-progress-track"><span style={{width:((index+1)/questions.length*100)+"%"}}/></div><h2>{current.question_text}</h2><div className="fp-options">{current.options.map((o,i)=><button key={i} className={answers[current.id]===i?"chosen":""} onClick={()=>setAnswers(a=>({...a,[current.id]:i}))}><b>{letter(i)}</b>{o}</button>)}</div><div className="fp-question-actions"><button className="fp-secondary" disabled={!index} onClick={()=>setIndex(i=>i-1)}>Previous</button>{index<questions.length-1?<button className="fp-primary" onClick={()=>setIndex(i=>i+1)}>Next question</button>:<button className="fp-primary" disabled={busy} onClick={submitQuiz}>{busy?"Submitting…":"Submit answers"}</button>}</div><small>Your answers are marked securely when submitted.</small></article>:null}</section>}
+    {!loading&&page==="past"&&<section className="fp-page"><small>PAST QUESTION LIBRARY</small><h1>Prepare with past questions.</h1><p>Find available questions by subject and year.</p><div className="fp-past-filter"><label>Subject<select value={pastSubject||subjectId} onChange={e=>{setPastSubject(e.target.value);setSubjectId(e.target.value)}}>{subjects.map(s=><option key={s.id} value={s.id}>{s.name}</option>)}</select></label><label>Year<select value={year} onChange={e=>setYear(e.target.value)}>{Array.from({length:16},(_,i)=>2026-i).map(y=><option key={y}>{y}</option>)}</select></label><button className="fp-primary" onClick={()=>startQuiz("quiz",pastSubject||subjectId,Number(year))}>Find questions</button></div><div className="fp-library-note"><BookOpen/><div><b>Question archive</b><p>We add verified, licensed or user-provided past-question materials and label each source accurately. The archive is being populated; original UTME-style practice is available in Quiz Activity.</p></div></div></section>}
+    {!loading&&page==="progress"&&<section className="fp-page"><small>YOUR PERFORMANCE</small><h1>See how far you've come.</h1><p>Your recorded scores and activity.</p><section className="fp-stat-grid"><article><Trophy/><small>Average score</small><strong>{score(avg)}%</strong></article><article><CheckCircle2/><small>Questions attempted</small><strong>{count}</strong></article><article><Activity/><small>Sessions completed</small><strong>{attempts.length}</strong></article></section><section className="fp-latest"><h2>Score history</h2>{attempts.map(a=><div className="fp-attempt-row" key={a.id}><div><b>{subjectName(a.subject_id)} · {a.mode}</b><small>{new Date(a.started_at).toLocaleString()}</small></div><strong>{score(Number(a.score_percent))}%</strong></div>)}{!attempts.length&&<p className="fp-empty">Complete your first quiz to start seeing your growth.</p>}</section></section>}
+    {!loading&&page==="admin"&&<section className="fp-page"><small>CONTENT MANAGEMENT</small><h1>Admin dashboard.</h1><p>Create and publish materials for students.</p>{profile?.role!=="admin"?<p className="fp-empty">Admin access is restricted. Assign your account the admin role securely in Supabase first.</p>:<><div className="fp-admin-tabs"><button className={adminTab==="question"?"selected":""} onClick={()=>setAdminTab("question")}>Add question</button><button className={adminTab==="note"?"selected":""} onClick={()=>setAdminTab("note")}>Add study note</button></div>{adminTab==="question"?<form className="fp-admin-form" onSubmit={saveQuestion}><h2>Publish a question</h2><label>Subject<select required value={qForm.subject_id} onChange={e=>setQForm(v=>({...v,subject_id:e.target.value}))}><option value="">Choose subject</option>{subjects.map(s=><option key={s.id} value={s.id}>{s.name}</option>)}</select></label><label>Question<textarea required value={qForm.question_text} onChange={e=>setQForm(v=>({...v,question_text:e.target.value}))}/></label><div className="fp-form-grid">{(["a","b","c","d"] as const).map(k=><label>Option {k.toUpperCase()}<input required value={qForm[k]} onChange={e=>setQForm(v=>({...v,[k]:e.target.value}))}/></label>)}</div><label>Correct answer<select value={qForm.correct_option} onChange={e=>setQForm(v=>({...v,correct_option:e.target.value}))}>{[0,1,2,3].map(i=><option value={i}>{letter(i)}</option>)}</select></label><label>Explanation<textarea value={qForm.explanation} onChange={e=>setQForm(v=>({...v,explanation:e.target.value}))}/></label><div className="fp-form-grid"><label>Type<select value={qForm.exam_type} onChange={e=>setQForm(v=>({...v,exam_type:e.target.value}))}><option>UTME</option><option>POST_UTME</option><option>PRACTICE</option></select></label><label>Year<input type="number" min="1980" max="2026" value={qForm.exam_year} onChange={e=>setQForm(v=>({...v,exam_year:e.target.value}))}/></label></div><button className="fp-primary" disabled={busy}>Publish question</button></form>:<form className="fp-admin-form" onSubmit={saveNote}><h2>Publish study notes</h2><label>Subject<select required value={nForm.subject_id} onChange={e=>setNForm(v=>({...v,subject_id:e.target.value}))}><option value="">Choose subject</option>{subjects.map(s=><option key={s.id} value={s.id}>{s.name}</option>)}</select></label><label>Title<input required value={nForm.title} onChange={e=>setNForm(v=>({...v,title:e.target.value}))}/></label><label>Summary<textarea value={nForm.summary} onChange={e=>setNForm(v=>({...v,summary:e.target.value}))}/></label><label>Full notes<textarea required rows={12} value={nForm.content} onChange={e=>setNForm(v=>({...v,content:e.target.value}))}/></label><button className="fp-primary" disabled={busy}>Publish notes</button></form>}</>}</section>}
+    <footer className="fp-footer">© 2026 FuturePath <span>Learn with purpose. Prepare with confidence.</span></footer>
+   </div>
+  </main>
+ </div>
 }
-
-export default App;
