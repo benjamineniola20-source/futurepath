@@ -9,7 +9,7 @@ import {
 
 type Subject={id:string;name:string;slug:string;description:string};
 type Topic={id:string;subject_id:string;title:string;slug:string;description:string;sort_order:number};
-type Note={id:string;subject_id:string;topic_id?:string|null;title:string;summary:string;content:string};
+type Note={id:string;subject_id:string;topic_id?:string|null;title:string;summary:string;content:string;published?:boolean};
 type Question=OfflineQuestion;
 type Attempt={id:string;client_attempt_id?:string;subject_id:string|null;score_percent:number;correct_answers:number;total_questions:number;started_at:string;mode:string};
 type AdminStudent={id:string;full_name:string;role:string;created_at:string};
