@@ -81,10 +81,16 @@ export default function App(){
   }
  },[started,questions,answers,index,quizMode,examStartedAt]);
  useEffect(()=>{
-  const online=()=>{setIsOnline(true);syncPendingOfflineAttempts().then(()=>refresh()).catch(()=>{})};
+  const syncWhenAvailable=()=>{if(navigator.onLine){setIsOnline(true);syncPendingOfflineAttempts().then(()=>refresh()).catch(()=>{})}};
+  const online=()=>syncWhenAvailable();
   const offline=()=>setIsOnline(false);
+  const visible=()=>{if(document.visibilityState==="visible")syncWhenAvailable()};
   window.addEventListener("online",online);window.addEventListener("offline",offline);
-  return ()=>{window.removeEventListener("online",online);window.removeEventListener("offline",offline)};
+  window.addEventListener("focus",syncWhenAvailable);document.addEventListener("visibilitychange",visible);
+  return ()=>{
+   window.removeEventListener("online",online);window.removeEventListener("offline",offline);
+   window.removeEventListener("focus",syncWhenAvailable);document.removeEventListener("visibilitychange",visible);
+  };
  },[]);
  async function downloadForOffline(){
   if(!supabase||!navigator.onLine){setError("Connect to the internet to download the offline library.");return}
