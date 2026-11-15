@@ -19457,10 +19457,1557 @@
       "published": true,
       "id": "63d6bf29-da3c-4b9c-aee7-62582b10932e",
       "topic_title": "Chemical formulae, equations and stoichiometry"
+    },
+    {
+      "id": "d0d50b21-c2ac-4882-bccf-585b0e060a73",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which condition is NOT essential for photosynthesis?",
+      "options": [
+        "Chlorophyll",
+        "Light",
+        "Carbon(IV) oxide",
+        "Oxygen"
+      ],
+      "correct_option": 3,
+      "explanation": "Oxygen is a product of photosynthesis, not a raw material. Chlorophyll, light and carbon dioxide are needed.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology transcription; provenance not independently verified"
+    },
+    {
+      "id": "12d2cd2d-ca57-4551-b851-7ecc11c16620",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which insect has maxillae modified into a long coiled proboscis?",
+      "options": [
+        "Housefly",
+        "Butterfly",
+        "Mosquito",
+        "Cockroach"
+      ],
+      "correct_option": 1,
+      "explanation": "A butterfly uses its long coiled proboscis to suck nectar.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology transcription; provenance not independently verified"
+    },
+    {
+      "id": "3a876569-a7d3-44b7-82a5-25a4b7db9508",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which asexual reproduction is common in Paramecium?",
+      "options": [
+        "Fragmentation",
+        "Budding",
+        "Sporulation",
+        "Binary fission"
+      ],
+      "correct_option": 3,
+      "explanation": "Paramecium commonly reproduces by transverse binary fission.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology transcription; provenance not independently verified"
+    },
+    {
+      "id": "71b97a31-3987-4b56-b5aa-d3b374a4c7d2",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which microorganism causes typhoid fever?",
+      "options": [
+        "Trypanosoma gambiense",
+        "Salmonella Typhi",
+        "Entamoeba histolytica",
+        "Plasmodium species"
+      ],
+      "correct_option": 1,
+      "explanation": "Typhoid fever is caused by the bacterium Salmonella Typhi.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology transcription; provenance not independently verified"
+    },
+    {
+      "id": "a86a92ae-5edf-4d3c-aac5-234a3463c17c",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "A collection of populations of different species living in a habitat is a:",
+      "options": [
+        "Niche",
+        "Ecosystem",
+        "Community",
+        "Environment"
+      ],
+      "correct_option": 2,
+      "explanation": "A community consists of populations of different species living and interacting in an area.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology transcription; provenance not independently verified"
+    },
+    {
+      "id": "89637754-50c6-445d-9151-92d1d75bb378",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Who proposed the theory of use and disuse of organs?",
+      "options": [
+        "Alfred Wallace",
+        "Charles Darwin",
+        "Jean-Baptiste Lamarck",
+        "Robert Hooke"
+      ],
+      "correct_option": 2,
+      "explanation": "Lamarck proposed that organs change through use and disuse.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology transcription; provenance not independently verified"
+    },
+    {
+      "id": "498dc067-bfe9-411d-884b-50ee0e0f5fd1",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Who is associated with evolution by natural selection?",
+      "options": [
+        "Gregor Mendel",
+        "Matthias Schleiden",
+        "Charles Darwin",
+        "Robert Hooke"
+      ],
+      "correct_option": 2,
+      "explanation": "Charles Darwin developed the theory of evolution by natural selection.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology transcription; provenance not independently verified"
+    },
+    {
+      "id": "407730b6-8900-4d8b-a1ad-1278f9eb6122",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "A cockroach moving away from light shows:",
+      "options": [
+        "Negative phototropism",
+        "Positive phototropism",
+        "Negative phototaxis",
+        "Positive phototaxis"
+      ],
+      "correct_option": 2,
+      "explanation": "Phototaxis is movement of an organism in response to light; movement away is negative phototaxis.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology transcription; provenance not independently verified"
+    },
+    {
+      "id": "ea78f81c-8866-4795-8175-baaa6d4e3a0d",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which solution causes a living cell to shrink?",
+      "options": [
+        "Deplasmolysed water",
+        "Hypotonic solution",
+        "Hypertonic solution",
+        "Isotonic solution"
+      ],
+      "correct_option": 2,
+      "explanation": "Water leaves a cell in a hypertonic solution by osmosis, causing it to shrink.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology transcription; provenance not independently verified"
+    },
+    {
+      "id": "3196fa96-16be-454f-a18f-0b53c558183b",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "The colour change of a chameleon can help it to:",
+      "options": [
+        "Obtain food",
+        "Attract a mate",
+        "Camouflage",
+        "Escape detection"
+      ],
+      "correct_option": 2,
+      "explanation": "Colour change can help the chameleon blend with its surroundings and avoid detection.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology transcription; provenance not independently verified"
+    },
+    {
+      "id": "3490fc89-626b-471a-951a-debb47013b76",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "The red head coloration of a male agama lizard is mainly associated with:",
+      "options": [
+        "Scaring other males from the territory",
+        "Warning predators",
+        "Attracting females",
+        "Attracting males for mating"
+      ],
+      "correct_option": 2,
+      "explanation": "Bright breeding colours in male agama lizards act as visual courtship signals and help attract females.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "287c7370-4a4f-48f5-a0ef-9eb688db2389",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Ptyalin (salivary amylase) activity is likely to decrease as the concentration of which substance increases?",
+      "options": [
+        "Oxygen",
+        "Starch",
+        "Protein",
+        "Acid"
+      ],
+      "correct_option": 3,
+      "explanation": "Ptyalin works best near neutral pH. Increasing acidity reduces its activity and can denature the enzyme.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "b3a9222e-4305-4151-9f53-fff86bf1cbfe",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Seed plants are divided into which two major groups?",
+      "options": [
+        "Monocotyledons and dicotyledons",
+        "Tracheophytes and ferns",
+        "Angiosperms and gymnosperms",
+        "Thallophytes and bryophytes"
+      ],
+      "correct_option": 2,
+      "explanation": "Seed plants are classified into angiosperms, which have seeds enclosed in fruits, and gymnosperms, whose seeds are not enclosed in fruits.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "0ba27666-6c56-419b-99fc-9cfb38e836a6",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "What is the adaptive importance of the nuptial flight in termites?",
+      "options": [
+        "Cross-breeding within one colony",
+        "Dispersal of reproductives to establish new colonies",
+        "Providing food for birds",
+        "Moving reproductives only to areas with abundant food"
+      ],
+      "correct_option": 1,
+      "explanation": "Winged reproductive termites leave the parent colony, mate and disperse to suitable sites where new colonies can be founded.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "f9d306a1-0c4d-4175-a084-60ca47e8ae3f",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "What is the usual direction of water flow through a fish during gaseous exchange?",
+      "options": [
+        "Mouth → gills → operculum",
+        "Operculum → mouth → gills",
+        "Mouth → operculum → gills",
+        "Gills → mouth → operculum"
+      ],
+      "correct_option": 0,
+      "explanation": "Water enters through the mouth, flows over the gill surfaces for gas exchange and exits beneath the operculum.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "cdaced2f-ba03-4921-b34e-30e0efa715f0",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "In the nitrogen cycle, which bacteria convert soil nitrates into free nitrogen gas?",
+      "options": [
+        "Nitrifying bacteria",
+        "Denitrifying bacteria",
+        "Nitrogen-fixing bacteria",
+        "Putrefying bacteria"
+      ],
+      "correct_option": 1,
+      "explanation": "Denitrifying bacteria convert nitrates into nitrogen gas, returning nitrogen to the atmosphere.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "93b6b2af-cb8b-4ead-85b0-325254b02d86",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "The relationship between a termite and protozoa living in its intestine is:",
+      "options": [
+        "Predation",
+        "Saprophytism",
+        "Mutualism",
+        "Parasitism"
+      ],
+      "correct_option": 2,
+      "explanation": "The protozoa digest cellulose in wood for the termite and receive food and shelter in return.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "26cec9a9-af29-4cf7-8b32-9c0c15b642e7",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Where does the exo-erythrocytic phase of the malaria parasite occur in humans?",
+      "options": [
+        "Liver",
+        "Malpighian tubules",
+        "Mosquito",
+        "Brain"
+      ],
+      "correct_option": 0,
+      "explanation": "Malaria sporozoites enter liver cells and multiply there before parasites enter the bloodstream.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "c2fe1e9c-ec17-407a-98cd-95c15a53b836",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which organ regulates water, salts, hydrogen ions and urea levels in mammals?",
+      "options": [
+        "Kidney",
+        "Liver",
+        "Skin",
+        "Lung"
+      ],
+      "correct_option": 0,
+      "explanation": "The kidneys regulate blood water and ion balance, acid-base balance and excretion of urea.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "e6f02bb6-381b-495c-a8fa-8bec716aca0b",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "The crossing of individuals of the same species that have different genetic characteristics is called:",
+      "options": [
+        "Cross-breeding",
+        "Polygamous inheritance",
+        "Non-disjunction",
+        "Inbreeding"
+      ],
+      "correct_option": 0,
+      "explanation": "Cross-breeding involves mating genetically different individuals to combine desirable heritable traits.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "bb008277-72af-45f2-80bb-0bc7576465aa",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "The arrangement of ovules attached to the inner sides of the ovary wall is:",
+      "options": [
+        "Free-central placentation",
+        "Axile placentation",
+        "Parietal placentation",
+        "Marginal placentation"
+      ],
+      "correct_option": 2,
+      "explanation": "In parietal placentation, ovules are attached to the inner wall of the ovary.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "68c69a65-4a5d-43fd-b092-2b13f3ae5c4b",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "In which vertebrate group is parental care generally most highly developed?",
+      "options": [
+        "Amphibia",
+        "Aves",
+        "Reptilia",
+        "Mammalia"
+      ],
+      "correct_option": 3,
+      "explanation": "Mammals commonly show extensive parental care, including feeding young with milk and protecting them.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "ba544152-8efa-4900-a9ae-cdfff78a2514",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which of these is a biodegradable pollutant?",
+      "options": [
+        "Dung",
+        "Plastic",
+        "Glass",
+        "Metal"
+      ],
+      "correct_option": 0,
+      "explanation": "Dung is organic matter that decomposers can break down; plastic and glass persist much longer.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "ae0ab9b2-ef81-4e3e-b7b8-98e9420b970b",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which bacterium commonly occurs in the root nodules of leguminous plants?",
+      "options": [
+        "Clostridium",
+        "Rhizobium",
+        "Nitrosomonas",
+        "Azotobacter"
+      ],
+      "correct_option": 1,
+      "explanation": "Rhizobium lives in legume root nodules and fixes atmospheric nitrogen into forms usable by the plant.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "d5670a51-8d77-4ffb-acc8-1780235202f0",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which organism partly digests food extracellularly before ingesting it?",
+      "options": [
+        "Housefly",
+        "Mosquito",
+        "Termite",
+        "Butterfly"
+      ],
+      "correct_option": 0,
+      "explanation": "A housefly releases digestive fluids onto food, liquefies it externally and sucks up the dissolved nutrients.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "2f2c6d68-52fb-483c-ac07-a6424eecaebe",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "A strong, short, conical beak for picking and crushing seeds is characteristic of a:",
+      "options": [
+        "Duck",
+        "Owl",
+        "Weaver bird",
+        "Hawk"
+      ],
+      "correct_option": 2,
+      "explanation": "Weaver birds have short, strong, conical beaks adapted for cracking seeds.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "d3f7bfbe-fb3e-49db-9813-c32044ff26e5",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which sequence correctly shows the path of air through mammalian lungs?",
+      "options": [
+        "Trachea → bronchi → bronchioles → alveoli",
+        "Bronchi → trachea → bronchioles → alveoli",
+        "Bronchioles → alveoli → bronchi → trachea",
+        "Bronchi → alveoli → trachea"
+      ],
+      "correct_option": 0,
+      "explanation": "Air passes from the trachea to the bronchi, then bronchioles and finally the alveoli where gas exchange occurs.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "da5d9201-f891-486f-97cd-2ad2706acad6",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which part of the mammalian ear is mainly responsible for maintaining balance?",
+      "options": [
+        "Cochlea",
+        "Pinna",
+        "Semicircular canals",
+        "Ossicles"
+      ],
+      "correct_option": 2,
+      "explanation": "The semicircular canals detect rotational movement of the head and help maintain dynamic balance.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "adeddbfb-ffee-4e6a-b8b9-35255987c25c",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which organism listed is expected to have the smallest biomass per individual?",
+      "options": [
+        "Tilapia species",
+        "Agama species",
+        "Bufo species",
+        "Spirogyra species"
+      ],
+      "correct_option": 3,
+      "explanation": "Spirogyra is a filamentous alga with a much smaller individual mass than the listed vertebrates.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "1f186f0c-0c53-4b60-9b32-1b60ad3873fb",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which bacterium causes cholera?",
+      "options": [
+        "Vibrio cholerae",
+        "Salmonella Typhi",
+        "Mycobacterium tuberculosis",
+        "Treponema pallidum"
+      ],
+      "correct_option": 0,
+      "explanation": "Cholera is an intestinal infection caused by Vibrio cholerae, commonly spread through contaminated food or water.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "557c5b43-4ee6-49fb-a867-1a337aacc71b",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which type of reproduction generally produces offspring genetically similar to a single parent?",
+      "options": [
+        "Sexual",
+        "Asexual",
+        "Cross-pollination",
+        "Fertilisation"
+      ],
+      "correct_option": 1,
+      "explanation": "Asexual reproduction involves one parent and no fusion of gametes, so offspring are usually genetically very similar to the parent.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "de14f89b-54c3-4b14-a9cf-377fac71fa3d",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which feature is characteristic of wind-pollinated flowers?",
+      "options": [
+        "Large petals",
+        "Bright colours",
+        "Light pollen",
+        "Nectar"
+      ],
+      "correct_option": 2,
+      "explanation": "Wind-pollinated flowers usually produce abundant, small and light pollen that can be carried by air.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "d9139415-7bf0-448d-a4bc-90240f5b4a77",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which organ produces insulin in mammals?",
+      "options": [
+        "Liver",
+        "Pancreas",
+        "Spleen",
+        "Kidney"
+      ],
+      "correct_option": 1,
+      "explanation": "Beta cells in the islets of Langerhans in the pancreas secrete insulin, which helps lower blood glucose.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "fb7edd4e-4dbf-49fd-9ded-514f0c37adb3",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "The process by which plants lose water vapour, mainly through their leaves, is:",
+      "options": [
+        "Transpiration",
+        "Photosynthesis",
+        "Respiration",
+        "Osmosis"
+      ],
+      "correct_option": 0,
+      "explanation": "Transpiration is the loss of water vapour from aerial parts of plants, especially through stomata.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "4b2cc29f-9bd2-476b-8fa7-df63eab879bf",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which organism transmits the malaria parasite to humans?",
+      "options": [
+        "Female Anopheles mosquito",
+        "Female Culex mosquito",
+        "Female Aedes mosquito",
+        "Male Anopheles mosquito"
+      ],
+      "correct_option": 0,
+      "explanation": "The female Anopheles mosquito transmits Plasmodium parasites when it takes a blood meal.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "f7e2e734-54e2-47f7-9f3a-c8ca381f8027",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which of the following is a method of conserving wildlife?",
+      "options": [
+        "Afforestation",
+        "Deforestation",
+        "Poaching",
+        "Overgrazing"
+      ],
+      "correct_option": 0,
+      "explanation": "Afforestation can restore tree cover and habitats, supporting wildlife when suitable native species are planted.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "d12ad2e3-ee89-4d2d-835a-dae3b36fd8dd",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which organism causes the gambiense form of African sleeping sickness?",
+      "options": [
+        "Trypanosoma brucei gambiense",
+        "Plasmodium species",
+        "Entamoeba histolytica",
+        "Salmonella Typhi"
+      ],
+      "correct_option": 0,
+      "explanation": "The gambiense form of human African trypanosomiasis is caused by Trypanosoma brucei gambiense and transmitted by tsetse flies.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "6fbe4e5e-7962-4735-9f0c-e8b715da7bf5",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which cell organelle is the main site of aerobic energy release (ATP production)?",
+      "options": [
+        "Nucleus",
+        "Mitochondrion",
+        "Ribosome",
+        "Golgi body"
+      ],
+      "correct_option": 1,
+      "explanation": "Mitochondria carry out most aerobic cellular respiration and generate much of the cell's ATP.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2016,
+      "source_label": "User-provided UTME 2016 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "5754e55e-f470-41d2-abab-98940e2f92dd",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which of the following is a sex-linked character?",
+      "options": [
+        "Dwarfism",
+        "Albinism",
+        "Tongue rolling",
+        "Colour blindness"
+      ],
+      "correct_option": 3,
+      "explanation": "Red-green colour blindness is commonly inherited as an X-linked recessive trait, so it is sex-linked.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2017,
+      "source_label": "User-provided UTME 2017 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "707ee198-bf82-4f68-a349-d7c2de5eefaa",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which tissues transport water and manufactured food in plants, respectively?",
+      "options": [
+        "Xylem and phloem",
+        "Phloem and tracheids",
+        "Phloem and xylem",
+        "Xylem and tracheids"
+      ],
+      "correct_option": 0,
+      "explanation": "Xylem transports water and mineral salts; phloem transports sugars and other organic products.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2017,
+      "source_label": "User-provided UTME 2017 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "b9ba21c6-3b2d-4969-a884-99e0baae6101",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "An adaptive feature of many savanna plants is:",
+      "options": [
+        "Fissured bark",
+        "Few grasses",
+        "Tall trees",
+        "Long lifespan"
+      ],
+      "correct_option": 0,
+      "explanation": "Thick or fissured bark can help some savanna trees withstand seasonal fires and environmental stress.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2017,
+      "source_label": "User-provided UTME 2017 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "ac64b114-d37b-40bb-9beb-62945f9278f1",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "A grasshopper's green colour during the rainy season helps it to:",
+      "options": [
+        "Obtain food",
+        "Escape predators",
+        "Secure mates",
+        "Attract mates"
+      ],
+      "correct_option": 1,
+      "explanation": "Green coloration provides camouflage among green vegetation, making the grasshopper less visible to predators.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2017,
+      "source_label": "User-provided UTME 2017 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "68fb4baf-3318-4666-ab39-9a660925231f",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which of the following is the most advanced plant group listed?",
+      "options": [
+        "Marchantia",
+        "Dryopteris",
+        "Chlamydomonas",
+        "Spirogyra"
+      ],
+      "correct_option": 1,
+      "explanation": "Dryopteris is a vascular fern. The other listed organisms are non-vascular bryophyte or algae; ferns have more developed transport tissues.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2017,
+      "source_label": "User-provided UTME 2017 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "813843d9-35d2-4f61-8e11-af8817b69e89",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which soil type has the least ability to retain nutrients?",
+      "options": [
+        "Sandy",
+        "Clay",
+        "Loamy",
+        "Silty"
+      ],
+      "correct_option": 0,
+      "explanation": "Sandy soil has large particles and drains quickly, so it generally retains fewer nutrients than clay or loam.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2017,
+      "source_label": "User-provided UTME 2017 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "dc209e7a-a504-4952-8d3b-3ac7f029f938",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "A hummingbird feeds on nectar because its beak is:",
+      "options": [
+        "Short, slender and ridged",
+        "Short, strong and conical",
+        "Long, slender and slightly curved",
+        "Long, wide and flat"
+      ],
+      "correct_option": 2,
+      "explanation": "A long, slender, often slightly curved beak allows a hummingbird to reach nectar deep inside flowers.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2017,
+      "source_label": "User-provided UTME 2017 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "4c941a5c-293b-4be6-8118-9ef7f6ebd71d",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "What is a common effect of overcrowding in a population?",
+      "options": [
+        "Increased competition",
+        "Reduced competition",
+        "Emigration only",
+        "Reduced mortality"
+      ],
+      "correct_option": 0,
+      "explanation": "As population density rises, individuals compete more for limited food, space, water and mates.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2017,
+      "source_label": "User-provided UTME 2017 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "4fc7b03d-6624-4431-a5be-707ac44d867e",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which pair of vertebrae allows the skull to nod and rotate?",
+      "options": [
+        "Axis and cervical",
+        "Atlas and thoracic",
+        "Axis and atlas",
+        "Atlas and cervical"
+      ],
+      "correct_option": 2,
+      "explanation": "The atlas supports the skull and permits nodding; the axis provides the pivot for rotation.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2017,
+      "source_label": "User-provided UTME 2017 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "f5fcdd83-1aa0-4608-91f1-83e4a454bd47",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "The blood component whose cells contain nuclear DNA useful in paternity testing is:",
+      "options": [
+        "Plasma",
+        "Ribosome",
+        "Nucleus",
+        "Mitochondria"
+      ],
+      "correct_option": 2,
+      "explanation": "White blood cells contain nuclei with DNA. Mature human red blood cells lack nuclei, while plasma is the liquid component.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2017,
+      "source_label": "User-provided UTME 2017 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "86ad9ae0-72e1-4d52-a714-452ad2a646c9",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Insect trapping by the Venus flytrap is an example of:",
+      "options": [
+        "Adaptive coloration",
+        "Structural adaptation",
+        "Environmental adaptation",
+        "Behavioural adaptation"
+      ],
+      "correct_option": 1,
+      "explanation": "The modified leaf structure of the Venus flytrap is a structural adaptation for trapping insects.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2017,
+      "source_label": "User-provided UTME 2017 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "7b18f012-c990-465e-ad6b-5dbd1a1eb95d",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which set consists entirely of morphological variations in humans?",
+      "options": [
+        "Height, skin colour and tongue rolling",
+        "Weight, fingerprints and ability to taste PTC",
+        "Blood group and height",
+        "Height and blood group"
+      ],
+      "correct_option": 0,
+      "explanation": "Height and skin colour are physical features. Tongue rolling is generally treated as a physiological/genetic trait, so this item is imperfectly worded; the conventional exam choice is A.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2017,
+      "source_label": "User-provided UTME 2017 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "95fae8bf-9d35-419a-9833-f1d380af49f3",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which statement about ABO blood transfusion is correct for red-cell transfusion?",
+      "options": [
+        "Group AB can only receive A and B",
+        "Group O can receive only O",
+        "Group AB can receive A, B, AB and O",
+        "Group O can donate to A, B and AB"
+      ],
+      "correct_option": 2,
+      "explanation": "For ABO red-cell compatibility, an AB recipient has A and B antigens and can generally receive red cells from A, B, AB or O donors (Rh compatibility must also be considered).",
+      "exam_type": "PRACTICE",
+      "exam_year": 2017,
+      "source_label": "User-provided UTME 2017 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "6bc33731-0077-4c83-a6ea-5ac79f47d1ea",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which blood component is mainly responsible for clotting?",
+      "options": [
+        "Red blood cells",
+        "White blood cells",
+        "Platelets",
+        "Plasma"
+      ],
+      "correct_option": 2,
+      "explanation": "Platelets gather at damaged blood vessels and help initiate clot formation.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2017,
+      "source_label": "User-provided UTME 2017 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "55f8bcca-773c-434d-9451-35e049a6e059",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which group contains plant hormones that regulate growth?",
+      "options": [
+        "Auxin",
+        "Gibberellin",
+        "Cytokinin",
+        "All of the above"
+      ],
+      "correct_option": 3,
+      "explanation": "Auxins, gibberellins and cytokinins are all plant hormones that regulate different aspects of growth and development.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2017,
+      "source_label": "User-provided UTME 2017 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "05fac56b-41bc-484c-adbe-01f194432e02",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which organ produces bile?",
+      "options": [
+        "Liver",
+        "Gall bladder",
+        "Pancreas",
+        "Spleen"
+      ],
+      "correct_option": 0,
+      "explanation": "The liver produces bile; the gall bladder stores and concentrates it.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2017,
+      "source_label": "User-provided UTME 2017 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "dc99ac76-09b0-46d5-a9d7-5d0bb9b73bc1",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "The process by which food is moved along the gut is:",
+      "options": [
+        "Peristalsis",
+        "Diffusion",
+        "Osmosis",
+        "Ingestion"
+      ],
+      "correct_option": 0,
+      "explanation": "Peristalsis is the wave-like contraction of gut muscles that pushes food along the digestive tract.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2017,
+      "source_label": "User-provided UTME 2017 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "bce9b01c-a6dc-41ea-a019-5fd5a691c2a5",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which plant organ is the main site of photosynthesis?",
+      "options": [
+        "Leaf",
+        "Stem",
+        "Root",
+        "Flower"
+      ],
+      "correct_option": 0,
+      "explanation": "Leaves contain many chloroplast-rich cells and are the main organs of photosynthesis in most plants.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2017,
+      "source_label": "User-provided UTME 2017 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "e3bac3c2-2958-485f-aad4-b3e065d63674",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "The excretory organ of an earthworm is the:",
+      "options": [
+        "Nephridium",
+        "Kidney",
+        "Malpighian tubule",
+        "Flame cell"
+      ],
+      "correct_option": 0,
+      "explanation": "Earthworms use nephridia to remove metabolic wastes and regulate water and salts.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2017,
+      "source_label": "User-provided UTME 2017 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "bd6fd322-ae2b-4224-ab75-79dbf1c93719",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Deficiency of vitamin C causes:",
+      "options": [
+        "Scurvy",
+        "Rickets",
+        "Beriberi",
+        "Night blindness"
+      ],
+      "correct_option": 0,
+      "explanation": "Vitamin C is needed for collagen formation; deficiency can cause scurvy, with poor wound healing and bleeding gums.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2017,
+      "source_label": "User-provided UTME 2017 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "ec25011c-c70e-47ea-b763-b54f3366429b",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which gas is released during photosynthesis?",
+      "options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "correct_option": 0,
+      "explanation": "Oxygen is released when water molecules are split during the light-dependent reactions of photosynthesis.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2017,
+      "source_label": "User-provided UTME 2017 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "4e7a8e9d-4330-4ce1-833f-42ffede6648f",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which organelle contains digestive enzymes?",
+      "options": [
+        "Lysosome",
+        "Ribosome",
+        "Mitochondrion",
+        "Nucleus"
+      ],
+      "correct_option": 0,
+      "explanation": "Lysosomes contain hydrolytic enzymes that break down worn-out cell parts and materials taken into the cell.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2017,
+      "source_label": "User-provided UTME 2017 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "84326549-5270-424a-a8f2-0cd9af8cda5c",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which type of joint is found at the shoulder?",
+      "options": [
+        "Ball and socket",
+        "Hinge",
+        "Pivot",
+        "Gliding"
+      ],
+      "correct_option": 0,
+      "explanation": "The shoulder is a ball-and-socket joint, allowing movement in many directions.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2017,
+      "source_label": "User-provided UTME 2017 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "274af3dd-9cb3-49ac-b5ec-de0b2830873a",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which blood vessel carries oxygenated blood from the lungs to the heart?",
+      "options": [
+        "Pulmonary vein",
+        "Pulmonary artery",
+        "Aorta",
+        "Vena cava"
+      ],
+      "correct_option": 0,
+      "explanation": "Pulmonary veins carry oxygenated blood from the lungs to the left atrium of the heart.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2017,
+      "source_label": "User-provided UTME 2017 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "c0bd90d1-4086-445c-9f36-9abdcc8f5b0e",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which hormone lowers blood glucose concentration?",
+      "options": [
+        "Insulin",
+        "Glucagon",
+        "Adrenaline",
+        "Thyroxine"
+      ],
+      "correct_option": 0,
+      "explanation": "Insulin promotes glucose uptake and storage, lowering blood glucose concentration.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2017,
+      "source_label": "User-provided UTME 2017 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "56c53715-3e37-4daf-9206-0f281f03a1aa",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "A plant growing in nitrogen-poor soil is likely to be:",
+      "options": [
+        "Epiphyte",
+        "Carnivorous",
+        "Parasitic",
+        "Saprophytic"
+      ],
+      "correct_option": 1,
+      "explanation": "Carnivorous plants can supplement mineral nitrogen by digesting trapped insects, an adaptation to nutrient-poor habitats.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "d677e7f4-33ee-4eb3-bbf7-b39b2ed611c6",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "The bright colours of a male peacock's display attract the peahen mainly for:",
+      "options": [
+        "Sex differentiation",
+        "Beauty",
+        "Courtship",
+        "Protection"
+      ],
+      "correct_option": 2,
+      "explanation": "The male's display is part of courtship and helps attract a female for mating.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "509fef5b-3449-4e9f-a42d-902cd36b9e03",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "A character expressed only in the homozygous condition is usually:",
+      "options": [
+        "Recessive",
+        "Dominant",
+        "Co-dominant",
+        "Incomplete dominant"
+      ],
+      "correct_option": 0,
+      "explanation": "A recessive allele is typically expressed in the phenotype when two copies are present, in a simple Mendelian pattern.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "890a3d31-4d4b-4bd8-98df-4c201e85199e",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Who proposed mutation as an important basis of evolution?",
+      "options": [
+        "Charles Darwin",
+        "Hugo de Vries",
+        "Gregor Mendel",
+        "Jean Lamarck"
+      ],
+      "correct_option": 1,
+      "explanation": "Hugo de Vries developed mutation theory, emphasizing sudden heritable changes as a source of variation.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "121c3b73-2638-44c2-bb28-1970df9425e5",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which of the following is NOT typically an X-linked sex-linked character?",
+      "options": [
+        "Albinism",
+        "Colour blindness",
+        "Haemophilia",
+        "Baldness"
+      ],
+      "correct_option": 0,
+      "explanation": "Albinism is generally an autosomal inherited condition, whereas common forms of colour blindness and haemophilia are X-linked. Pattern baldness is sex-influenced, not a classic X-linked trait.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "57053430-a18b-4608-aed3-af7ef7960f7e",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Asexual reproduction in Spirogyra commonly occurs by:",
+      "options": [
+        "Binary fission",
+        "Conjugation",
+        "Budding",
+        "Fragmentation"
+      ],
+      "correct_option": 3,
+      "explanation": "Spirogyra commonly reproduces vegetatively when its filaments break into fragments that grow into new individuals; conjugation is sexual reproduction.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "85262f8b-6d5e-437a-982e-d5cdb0654cf4",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "The oxygen released during photosynthesis comes from:",
+      "options": [
+        "Carbon(IV) oxide",
+        "Chlorophyll",
+        "Glucose",
+        "Water"
+      ],
+      "correct_option": 3,
+      "explanation": "The released oxygen comes from the splitting of water during the light-dependent reactions, not from carbon dioxide.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "9139fd91-1221-4b1e-ae2e-1d590c6f5861",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which cell structure contains digestive enzymes?",
+      "options": [
+        "Endoplasmic reticulum",
+        "Nucleus",
+        "Lysosome",
+        "Centrosome"
+      ],
+      "correct_option": 2,
+      "explanation": "Lysosomes contain digestive enzymes that break down cellular waste and ingested materials.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "bd6e1ae3-c746-4607-b6c1-63a35c0b33cb",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "An ovary with placentation at its base is said to have:",
+      "options": [
+        "Perigynous",
+        "Hypogynous",
+        "Epigynous",
+        "Basal"
+      ],
+      "correct_option": 3,
+      "explanation": "In basal placentation, one or a few ovules are attached at the base of the ovary.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "2c0bcda6-2f4f-46a2-86c6-f839a84e4a2b",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which of the following is NOT generally essential for seed germination?",
+      "options": [
+        "Light",
+        "Air",
+        "Water",
+        "Suitable temperature"
+      ],
+      "correct_option": 0,
+      "explanation": "Most seeds need water, oxygen and a suitable temperature to germinate; light is not required by all seeds.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "d4803ec5-dea5-4569-b1f5-27a47e12ae80",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which of the following is a terrestrial habitat?",
+      "options": [
+        "Lungs",
+        "Kidney",
+        "Leaf",
+        "Large intestine"
+      ],
+      "correct_option": 2,
+      "explanation": "A leaf is an above-ground plant organ and provides a habitat for many terrestrial organisms. The other options are internal organs.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "a2835d5d-8af1-4db7-b4ed-5d21fe6e224e",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Nephridia are the excretory organs of:",
+      "options": [
+        "Earthworm",
+        "Insect",
+        "Mammal",
+        "Fish"
+      ],
+      "correct_option": 0,
+      "explanation": "Earthworms possess nephridia, which remove metabolic wastes and help regulate water and salts.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "464d8d99-ab14-4072-ad13-ee50b4d60734",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Rickets can arise from deficiency of which nutrient listed?",
+      "options": [
+        "Iron",
+        "Calcium",
+        "Iodine",
+        "Vitamin K"
+      ],
+      "correct_option": 1,
+      "explanation": "Rickets is commonly associated with vitamin D deficiency; inadequate calcium can also contribute to poor bone mineralisation. Of the listed options, calcium is the best answer.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "3fbbcfc7-534e-49c4-94bc-8e50c0ce7d90",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Blood supply to the heart muscle itself is provided by the:",
+      "options": [
+        "Renal artery",
+        "Pulmonary artery",
+        "Coronary artery",
+        "Hepatic artery"
+      ],
+      "correct_option": 2,
+      "explanation": "The coronary arteries branch from the aorta and supply oxygenated blood to the heart muscle.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "66d4f9c8-dbab-46e6-bfc1-4b10571abfee",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "A plant growing in brackish water is described as a:",
+      "options": [
+        "Mesophyte",
+        "Halophyte",
+        "Hydrophyte",
+        "Xerophyte"
+      ],
+      "correct_option": 1,
+      "explanation": "Halophytes are plants adapted to saline conditions, including brackish-water environments.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "52e0bcf4-4d18-4b63-976c-939aefc79e65",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "The numbers of pairs of cranial and spinal nerves in humans are respectively:",
+      "options": [
+        "12 and 33",
+        "31 and 12",
+        "12 and 31",
+        "12 and 12"
+      ],
+      "correct_option": 2,
+      "explanation": "Humans have 12 pairs of cranial nerves and 31 pairs of spinal nerves.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "330fbfd3-2b31-4f11-a09b-fa32d99812bb",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "A common symptom of Rhesus incompatibility in a newborn is:",
+      "options": [
+        "Oedema",
+        "Jaundice",
+        "Cough",
+        "Fever"
+      ],
+      "correct_option": 1,
+      "explanation": "Breakdown of the newborn's red blood cells can raise bilirubin levels, causing jaundice.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "65d573ce-986f-4ea7-b133-c4dd7de7a4dc",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which vitamin is known as cyanocobalamin?",
+      "options": [
+        "Vitamin B1",
+        "Vitamin C",
+        "Vitamin B12",
+        "Vitamin D"
+      ],
+      "correct_option": 2,
+      "explanation": "Cyanocobalamin is a form of vitamin B12, which is important for red blood cell formation and nervous-system function.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "743d289c-df1c-42cb-a793-43585b93a03b",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "A plant that becomes pale because it receives insufficient light is described as:",
+      "options": [
+        "Etiolated",
+        "Wilted",
+        "Chlorotic",
+        "Dwarfed"
+      ],
+      "correct_option": 0,
+      "explanation": "Etiolation is pale, elongated growth that occurs when a plant develops in inadequate light.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "058abfc5-552f-42a3-ba7c-2dfc176c6b9e",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "A toad normally lays its eggs:",
+      "options": [
+        "On trees",
+        "On land",
+        "In water",
+        "In air"
+      ],
+      "correct_option": 2,
+      "explanation": "Toads are amphibians and generally lay eggs in water, where the aquatic larvae develop.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "e0f2d15e-3977-433b-b577-379675249bd8",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "The pupal stage of a butterfly is called a:",
+      "options": [
+        "Larva",
+        "Maggot",
+        "Grub",
+        "Chrysalis"
+      ],
+      "correct_option": 3,
+      "explanation": "The butterfly pupa is called a chrysalis; metamorphosis from larva to adult occurs inside it.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "0867dacb-abd0-4be6-b948-2d0f2022461c",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which of the following is a viral disease?",
+      "options": [
+        "Common cold",
+        "Malaria",
+        "Cholera",
+        "Typhoid"
+      ],
+      "correct_option": 0,
+      "explanation": "The common cold is caused by viruses. Malaria is caused by Plasmodium, while cholera and typhoid are bacterial diseases.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "07aa1a3b-352d-4165-b4b6-2e0bbb0cdc0a",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "A moss belongs to which plant group?",
+      "options": [
+        "Pteridophyta",
+        "Bryophyta",
+        "Schizophyta",
+        "Spermatophyta"
+      ],
+      "correct_option": 1,
+      "explanation": "Mosses are bryophytes: small non-vascular plants that reproduce by spores.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "7af683d0-3445-40e7-a7a3-9deefa180c30",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "A red blood cell placed in distilled water undergoes haemolysis because of:",
+      "options": [
+        "Ex-osmosis",
+        "Endo-osmosis",
+        "Diffusion",
+        "Capillarity"
+      ],
+      "correct_option": 1,
+      "explanation": "Distilled water is hypotonic to the cell, so water enters by osmosis (endosmosis), causing the red cell to swell and burst.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "5bdb4774-0388-418c-9203-faf97b3baf00",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which organ is the main excretory organ in mammals?",
+      "options": [
+        "Kidney",
+        "Liver",
+        "Skin",
+        "Lung"
+      ],
+      "correct_option": 0,
+      "explanation": "The kidneys filter blood and remove nitrogenous wastes such as urea in urine.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "0670b2ce-6f5c-4837-b90d-2a9db94d8c71",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which hormone plays a major role in causing uterine contractions during parturition?",
+      "options": [
+        "Oxytocin",
+        "Progesterone",
+        "Oestrogen",
+        "Prolactin"
+      ],
+      "correct_option": 0,
+      "explanation": "Oxytocin stimulates contractions of the uterine muscles during labour.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "b66eb23b-134a-436c-b155-37e077d35a5b",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Ovulation is triggered primarily by a surge in:",
+      "options": [
+        "FSH",
+        "LH",
+        "Progesterone",
+        "Oestrogen"
+      ],
+      "correct_option": 1,
+      "explanation": "A surge in luteinising hormone (LH) triggers ovulation, the release of an egg from the ovary.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
+    },
+    {
+      "id": "7cc4b076-ad19-46ff-9de7-2ffc4130071d",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": null,
+      "question": "Which organ produces the male sex hormone responsible for development of male secondary sexual characteristics?",
+      "options": [
+        "Pituitary",
+        "Testis",
+        "Ovary",
+        "Adrenal"
+      ],
+      "correct_option": 1,
+      "explanation": "The testes produce testosterone, which supports development of male secondary sexual characteristics.",
+      "exam_type": "PRACTICE",
+      "exam_year": 2019,
+      "source_label": "User-provided UTME 2019 Biology questions; wording normalized for clarity; source provenance not independently verified"
     }
   ],
   "description": "FuturePath UTME offline pack. Contains original syllabus-informed practice questions; these are not official JAMB past questions.",
-  "exported_at": "2026-11-15T00:00:00.000Z",
+  "exported_at": "2026-11-15T23:17:27.542Z",
   "format_version": 1,
-  "pack_version": 3
+  "pack_version": 4
 }
