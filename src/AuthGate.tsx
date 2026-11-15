@@ -105,7 +105,7 @@ export default function AuthGate({ children }: Props) {
     return <main className="auth-screen"><div className="auth-loading">Preparing your learning space...</div></main>;
   }
 
-  if (session || (!navigator.onLine && offlineAccount)) {
+  if (session || !navigator.onLine) {
     return <div className="authenticated-app">
       <div className="account-strip">
         <span>{session ? "Signed in as" : "Offline access for"} <strong>{session?.user.email || offlineAccount?.email}</strong></span>
