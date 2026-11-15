@@ -1,4 +1,5 @@
 import { supabase } from "./supabase";
+import bundledPack from "../data/utme-offline-pack.json";
 
 export type OfflineSubject = { id: string; name: string; slug: string; description: string };
 export type OfflineTopic = { id: string; subject_id: string; title: string; slug: string; description: string; sort_order: number };
@@ -74,9 +75,21 @@ async function allValues<T>(storeName: string): Promise<T[]> {
 }
 
 export async function getOfflineSnapshot(): Promise<OfflineSnapshot> {
-  return (await readValue<OfflineSnapshot>(CONTENT_STORE, "snapshot")) || {
-    subjects: [], topics: [], notes: [], questions: [], downloadedAt: null,
+  const cached = await readValue<OfflineSnapshot>(CONTENT_STORE, "snapshot");
+  if (cached?.subjects?.length && cached?.questions?.length) return cached;
+
+  // Seed IndexedDB from the bundled question pack on a fresh install.
+  const snapshot: OfflineSnapshot = {
+    subjects: (bundledPack.subjects || []) as OfflineSubject[],
+    topics: (bundledPack.topics || []) as OfflineTopic[],
+    notes: (bundledPack.notes || []) as OfflineNote[],
+    questions: (bundledPack.questions || []) as OfflineQuestion[],
+    downloadedAt: bundledPack.exported_at || null,
   };
+  if (snapshot.subjects.length && snapshot.questions.length) {
+    await writeValue(CONTENT_STORE, snapshot, "snapshot");
+  }
+  return snapshot;
 }
 
 export async function syncOfflineContent(): Promise<OfflineSnapshot> {
