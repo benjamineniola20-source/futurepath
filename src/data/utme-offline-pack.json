@@ -19438,6 +19438,25 @@
       "exam_type": "UTME",
       "exam_year": 2019,
       "source_label": "User-provided transcription labelled UTME 2019; exact official-paper provenance not independently verified"
+    },
+    {
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "d99b6aee-a493-4d47-9a3b-cab901299820",
+      "question_text": "An element X has five electrons in its outermost shell. What is the formula of the compound formed when X combines with aluminium? (2018, Question 7)",
+      "options": [
+        "AlX₃",
+        "AlX",
+        "AlX₂",
+        "Al₃X"
+      ],
+      "correct_option": 1,
+      "explanation": "X has five valence electrons and commonly forms three bonds to complete its octet. Aluminium also has valency 3, so the simplest formula is AlX.",
+      "exam_type": "UTME",
+      "exam_year": 2018,
+      "source_label": "User-provided transcription labelled UTME 2018; exact official-paper provenance not independently verified",
+      "published": true,
+      "id": "63d6bf29-da3c-4b9c-aee7-62582b10932e",
+      "topic_title": "Chemical formulae, equations and stoichiometry"
     }
   ],
   "description": "FuturePath UTME offline pack. Contains original syllabus-informed practice questions; these are not official JAMB past questions.",
