@@ -75,3 +75,15 @@ end;
 $$;
 revoke all on function public.sync_offline_attempt(uuid,uuid,text,jsonb,integer) from public, anon;
 grant execute on function public.sync_offline_attempt(uuid,uuid,text,jsonb,integer) to authenticated;
+
+
+-- Additional security and query indexes
+revoke all on function public.handle_new_user() from public, anon, authenticated;
+create index if not exists questions_published_subject_year_idx
+  on public.questions(subject_id, exam_type, exam_year) where published = true;
+create index if not exists study_notes_published_subject_idx
+  on public.study_notes(subject_id, title) where published = true;
+create index if not exists attempts_user_started_idx
+  on public.attempts(user_id, started_at desc);
+create index if not exists attempt_answers_attempt_idx
+  on public.attempt_answers(attempt_id);
