@@ -5571,7 +5571,7 @@
         "18 g mol⁻¹",
         "16 g mol⁻¹",
         "20 g mol⁻¹",
-        " ಎರಡು g mol⁻¹"
+        "34 g mol⁻¹"
       ],
       "correct_option": 0,
       "explanation": "Water has molar mass 2(1) + 16 = 18 g mol⁻¹.",
@@ -16903,6 +16903,6 @@
     }
   ],
   "description": "FuturePath UTME offline pack. Contains original syllabus-informed practice questions; these are not official JAMB past questions.",
-  "exported_at": "2026-11-15T21:12:28.695Z",
+  "exported_at": "2026-11-15T21:12:41.657Z",
   "format_version": 1
 }
