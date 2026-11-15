@@ -18700,10 +18700,766 @@
       "source_label": "FuturePath original syllabus-based practice question; not an official JAMB past question",
       "question_text": "In a relay race, the baton is passed within a designated",
       "correct_option": 1
+    },
+    {
+      "id": "0d29839b-9aea-4d2a-ab02-b32bc7d1145b",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "ab031d0c-feee-42ab-baea-92766d97d4cf",
+      "topic_title": "Organic chemistry",
+      "question_text": "The ability of carbon atoms to link together to form long chains is called: (2016, Question 13)",
+      "options": [
+        "Alkylation",
+        "Acylation",
+        "Carbonation",
+        "Catenation"
+      ],
+      "correct_option": 3,
+      "explanation": "Catenation is the self-linking property of an element. Carbon shows extensive catenation because carbon–carbon bonds are strong.",
+      "exam_type": "UTME",
+      "exam_year": 2016,
+      "source_label": "User-provided transcription labelled UTME 2016; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "d072bfcb-08cd-424e-9c39-8d8c3b77bb08",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "c50155f8-67b3-401f-aeb9-35fc5ab2d14c",
+      "topic_title": "Environmental and industrial chemistry",
+      "question_text": "Which conditions are necessary for the ordinary rusting of iron? (2016, Question 3)",
+      "options": [
+        "Water and carbon(IV) oxide",
+        "Water and oxygen",
+        "Water and carbon(II) oxide",
+        "Oxygen and carbon(IV) oxide"
+      ],
+      "correct_option": 1,
+      "explanation": "Rusting of iron requires both water and oxygen. Dissolved salts may speed it up, but carbon dioxide is not essential.",
+      "exam_type": "UTME",
+      "exam_year": 2016,
+      "source_label": "User-provided transcription labelled UTME 2016; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "182786c7-5c41-4776-bc6a-f8924770905e",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "c50155f8-67b3-401f-aeb9-35fc5ab2d14c",
+      "topic_title": "Environmental and industrial chemistry",
+      "question_text": "Which catalyst is used in the Haber process for the manufacture of ammonia? (2016, Question 15)",
+      "options": [
+        "Iron",
+        "Platinum",
+        "Vanadium(V) oxide",
+        "Manganese(IV) oxide"
+      ],
+      "correct_option": 0,
+      "explanation": "Finely divided iron is the industrial catalyst in the Haber process.",
+      "exam_type": "UTME",
+      "exam_year": 2016,
+      "source_label": "User-provided transcription labelled UTME 2016; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "0b30511f-1f55-4385-bbbc-2144a9d3a4bb",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "c50155f8-67b3-401f-aeb9-35fc5ab2d14c",
+      "topic_title": "Environmental and industrial chemistry",
+      "question_text": "Which gas is commonly used in the treatment of drinking water to disinfect it? (2016, Question 28)",
+      "options": [
+        "Neon",
+        "Chlorine",
+        "Radon",
+        "Xenon"
+      ],
+      "correct_option": 1,
+      "explanation": "Chlorine disinfects water by killing many disease-causing microorganisms.",
+      "exam_type": "UTME",
+      "exam_year": 2016,
+      "source_label": "User-provided transcription labelled UTME 2016; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "a57c51a2-03d5-46d0-9e46-b64d2e85b706",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "e13f3038-5e2b-4baa-9bb1-4b8eb2141c30",
+      "topic_title": "Separation techniques and purity",
+      "question_text": "Column chromatography separates components of a mixture mainly by their: (2016, Question 10)",
+      "options": [
+        "Differential adsorption",
+        "Differential absorption",
+        "Ability to react with one another",
+        "Identical movement through the column"
+      ],
+      "correct_option": 0,
+      "explanation": "Different components are adsorbed to different extents by the stationary phase, so they travel through the column at different rates.",
+      "exam_type": "UTME",
+      "exam_year": 2016,
+      "source_label": "User-provided transcription labelled UTME 2016; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "a7d760ec-1337-4cf1-b30e-3c1564a0af0a",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "d99b6aee-a493-4d47-9a3b-cab901299820",
+      "topic_title": "Chemical formulae, equations and stoichiometry",
+      "question_text": "The water-gas shift reaction used industrially to produce hydrogen is: (2016, Question 14)",
+      "options": [
+        "CO + H₂O → CO₂ + H₂",
+        "CH₄ + H₂O → CO + 3H₂",
+        "C + H₂O → CO + H₂",
+        "CO + 2H₂ → CH₃OH"
+      ],
+      "correct_option": 0,
+      "explanation": "Carbon monoxide reacts with steam to form carbon dioxide and additional hydrogen.",
+      "exam_type": "UTME",
+      "exam_year": 2016,
+      "source_label": "User-provided transcription labelled UTME 2016; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "f44da605-f610-458f-ad5a-610e83c78cbf",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "ba932921-fa41-44ca-b6c4-f0ea48ad3268",
+      "topic_title": "Non-metals, metals and their compounds",
+      "question_text": "Which metal has an ore that can commonly be concentrated using a magnetic separator? (2016, Question 24)",
+      "options": [
+        "Copper",
+        "Tin",
+        "Iron",
+        "Lead"
+      ],
+      "correct_option": 2,
+      "explanation": "Magnetite, an important iron ore, is magnetic and can be separated from non-magnetic impurities.",
+      "exam_type": "UTME",
+      "exam_year": 2016,
+      "source_label": "User-provided transcription labelled UTME 2016; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "14681897-fb58-4861-96a7-d1ea9d800b9a",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "6ad70051-081d-4c37-817f-70c503666318",
+      "topic_title": "Atomic structure",
+      "question_text": "An isotope has atomic number 15 and mass number 31. How many protons does it contain? (2016, Question 26)",
+      "options": [
+        "15",
+        "16",
+        "31",
+        "46"
+      ],
+      "correct_option": 0,
+      "explanation": "The atomic number is the number of protons. Therefore, the isotope contains 15 protons.",
+      "exam_type": "UTME",
+      "exam_year": 2016,
+      "source_label": "User-provided transcription labelled UTME 2016; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "89afaae0-c941-4721-a181-27b8b2862ccc",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "375d2148-1f90-4082-987d-5ac6f05fb258",
+      "topic_title": "Acids, bases, salts and pH",
+      "question_text": "What is the pH of 0.001 mol dm⁻³ sodium hydroxide at 25°C? (2016, Question 21)",
+      "options": [
+        "1",
+        "2",
+        "11",
+        "12"
+      ],
+      "correct_option": 2,
+      "explanation": "NaOH is a strong base, so [OH⁻] = 10⁻³ mol dm⁻³. pOH = 3 and pH = 14 − 3 = 11.",
+      "exam_type": "UTME",
+      "exam_year": 2016,
+      "source_label": "User-provided transcription labelled UTME 2016; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "956ba6f4-1f10-4d17-8083-09aa6d24c6a0",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "e13f3038-5e2b-4baa-9bb1-4b8eb2141c30",
+      "topic_title": "Separation techniques and purity",
+      "question_text": "Ammonium chloride can be separated from a mixture with common salt by: (2016, Question 11)",
+      "options": [
+        "Distillation",
+        "Evaporation",
+        "Decantation",
+        "Sublimation"
+      ],
+      "correct_option": 3,
+      "explanation": "Ammonium chloride sublimes on heating and can be collected on a cool surface, while sodium chloride remains behind.",
+      "exam_type": "UTME",
+      "exam_year": 2016,
+      "source_label": "User-provided transcription labelled UTME 2016; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "135b34ea-d635-4c82-8361-4e9a34bae652",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "ba932921-fa41-44ca-b6c4-f0ea48ad3268",
+      "topic_title": "Non-metals, metals and their compounds",
+      "question_text": "In the laboratory preparation of chlorine from concentrated hydrochloric acid using potassium permanganate, which substance is suitable for drying the chlorine? (2016, Question 5)",
+      "options": [
+        "Concentrated tetraoxosulphate(VI) acid",
+        "Anhydrous calcium chloride",
+        "Calcium oxide",
+        "Sodium hydroxide"
+      ],
+      "correct_option": 0,
+      "explanation": "Concentrated sulfuric acid removes water vapour without reacting significantly with chlorine. Calcium oxide and sodium hydroxide react with chlorine.",
+      "exam_type": "UTME",
+      "exam_year": 2016,
+      "source_label": "User-provided transcription labelled UTME 2016; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "6b83500b-fada-4957-9c58-702da9e0b009",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "ab031d0c-feee-42ab-baea-92766d97d4cf",
+      "topic_title": "Organic chemistry",
+      "question_text": "Which of the following compounds is commonly used as a gaseous fuel? (2016, Question 6)",
+      "options": [
+        "Propene, CH₃CH=CH₂",
+        "Propane, CH₃CH₂CH₃",
+        "Ethanol, CH₃CH₂OH",
+        "Ethanoic acid, CH₃COOH"
+      ],
+      "correct_option": 1,
+      "explanation": "Propane is a common gaseous fuel used in LPG. The other choices are not normally supplied as gaseous domestic fuel.",
+      "exam_type": "UTME",
+      "exam_year": 2016,
+      "source_label": "User-provided transcription labelled UTME 2016; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "baed73a3-47dc-423e-bd56-2589b28f391d",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "6ad70051-081d-4c37-817f-70c503666318",
+      "topic_title": "Atomic structure",
+      "question_text": "Caesium has atomic number 55 and mass number 133. How many protons and neutrons are in its nucleus? (2018, Question 18)",
+      "options": [
+        "78 protons and 55 neutrons",
+        "55 protons and 78 neutrons",
+        "55 protons and 55 neutrons",
+        "78 protons and 78 neutrons"
+      ],
+      "correct_option": 1,
+      "explanation": "Protons = atomic number = 55. Neutrons = mass number − atomic number = 133 − 55 = 78.",
+      "exam_type": "UTME",
+      "exam_year": 2018,
+      "source_label": "User-provided transcription labelled UTME 2018; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "4baac74f-7b13-41ad-a688-9669c41f939d",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "7fe3d4e1-a3c1-4ac8-88b0-2c5b8b3d9ee0",
+      "topic_title": "Energetics and thermochemistry",
+      "question_text": "In the traditional gunpowder mixture of charcoal, sulphur and potassium nitrate, sulphur mainly acts as a: (2018, Question 17)",
+      "options": [
+        "Oxidant",
+        "Fuel (reducing component)",
+        "Solvent",
+        "Catalyst"
+      ],
+      "correct_option": 1,
+      "explanation": "Sulphur is a combustible component of the mixture and acts as a fuel/reducing component. Potassium nitrate supplies the oxidising agent.",
+      "exam_type": "UTME",
+      "exam_year": 2018,
+      "source_label": "User-provided transcription labelled UTME 2018; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "abbfda6a-10f4-4b8a-9ebe-c9d54bd559a8",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "ba932921-fa41-44ca-b6c4-f0ea48ad3268",
+      "topic_title": "Non-metals, metals and their compounds",
+      "question_text": "Magnesium burns in gas P to form a white solid. Adding water to the solid releases a gas that forms dense white fumes with hydrogen chloride. What is gas P? (2018, Question 12)",
+      "options": [
+        "Chlorine",
+        "Nitrogen",
+        "Oxygen",
+        "Sulphur(IV) oxide"
+      ],
+      "correct_option": 1,
+      "explanation": "Magnesium reacts with nitrogen to form magnesium nitride. Hydrolysis of Mg₃N₂ releases ammonia, which forms dense white ammonium chloride fumes with HCl.",
+      "exam_type": "UTME",
+      "exam_year": 2018,
+      "source_label": "User-provided transcription labelled UTME 2018; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "e0dd66b2-7b68-421e-bac8-085c2e8bd653",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "ba932921-fa41-44ca-b6c4-f0ea48ad3268",
+      "topic_title": "Non-metals, metals and their compounds",
+      "question_text": "Which of the following materials is least likely to react with sodium hydroxide solution and is therefore suitable among the listed choices for its container? (2018, Question 27)",
+      "options": [
+        "Lead",
+        "Glass",
+        "Aluminium",
+        "Copper"
+      ],
+      "correct_option": 3,
+      "explanation": "Sodium hydroxide attacks aluminium and can attack glass over time; lead is also unsuitable. Copper is comparatively resistant under ordinary storage conditions.",
+      "exam_type": "UTME",
+      "exam_year": 2018,
+      "source_label": "User-provided transcription labelled UTME 2018; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "c0466159-3d6a-41ef-9df5-6ed88dc810de",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "ba932921-fa41-44ca-b6c4-f0ea48ad3268",
+      "topic_title": "Non-metals, metals and their compounds",
+      "question_text": "Which of the following salts can be heated to melting without readily decomposing? (2018, Question 10)",
+      "options": [
+        "Na₂CO₃",
+        "CaCO₃",
+        "ZnCO₃",
+        "ZnCO₃"
+      ],
+      "correct_option": 0,
+      "explanation": "Sodium carbonate is thermally stable at its melting point. Many other metal carbonates decompose on strong heating.",
+      "exam_type": "UTME",
+      "exam_year": 2018,
+      "source_label": "User-provided transcription labelled UTME 2018; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "934068f9-5c04-4c0c-8e4a-ad4a193b58af",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "ba932921-fa41-44ca-b6c4-f0ea48ad3268",
+      "topic_title": "Non-metals, metals and their compounds",
+      "question_text": "Which combinations of gases are used for metal welding? I. Oxygen and ethyne; II. Hydrogen and ethyne; III. Hydrogen and oxygen; IV. Ethyne, hydrogen and oxygen. (2018, Question 26)",
+      "options": [
+        "I and II",
+        "III and IV",
+        "I and III",
+        "II and IV"
+      ],
+      "correct_option": 2,
+      "explanation": "Oxy-ethyne and oxy-hydrogen flames are both used for welding because they produce high-temperature flames.",
+      "exam_type": "UTME",
+      "exam_year": 2018,
+      "source_label": "User-provided transcription labelled UTME 2018; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "856ce8ff-6b14-4423-81da-9c0a56be36a9",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "6ad70051-081d-4c37-817f-70c503666318",
+      "topic_title": "Atomic structure",
+      "question_text": "Four elements P, Q, R and S have atomic numbers 4, 10, 12 and 14 respectively. Which is a noble gas? (2018, Question 15)",
+      "options": [
+        "P",
+        "Q",
+        "R",
+        "S"
+      ],
+      "correct_option": 1,
+      "explanation": "Atomic number 10 is neon, a noble gas. Therefore Q is the answer.",
+      "exam_type": "UTME",
+      "exam_year": 2018,
+      "source_label": "User-provided transcription labelled UTME 2018; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "8ea3dcc4-4e11-40bd-b254-67542b5d50aa",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "c50155f8-67b3-401f-aeb9-35fc5ab2d14c",
+      "topic_title": "Environmental and industrial chemistry",
+      "question_text": "Which substance is NOT a primary raw material in the Solvay process? (2018, Question 25)",
+      "options": [
+        "Ammonia",
+        "Sodium chloride",
+        "Calcium trioxocarbonate(IV)",
+        "Sodium trioxocarbonate(IV)"
+      ],
+      "correct_option": 3,
+      "explanation": "Sodium carbonate is the desired product of the Solvay process, not a primary raw material. The process uses brine, limestone and recycled ammonia.",
+      "exam_type": "UTME",
+      "exam_year": 2018,
+      "source_label": "User-provided transcription labelled UTME 2018; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "9a2ec191-e393-4f9e-b466-eede01e0cb97",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "6ad70051-081d-4c37-817f-70c503666318",
+      "topic_title": "Atomic structure",
+      "question_text": "The presence of unpaired electrons in an atom or ion of a transition metal gives rise to: (2018, Question 8)",
+      "options": [
+        "Paramagnetism",
+        "Malleability",
+        "Ductility",
+        "Shiny appearance"
+      ],
+      "correct_option": 0,
+      "explanation": "Unpaired electrons have magnetic moments that make the species attracted to an external magnetic field.",
+      "exam_type": "UTME",
+      "exam_year": 2018,
+      "source_label": "User-provided transcription labelled UTME 2018; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "33b043f1-7379-4ba9-82aa-1739af3d3f8a",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "b9ce2a85-dc49-4348-8990-1ed44e9321f9",
+      "topic_title": "Organic chemistry and functional groups",
+      "question_text": "The reaction of an alkanol with an alkanoic acid in the presence of concentrated sulphuric acid produces a/an: (2018, Question 28)",
+      "options": [
+        "Alkanal",
+        "Alkanoate (ester)",
+        "Alkanol",
+        "Alkanoate (ester)"
+      ],
+      "correct_option": 1,
+      "explanation": "This is esterification: an alcohol and a carboxylic acid form an ester and water. The repeated option in the supplied transcription has been consolidated as one correct concept.",
+      "exam_type": "UTME",
+      "exam_year": 2018,
+      "source_label": "User-provided transcription labelled UTME 2018; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "2a1da4c6-c21a-44c2-b399-e539c91e59c3",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "6ad70051-081d-4c37-817f-70c503666318",
+      "topic_title": "Atomic structure",
+      "question_text": "Which radioactive emissions can pass through a sheet of paper? (2018, Question 11)",
+      "options": [
+        "Alpha and beta particles only",
+        "Alpha particles and gamma rays only",
+        "Beta particles and gamma rays",
+        "Alpha, beta and gamma emissions"
+      ],
+      "correct_option": 2,
+      "explanation": "Paper stops alpha particles. Beta particles and gamma rays can pass through ordinary paper.",
+      "exam_type": "UTME",
+      "exam_year": 2018,
+      "source_label": "User-provided transcription labelled UTME 2018; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "1dffedd7-1b22-40e3-892c-a3d5071737cf",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "5440ade0-190a-44a0-8af8-89f2731051e7",
+      "topic_title": "Particulate nature of matter",
+      "question_text": "30 cm³ of oxygen diffuses through a porous plug in 7 s. How long will 60 cm³ of chlorine take through the same plug? (O₂ = 32; Cl₂ = 71) (2018, Question 31)",
+      "options": [
+        "12 s",
+        "14 s",
+        "21 s",
+        "30 s"
+      ],
+      "correct_option": 2,
+      "explanation": "By Graham’s law, rate is inversely proportional to √M. The chlorine rate is (30/7)√(32/71) cm³/s, so time = 60/rate ≈ 20.9 s, or 21 s.",
+      "exam_type": "UTME",
+      "exam_year": 2018,
+      "source_label": "User-provided transcription labelled UTME 2018; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "34bfb0ae-dc72-4ada-9357-157480ae2c20",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "c50155f8-67b3-401f-aeb9-35fc5ab2d14c",
+      "topic_title": "Environmental and industrial chemistry",
+      "question_text": "Which gas can dissolve in rainwater and contribute to acid rain? (2018, Question 22)",
+      "options": [
+        "Oxygen",
+        "Carbon(IV) oxide",
+        "Nitrogen(IV) oxide",
+        "Carbon(II) oxide"
+      ],
+      "correct_option": 2,
+      "explanation": "Nitrogen dioxide dissolves and reacts in water to form acids, contributing to acid rain.",
+      "exam_type": "UTME",
+      "exam_year": 2018,
+      "source_label": "User-provided transcription labelled UTME 2018; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "cb9b8fd7-a96b-4391-ba39-2efbe4a8ed67",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "d99b6aee-a493-4d47-9a3b-cab901299820",
+      "topic_title": "Chemical formulae, equations and stoichiometry",
+      "question_text": "What is the oxidation number of nitrogen in the nitrate ion, NO₃⁻, in aluminium nitrate? (2018, Question 9)",
+      "options": [
+        "+1",
+        "+3",
+        "+5",
+        "+6"
+      ],
+      "correct_option": 2,
+      "explanation": "Let nitrogen be x: x + 3(−2) = −1, so x = +5.",
+      "exam_type": "UTME",
+      "exam_year": 2018,
+      "source_label": "User-provided transcription labelled UTME 2018; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "3e2d0687-3d16-4ef7-9e4c-7b9296fadd11",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "b9ce2a85-dc49-4348-8990-1ed44e9321f9",
+      "topic_title": "Organic chemistry and functional groups",
+      "question_text": "What are the products when ethanoic acid reacts with chlorine in sunlight by substitution? (2018, Question 19)",
+      "options": [
+        "CH₃COOH + HCl",
+        "CH₂ClCOOH + HCl",
+        "CH₃COCl + HOCl",
+        "CH₃COCl + HCl"
+      ],
+      "correct_option": 1,
+      "explanation": "Sunlight promotes substitution of an alpha-hydrogen in ethanoic acid by chlorine, producing chloroethanoic acid and hydrogen chloride.",
+      "exam_type": "UTME",
+      "exam_year": 2018,
+      "source_label": "User-provided transcription labelled UTME 2018; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "5e3142d3-511c-4165-b252-056dca3e1ccc",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "ab031d0c-feee-42ab-baea-92766d97d4cf",
+      "topic_title": "Organic chemistry",
+      "question_text": "A plastic that cannot be softened and reshaped by heating is described as: (2018, Question 5)",
+      "options": [
+        "Thermosetting",
+        "Non-biodegradable",
+        "Thermoplastic",
+        "Malleable"
+      ],
+      "correct_option": 0,
+      "explanation": "Thermosetting plastics form a rigid cross-linked structure on setting and do not soften for reshaping when reheated.",
+      "exam_type": "UTME",
+      "exam_year": 2018,
+      "source_label": "User-provided transcription labelled UTME 2018; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "9087f6b4-bb6b-44c9-87ce-1a2a7f4726c2",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "ba932921-fa41-44ca-b6c4-f0ea48ad3268",
+      "topic_title": "Non-metals, metals and their compounds",
+      "question_text": "In which pair does each element exhibit allotropy? (2018, Question 13)",
+      "options": [
+        "Phosphorus and hydrogen",
+        "Phosphorus and sulphur",
+        "Oxygen and chlorine",
+        "Sulphur and nitrogen"
+      ],
+      "correct_option": 1,
+      "explanation": "Phosphorus has white, red and other allotropes; sulphur has rhombic and monoclinic forms.",
+      "exam_type": "UTME",
+      "exam_year": 2018,
+      "source_label": "User-provided transcription labelled UTME 2018; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "b54b35c3-d32e-4ee5-ab32-81d8caecbe52",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "ad7cf846-6f39-40c1-91f7-42e9c737774d",
+      "topic_title": "Chemical bonding",
+      "question_text": "What type of chemical bond exists between potassium and oxygen in potassium oxide, K₂O? (2018, Question 2)",
+      "options": [
+        "Ionic",
+        "Metallic",
+        "Covalent",
+        "Dative"
+      ],
+      "correct_option": 0,
+      "explanation": "Potassium transfers electrons to oxygen, forming K⁺ and O²⁻ ions held together by electrostatic attraction.",
+      "exam_type": "UTME",
+      "exam_year": 2018,
+      "source_label": "User-provided transcription labelled UTME 2018; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "42bb252d-05a5-46ed-8a04-155ea0a11f90",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "7fe3d4e1-a3c1-4ac8-88b0-2c5b8b3d9ee0",
+      "topic_title": "Energetics and thermochemistry",
+      "question_text": "The main product of the complete combustion of carbon in excess oxygen is: (2019, Question 8)",
+      "options": [
+        "Carbon(IV) oxide",
+        "Carbon(II) oxide",
+        "Carbon",
+        "Water"
+      ],
+      "correct_option": 0,
+      "explanation": "Complete combustion in excess oxygen produces carbon dioxide, CO₂.",
+      "exam_type": "UTME",
+      "exam_year": 2019,
+      "source_label": "User-provided transcription labelled UTME 2019; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "df14484a-54b1-4acb-9b4d-cdc39d7a103b",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "375d2148-1f90-4082-987d-5ac6f05fb258",
+      "topic_title": "Acids, bases, salts and pH",
+      "question_text": "Which of the following is a strong acid? (2019, Question 16)",
+      "options": [
+        "Propanoic acid, C₂H₅COOH",
+        "Ethanoic acid, CH₃COOH",
+        "Sulphuric acid, H₂SO₄",
+        "Ethanoic acid, CH₃COOH"
+      ],
+      "correct_option": 2,
+      "explanation": "Sulphuric acid is a strong acid in its first dissociation; simple carboxylic acids such as ethanoic and propanoic acids are weak acids.",
+      "exam_type": "UTME",
+      "exam_year": 2019,
+      "source_label": "User-provided transcription labelled UTME 2019; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "aeb07ece-1ca1-4614-ac9f-94da87801d44",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "375d2148-1f90-4082-987d-5ac6f05fb258",
+      "topic_title": "Acids, bases, salts and pH",
+      "question_text": "20 cm³ of 1.0 M H₂SO₄ is mixed with 20 cm³ of 1.0 M NaOH. Assuming additive volumes, what is the nature and concentration of the excess acid? (2019, Question 14)",
+      "options": [
+        "Acidic, with 0.25 M H₂SO₄ remaining",
+        "Neutral",
+        "Alkaline, with 0.25 M NaOH remaining",
+        "Alkaline, with 0.50 M NaOH remaining"
+      ],
+      "correct_option": 0,
+      "explanation": "H₂SO₄ supplies 2 acid equivalents. 0.020 mol H₂SO₄ requires 0.040 mol NaOH, but only 0.020 mol is added. The remaining acid is 0.010 mol H₂SO₄ in 0.040 dm³ = 0.25 M.",
+      "exam_type": "UTME",
+      "exam_year": 2019,
+      "source_label": "User-provided transcription labelled UTME 2019; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "b9b6b3a0-2ad5-4314-a086-bc302d2c9569",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "6097169a-348b-463a-96be-b59aba817775",
+      "topic_title": "Oxidation, reduction and electrochemistry",
+      "question_text": "What mass of aluminium is liberated by the same quantity of electricity that liberates 0.10 g of copper? (Al = 27, Cu = 63.5; Al³⁺, Cu²⁺) (2019, Question 18)",
+      "options": [
+        "0.018 g",
+        "0.027 g",
+        "0.054 g",
+        "0.27 g"
+      ],
+      "correct_option": 1,
+      "explanation": "By Faraday’s law, mass is proportional to equivalent mass. m(Al) = 0.10 × (27/3)/(63.5/2) ≈ 0.028 g; the nearest listed option is 0.027 g.",
+      "exam_type": "UTME",
+      "exam_year": 2019,
+      "source_label": "User-provided transcription labelled UTME 2019; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "fab86f0f-5dc8-4008-bafe-770c85fe5154",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "ad7cf846-6f39-40c1-91f7-42e9c737774d",
+      "topic_title": "Chemical bonding",
+      "question_text": "What are the shapes of CO₂, CH₄, H₂O and NH₃ respectively? (2019, Question 5)",
+      "options": [
+        "Bent, tetrahedral, linear, tetrahedral",
+        "Linear, tetrahedral, bent, trigonal pyramidal",
+        "Tetrahedral, linear, bent, trigonal planar",
+        "Linear, square planar, bent, tetrahedral"
+      ],
+      "correct_option": 1,
+      "explanation": "CO₂ is linear; CH₄ is tetrahedral; H₂O is bent because of two lone pairs; NH₃ is trigonal pyramidal because of one lone pair.",
+      "exam_type": "UTME",
+      "exam_year": 2019,
+      "source_label": "User-provided transcription labelled UTME 2019; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "82629bea-ab71-49ab-8adc-66fec0671e32",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "375d2148-1f90-4082-987d-5ac6f05fb258",
+      "topic_title": "Acids, bases, salts and pH",
+      "question_text": "What is the pH of a 0.001 mol dm⁻³ solution of sodium hydroxide at 25°C? (2019, Question 12)",
+      "options": [
+        "8",
+        "10",
+        "11",
+        "12"
+      ],
+      "correct_option": 2,
+      "explanation": "For a strong base, [OH⁻] = 10⁻³ M, so pOH = 3 and pH = 14 − 3 = 11.",
+      "exam_type": "UTME",
+      "exam_year": 2019,
+      "source_label": "User-provided transcription labelled UTME 2019; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "cc363aaa-666f-46e1-9996-5a9bd6531d90",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "e13f3038-5e2b-4baa-9bb1-4b8eb2141c30",
+      "topic_title": "Separation techniques and purity",
+      "question_text": "In a simple distillation process, the pure solvent is collected after the vapour undergoes: (2019, Question 2)",
+      "options": [
+        "Condensation",
+        "Filtration",
+        "Extraction",
+        "Evaporation"
+      ],
+      "correct_option": 0,
+      "explanation": "The solvent first vaporises and then condenses in the condenser to give the collected liquid.",
+      "exam_type": "UTME",
+      "exam_year": 2019,
+      "source_label": "User-provided transcription labelled UTME 2019; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "678ae9df-0072-4060-9252-f182dea2e9e6",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "375d2148-1f90-4082-987d-5ac6f05fb258",
+      "topic_title": "Acids, bases, salts and pH",
+      "question_text": "A salt formed from a strong acid and a strong base is generally: (2019, Question 13)",
+      "options": [
+        "Acidic",
+        "Basic",
+        "Complex",
+        "Neutral"
+      ],
+      "correct_option": 3,
+      "explanation": "A salt of a strong acid and a strong base, such as NaCl, does not appreciably hydrolyse and gives a nearly neutral solution.",
+      "exam_type": "UTME",
+      "exam_year": 2019,
+      "source_label": "User-provided transcription labelled UTME 2019; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "54014022-dbfb-4db8-8a4c-6fc8e50b77a2",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "ba932921-fa41-44ca-b6c4-f0ea48ad3268",
+      "topic_title": "Non-metals, metals and their compounds",
+      "question_text": "Helium is used in observation balloons because it is: (2019, Question 7)",
+      "options": [
+        "Light and combustible",
+        "Light and non-combustible",
+        "Heavy and combustible",
+        "Heavy and non-combustible"
+      ],
+      "correct_option": 1,
+      "explanation": "Helium has a lower density than air and is chemically inert and non-combustible, making it safer than hydrogen.",
+      "exam_type": "UTME",
+      "exam_year": 2019,
+      "source_label": "User-provided transcription labelled UTME 2019; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "a7d981a4-03ad-4548-8041-dc57c8e19147",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "e13f3038-5e2b-4baa-9bb1-4b8eb2141c30",
+      "topic_title": "Separation techniques and purity",
+      "question_text": "The presence of an impurity in a crystalline substance generally causes its melting point to: (2019, Question 1)",
+      "options": [
+        "Be reduced",
+        "Be increased",
+        "Remain the same",
+        "Become zero"
+      ],
+      "correct_option": 0,
+      "explanation": "Impurities generally lower and broaden the melting-point range of a pure crystalline substance.",
+      "exam_type": "UTME",
+      "exam_year": 2019,
+      "source_label": "User-provided transcription labelled UTME 2019; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "2c2de1aa-63ca-4417-8bdc-3a4091e32f96",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "6097169a-348b-463a-96be-b59aba817775",
+      "topic_title": "Oxidation, reduction and electrochemistry",
+      "question_text": "According to Faraday’s first law of electrolysis, the mass of a substance liberated at an electrode is directly proportional to the: (2019, Question 20)",
+      "options": [
+        "Quantity of electricity passed",
+        "Resistance of the electrolyte",
+        "Volume of the container",
+        "Temperature alone"
+      ],
+      "correct_option": 0,
+      "explanation": "For a given electrolyte, deposited mass is proportional to the charge passed: m ∝ Q = It.",
+      "exam_type": "UTME",
+      "exam_year": 2019,
+      "source_label": "User-provided transcription labelled UTME 2019; exact official-paper provenance not independently verified"
+    },
+    {
+      "id": "0d93982e-0a1b-4853-8f46-442a642ddddf",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "e13f3038-5e2b-4baa-9bb1-4b8eb2141c30",
+      "topic_title": "Separation techniques and purity",
+      "question_text": "Which reagent can be used to test for the presence of water? (2019, Question 9)",
+      "options": [
+        "Anhydrous copper(II) tetraoxosulphate(VI)",
+        "Concentrated hydrochloric acid",
+        "Potassium heptaoxodichromate(VI)",
+        "Copper(II) tetraoxosulphate(VI) solution"
+      ],
+      "correct_option": 0,
+      "explanation": "White anhydrous copper(II) sulfate turns blue when it becomes hydrated, indicating water. The duplicate A/B wording in the supplied choices is retained as a transcription note.",
+      "exam_type": "UTME",
+      "exam_year": 2019,
+      "source_label": "User-provided transcription labelled UTME 2019; exact official-paper provenance not independently verified"
     }
   ],
   "description": "FuturePath UTME offline pack. Contains original syllabus-informed practice questions; these are not official JAMB past questions.",
-  "exported_at": "2026-11-15T22:47:49.883Z",
+  "exported_at": "2026-11-15T00:00:00.000Z",
   "format_version": 1,
-  "pack_version": 2
+  "pack_version": 3
 }
