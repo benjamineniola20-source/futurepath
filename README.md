@@ -70,6 +70,12 @@ where p.id = u.id
 
 Only do this for the trusted owner account. Never allow public signup to choose its own role.
 
+## Android app build
+
+The repository includes a Capacitor 8 Android configuration and a GitHub Actions workflow for a test APK. Open **Actions → Build FuturePath Android APK → Run workflow** to build it. The generated debug APK is a testing build, not a Play Store release; release signing and store preparation are still required.
+
+Capacitor 8 uses the shared `dist` build output, with relative asset paths for Android and the `/futurepath/` base path for GitHub Pages. See the [official Capacitor Android guide](https://capacitorjs.com/docs/android).
+
 ## GitHub Pages prototype
 
 A GitHub Actions workflow builds and deploys the site from the `main` branch.
