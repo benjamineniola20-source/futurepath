@@ -193,7 +193,7 @@ export default function App(){
    return rows.map((r:any)=>({
     question_text:String(r.question_text||r.question||"").trim(),
     options:Array.isArray(r.options)?r.options:[r.a,r.b,r.c,r.d],
-    correct_option:typeof r.correct_option==="number"?r.correct_option:"ABCD".indexOf(String(r.answer||r.correct_answer||"").trim().toUpperCase()),
+    correct_option:typeof r.correct_option==="number"?r.correct_option:"ABCD".indexOf(String(r.correct_option||r.answer||r.correct_answer||"").trim().toUpperCase()),
     explanation:String(r.explanation||""),
     exam_year:r.exam_year?Number(r.exam_year):Number(importYear)
    }));
