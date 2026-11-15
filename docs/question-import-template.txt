@@ -1,0 +1,17 @@
+Question: Which part of a cell contains most of its genetic material?
+A: Nucleus
+B: Ribosome
+C: Cell membrane
+D: Cytoplasm
+Answer: A
+Year: 2023
+Explanation: The nucleus contains most of the cell's DNA and helps control cell activities.
+---
+Question: Which process do green plants use to manufacture food?
+A: Respiration
+B: Photosynthesis
+C: Transpiration
+D: Germination
+Answer: B
+Year: 2023
+Explanation: Photosynthesis uses light energy to convert carbon dioxide and water into glucose.
