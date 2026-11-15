@@ -11,7 +11,7 @@ export type OfflineQuestion = {
 };
 export type OfflineSnapshot = {
   subjects: OfflineSubject[]; topics: OfflineTopic[]; notes: OfflineNote[]; questions: OfflineQuestion[];
-  downloadedAt: string | null;
+  downloadedAt: string | null; packVersion?: number;
 };
 export type OfflineAttempt = {
   id: string; client_attempt_id: string; subject_id: string; mode: "quiz" | "practice" | "mock";
@@ -76,7 +76,7 @@ async function allValues<T>(storeName: string): Promise<T[]> {
 
 export async function getOfflineSnapshot(): Promise<OfflineSnapshot> {
   const cached = await readValue<OfflineSnapshot>(CONTENT_STORE, "snapshot");
-  if (cached?.subjects?.length && cached?.questions?.length) return cached;
+  if (cached?.packVersion === bundledPack.pack_version && cached?.subjects?.length && cached?.questions?.length) return cached;
 
   // Seed IndexedDB from the bundled question pack on a fresh install.
   const snapshot: OfflineSnapshot = {
@@ -85,6 +85,7 @@ export async function getOfflineSnapshot(): Promise<OfflineSnapshot> {
     notes: (bundledPack.notes || []) as OfflineNote[],
     questions: (bundledPack.questions || []) as OfflineQuestion[],
     downloadedAt: bundledPack.exported_at || null,
+    packVersion: bundledPack.pack_version || 1,
   };
   if (snapshot.subjects.length && snapshot.questions.length) {
     await writeValue(CONTENT_STORE, snapshot, "snapshot");
@@ -102,6 +103,7 @@ export async function syncOfflineContent(): Promise<OfflineSnapshot> {
     notes: data?.notes || [],
     questions: data?.questions || [],
     downloadedAt: new Date().toISOString(),
+    packVersion: bundledPack.pack_version || 1,
   } as OfflineSnapshot;
   await writeValue(CONTENT_STORE, snapshot, "snapshot");
   return snapshot;
