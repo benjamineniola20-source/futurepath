@@ -146,3 +146,20 @@ export function makeLocalId(): string {
     ? crypto.randomUUID()
     : `fp-${Date.now()}-${Math.random().toString(16).slice(2)}`;
 }
+
+export type OfflineAccount = { id: string; email: string; full_name?: string };
+export async function saveOfflineAccount(account: OfflineAccount): Promise<void> {
+  await writeValue(CONTENT_STORE, account, "offline-account");
+}
+export async function getOfflineAccount(): Promise<OfflineAccount | null> {
+  return (await readValue<OfflineAccount>(CONTENT_STORE, "offline-account")) || null;
+}
+export async function clearOfflineAccount(): Promise<void> {
+  const db = await openDb();
+  await new Promise<void>((resolve, reject) => {
+    const tx = db.transaction(CONTENT_STORE, "readwrite");
+    tx.objectStore(CONTENT_STORE).delete("offline-account");
+    tx.oncomplete = () => { db.close(); resolve(); };
+    tx.onerror = () => { db.close(); reject(tx.error); };
+  });
+}
