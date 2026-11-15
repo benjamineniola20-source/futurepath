@@ -1,7 +1,7 @@
 import { supabase } from "./supabase";
 
 export type OfflineSubject = { id: string; name: string; slug: string; description: string };
-export type OfflineTopic = { id: string; subject_id: string; title: string; slug: string; description: string };
+export type OfflineTopic = { id: string; subject_id: string; title: string; slug: string; description: string; sort_order: number };
 export type OfflineNote = { id: string; subject_id: string; topic_id?: string | null; title: string; summary: string; content: string };
 export type OfflineQuestion = {
   id: string; subject_id: string; topic_id?: string | null; topic_title: string | null;
