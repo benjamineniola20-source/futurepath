@@ -19,11 +19,12 @@ export default function AuthGate({ children }: Props) {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    if (!supabase) return;
+    const client = supabase;
+    if (!client) return;
     let active = true;
     const loadSession = async () => {
       try {
-        const { data } = await supabase.auth.getSession();
+        const { data } = await client.auth.getSession();
         if (!active) return;
         if (data.session) {
           setSession(data.session);
@@ -39,7 +40,7 @@ export default function AuthGate({ children }: Props) {
       }
     };
     loadSession();
-    const { data } = supabase.auth.onAuthStateChange((_event, nextSession) => {
+    const { data } = client.auth.onAuthStateChange((_event, nextSession) => {
       setSession(nextSession);
       if (nextSession) {
         const account = { id: nextSession.user.id, email: nextSession.user.email || "", full_name: String(nextSession.user.user_metadata?.full_name || "") };
