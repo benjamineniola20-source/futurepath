@@ -4840,9 +4840,459 @@
       "source_label": "FuturePath original UTME syllabus practice; not an official JAMB past question",
       "question_text": "The immediate purpose of warming up before exercise is to:",
       "correct_option": 0
+    },
+    {
+      "id": "f974d271-4fa0-4213-ba4f-b487a1738bf4",
+      "subject_id": "707da9a4-dc06-4c9b-8dd2-647620c800a8",
+      "topic_id": "a99e8ae0-2d22-4d89-8e53-ba57d7124b44",
+      "topic_title": "Grammar and structure",
+      "question_text": "Choose the option that correctly completes the sentence: Each of the candidates ____ given an identification number.",
+      "options": [
+        "were",
+        "have been",
+        "was",
+        "are"
+      ],
+      "correct_option": 2,
+      "explanation": "The subject is “Each”, which is singular; therefore, the singular verb “was” is required.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-aligned practice question; not an official past question"
+    },
+    {
+      "id": "12ba0286-1260-4de6-88a5-fb5c3ef811e6",
+      "subject_id": "707da9a4-dc06-4c9b-8dd2-647620c800a8",
+      "topic_id": "ae30e2c5-d855-4241-a663-75ea1fcdf6e5",
+      "topic_title": "Lexis and structure",
+      "question_text": "The word “meticulous” is closest in meaning to",
+      "options": [
+        "careless",
+        "thorough",
+        "impatient",
+        "ordinary"
+      ],
+      "correct_option": 1,
+      "explanation": "Meticulous means showing great attention to detail; “thorough” is the closest option.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-aligned practice question; not an official past question"
+    },
+    {
+      "id": "0eb04e59-8ed8-4e95-997b-b1a7451ce233",
+      "subject_id": "707da9a4-dc06-4c9b-8dd2-647620c800a8",
+      "topic_id": "a99e8ae0-2d22-4d89-8e53-ba57d7124b44",
+      "topic_title": "Grammar and structure",
+      "question_text": "Choose the correctly punctuated sentence.",
+      "options": [
+        "After the lecture, we went home.",
+        "After, the lecture we went home.",
+        "After the lecture we, went home.",
+        "After the, lecture we went home."
+      ],
+      "correct_option": 0,
+      "explanation": "A comma follows the introductory phrase “After the lecture”.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-aligned practice question; not an official past question"
+    },
+    {
+      "id": "0beb726a-b91c-48bc-9cfc-15ea4a954a9e",
+      "subject_id": "707da9a4-dc06-4c9b-8dd2-647620c800a8",
+      "topic_id": "ae30e2c5-d855-4241-a663-75ea1fcdf6e5",
+      "topic_title": "Lexis and structure",
+      "question_text": "Choose the word opposite in meaning to “scarce”.",
+      "options": [
+        "rare",
+        "limited",
+        "abundant",
+        "insufficient"
+      ],
+      "correct_option": 2,
+      "explanation": "Scarce means not enough or hard to find; abundant means plentiful.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-aligned practice question; not an official past question"
+    },
+    {
+      "id": "6234c32a-7c7e-47cc-8e2d-de7078095f77",
+      "subject_id": "707da9a4-dc06-4c9b-8dd2-647620c800a8",
+      "topic_id": "a99e8ae0-2d22-4d89-8e53-ba57d7124b44",
+      "topic_title": "Grammar and structure",
+      "question_text": "Neither the students nor the teacher ____ aware of the change.",
+      "options": [
+        "were",
+        "are",
+        "have been",
+        "was"
+      ],
+      "correct_option": 3,
+      "explanation": "With neither…nor, the verb agrees with the nearer subject. “Teacher” is singular, so “was” is correct.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-aligned practice question; not an official past question"
+    },
+    {
+      "id": "7d949b82-b2f0-408d-89a8-cad8502986a9",
+      "subject_id": "771b85be-8273-4479-8eaf-92b861c2c586",
+      "topic_id": "9b9de790-8535-411b-9f29-6cab8fe87c51",
+      "topic_title": "Algebra",
+      "question_text": "Solve for x: 4x − 7 = 21.",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correct_option": 2,
+      "explanation": "Add 7 to both sides: 4x = 28. Divide by 4 to obtain x = 7.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-aligned practice question; not an official past question"
+    },
+    {
+      "id": "87707576-b8a8-43ca-abb4-6c891c642bf5",
+      "subject_id": "771b85be-8273-4479-8eaf-92b861c2c586",
+      "topic_id": "40e506ac-5e70-4519-8ffb-2e9079fa99af",
+      "topic_title": "Indices, logarithms and surds",
+      "question_text": "Evaluate 2³ × 2².",
+      "options": [
+        "16",
+        "24",
+        "32",
+        "64"
+      ],
+      "correct_option": 2,
+      "explanation": "For powers with the same base, add the indices: 2³ × 2² = 2⁵ = 32.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-aligned practice question; not an official past question"
+    },
+    {
+      "id": "ec8db2ea-32c6-4611-9baf-00bcce2b496e",
+      "subject_id": "771b85be-8273-4479-8eaf-92b861c2c586",
+      "topic_id": "d82d85a9-fefd-4768-bf2f-7d61b4712e33",
+      "topic_title": "Geometry",
+      "question_text": "The sum of the interior angles of a hexagon is",
+      "options": [
+        "360°",
+        "540°",
+        "720°",
+        "900°"
+      ],
+      "correct_option": 2,
+      "explanation": "The sum is (n − 2) × 180°. For n = 6, this is 4 × 180° = 720°.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-aligned practice question; not an official past question"
+    },
+    {
+      "id": "0f97f5ba-39d3-4e09-a5de-209a1f99f124",
+      "subject_id": "771b85be-8273-4479-8eaf-92b861c2c586",
+      "topic_id": "d857aee4-0643-4a42-9db8-d087bc4cafb1",
+      "topic_title": "Sets, ratio, proportion and percentages",
+      "question_text": "A trader buys an item for ₦8,000 and sells it for ₦10,000. What is the percentage profit?",
+      "options": [
+        "20%",
+        "25%",
+        "30%",
+        "40%"
+      ],
+      "correct_option": 1,
+      "explanation": "Profit = ₦10,000 − ₦8,000 = ₦2,000. Percentage profit = (2,000/8,000) × 100 = 25%.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-aligned practice question; not an official past question"
+    },
+    {
+      "id": "709a0431-6aa6-42df-8032-ea3ec727a8fe",
+      "subject_id": "771b85be-8273-4479-8eaf-92b861c2c586",
+      "topic_id": "2d5bd9b4-ae50-4e6c-a808-0aad1a78e1d1",
+      "topic_title": "Sequences and series",
+      "question_text": "Find the 8th term of the arithmetic sequence 3, 7, 11, 15, …",
+      "options": [
+        "27",
+        "29",
+        "31",
+        "35"
+      ],
+      "correct_option": 2,
+      "explanation": "The first term is 3 and common difference is 4. T₈ = 3 + (8 − 1)×4 = 31.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-aligned practice question; not an official past question"
+    },
+    {
+      "id": "8f9b6a58-8041-4c73-8962-65f3af895582",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": "810b2a54-acbb-4cd0-8128-8d0371a60bb1",
+      "topic_title": "Cell structure and organisation",
+      "question_text": "Which cell organelle is primarily responsible for aerobic respiration?",
+      "options": [
+        "Ribosome",
+        "Mitochondrion",
+        "Golgi apparatus",
+        "Lysosome"
+      ],
+      "correct_option": 1,
+      "explanation": "Mitochondria contain the machinery for most stages of aerobic respiration and ATP production.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-aligned practice question; not an official past question"
+    },
+    {
+      "id": "a1380778-2173-4116-814b-a17dd7403500",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": "23a318ff-be17-4b83-a205-9ee2ba8dba1c",
+      "topic_title": "Nutrition",
+      "question_text": "The main product of photosynthesis that stores chemical energy is",
+      "options": [
+        "oxygen",
+        "glucose",
+        "carbon dioxide",
+        "water"
+      ],
+      "correct_option": 1,
+      "explanation": "Photosynthesis converts light energy into chemical energy stored in carbohydrates such as glucose.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-aligned practice question; not an official past question"
+    },
+    {
+      "id": "93f0292b-a01b-49b5-a119-5047bd0df1e6",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": "4036c423-9257-4c4b-8fd3-dc09970cdfe5",
+      "topic_title": "Ecology",
+      "question_text": "Organisms that break down dead organic matter and recycle nutrients are called",
+      "options": [
+        "producers",
+        "consumers",
+        "decomposers",
+        "parasites"
+      ],
+      "correct_option": 2,
+      "explanation": "Decomposers, especially bacteria and fungi, break down dead matter and return nutrients to ecosystems.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-aligned practice question; not an official past question"
+    },
+    {
+      "id": "4cb06a3c-a37d-4ead-a198-bcdda8b417ca",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": "4541091f-d2e8-4e0a-935f-c43a0fa23773",
+      "topic_title": "Respiration and energy release",
+      "question_text": "Which substance is the final electron acceptor in aerobic respiration?",
+      "options": [
+        "Carbon dioxide",
+        "Oxygen",
+        "Glucose",
+        "Nitrogen"
+      ],
+      "correct_option": 1,
+      "explanation": "Oxygen accepts electrons and hydrogen ions at the end of the electron transport chain, forming water.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-aligned practice question; not an official past question"
+    },
+    {
+      "id": "f14a20f8-bf21-4c42-af74-ba7650f2c7b8",
+      "subject_id": "f0d313a0-93ca-4c83-b767-540091959555",
+      "topic_id": "e2e07386-babb-44db-aeec-a00cc29f9ec3",
+      "topic_title": "Reproduction and development",
+      "question_text": "If T represents a dominant allele and t a recessive allele, which genotype is heterozygous?",
+      "options": [
+        "TT",
+        "tt",
+        "Tt",
+        "T"
+      ],
+      "correct_option": 2,
+      "explanation": "A heterozygous individual has two different alleles for a gene: Tt.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-aligned practice question; not an official past question"
+    },
+    {
+      "id": "324c922e-9953-4522-b1e3-d567a1a99aaa",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "6ad70051-081d-4c37-817f-70c503666318",
+      "topic_title": "Atomic structure",
+      "question_text": "An atom has atomic number 17. How many protons does it contain?",
+      "options": [
+        "7",
+        "17",
+        "18",
+        "34"
+      ],
+      "correct_option": 1,
+      "explanation": "The atomic number is defined as the number of protons in the nucleus.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-aligned practice question; not an official past question"
+    },
+    {
+      "id": "146f4bfb-ebdf-4b88-b056-cd8de2e8fd49",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "ad7cf846-6f39-40c1-91f7-42e9c737774d",
+      "topic_title": "Chemical bonding",
+      "question_text": "The bond formed by transfer of electrons from one atom to another is",
+      "options": [
+        "covalent",
+        "metallic",
+        "ionic",
+        "hydrogen"
+      ],
+      "correct_option": 2,
+      "explanation": "Ionic bonding involves electron transfer, producing oppositely charged ions held by electrostatic attraction.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-aligned practice question; not an official past question"
+    },
+    {
+      "id": "f5d2d223-454b-44a4-b612-14d2b3dd1c28",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "d99b6aee-a493-4d47-9a3b-cab901299820",
+      "topic_title": "Chemical formulae, equations and stoichiometry",
+      "question_text": "How many moles are present in 18 g of water? (H₂O = 18 g mol⁻¹)",
+      "options": [
+        "0.5",
+        "1.0",
+        "1.5",
+        "2.0"
+      ],
+      "correct_option": 1,
+      "explanation": "Moles = mass ÷ molar mass = 18 ÷ 18 = 1 mol.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-aligned practice question; not an official past question"
+    },
+    {
+      "id": "8d1ba395-5a09-436f-aa80-5285ce46ffd4",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "375d2148-1f90-4082-987d-5ac6f05fb258",
+      "topic_title": "Acids, bases, salts and pH",
+      "question_text": "A solution with pH 3 is",
+      "options": [
+        "acidic",
+        "neutral",
+        "alkaline",
+        "a pure salt"
+      ],
+      "correct_option": 0,
+      "explanation": "A pH below 7 indicates an acidic solution at ordinary conditions.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-aligned practice question; not an official past question"
+    },
+    {
+      "id": "761ff2dc-11fa-4e7e-ac06-64d6b7b41bb6",
+      "subject_id": "f68e159c-2e55-4546-a34d-2adc7bfe4bc0",
+      "topic_id": "ab031d0c-feee-42ab-baea-92766d97d4cf",
+      "topic_title": "Organic chemistry",
+      "question_text": "The functional group present in ethanol is",
+      "options": [
+        "–COOH",
+        "–OH",
+        "–CHO",
+        "–NH₂"
+      ],
+      "correct_option": 1,
+      "explanation": "Ethanol is an alcohol; alcohols contain the hydroxyl functional group, –OH.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-aligned practice question; not an official past question"
+    },
+    {
+      "id": "3fc9e5c6-c68d-46dc-8c4d-0b8e23d92d18",
+      "subject_id": "75c0e8cc-e518-4310-8893-081787251b37",
+      "topic_id": "d1df0cf2-45b2-4867-ac19-5bd95e11a3b1",
+      "topic_title": "Motion",
+      "question_text": "A car travels 150 m in 10 s. Its average speed is",
+      "options": [
+        "10 m/s",
+        "15 m/s",
+        "20 m/s",
+        "25 m/s"
+      ],
+      "correct_option": 1,
+      "explanation": "Average speed = distance ÷ time = 150 ÷ 10 = 15 m/s.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-aligned practice question; not an official past question"
+    },
+    {
+      "id": "f37d6383-d8db-428d-9b24-8fa3632d1d0e",
+      "subject_id": "75c0e8cc-e518-4310-8893-081787251b37",
+      "topic_id": "f2ed7d6b-589f-4d7f-b69d-80fe3af54962",
+      "topic_title": "Electricity",
+      "question_text": "A current of 2 A flows through a 5 Ω resistor. What is the potential difference?",
+      "options": [
+        "2.5 V",
+        "5 V",
+        "10 V",
+        "20 V"
+      ],
+      "correct_option": 2,
+      "explanation": "By Ohm’s law, V = IR = 2 × 5 = 10 V.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-aligned practice question; not an official past question"
+    },
+    {
+      "id": "c5112626-383b-47d4-aabf-705853b9beef",
+      "subject_id": "75c0e8cc-e518-4310-8893-081787251b37",
+      "topic_id": "ae264772-539b-4c1d-8f26-3264aefaecf6",
+      "topic_title": "Work, energy, power and machines",
+      "question_text": "A force of 20 N moves an object 3 m in the direction of the force. The work done is",
+      "options": [
+        "6 J",
+        "17 J",
+        "23 J",
+        "60 J"
+      ],
+      "correct_option": 3,
+      "explanation": "Work done = force × displacement in the direction of the force = 20 × 3 = 60 J.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-aligned practice question; not an official past question"
+    },
+    {
+      "id": "c994ec2e-1605-4c33-a93e-f5d4b31b87ff",
+      "subject_id": "75c0e8cc-e518-4310-8893-081787251b37",
+      "topic_id": "db336c4e-12fa-49da-b588-13b4c6a2a4bb",
+      "topic_title": "Waves",
+      "question_text": "A wave has frequency 5 Hz and wavelength 2 m. Its speed is",
+      "options": [
+        "2.5 m/s",
+        "7 m/s",
+        "10 m/s",
+        "15 m/s"
+      ],
+      "correct_option": 2,
+      "explanation": "Wave speed v = frequency × wavelength = 5 × 2 = 10 m/s.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-aligned practice question; not an official past question"
+    },
+    {
+      "id": "aa9435a1-1152-4d7c-a1b9-ed7d27928e80",
+      "subject_id": "75c0e8cc-e518-4310-8893-081787251b37",
+      "topic_id": "19c6c6e9-12f1-4443-96ab-e9a3cfc83265",
+      "topic_title": "Heat, temperature and gas laws",
+      "question_text": "The SI unit of specific heat capacity is",
+      "options": [
+        "J kg⁻¹ K⁻¹",
+        "J kg K",
+        "W m⁻¹",
+        "N kg⁻¹"
+      ],
+      "correct_option": 0,
+      "explanation": "Specific heat capacity is energy per unit mass per unit temperature rise, measured in J kg⁻¹ K⁻¹.",
+      "exam_type": "PRACTICE",
+      "exam_year": null,
+      "source_label": "FuturePath original syllabus-aligned practice question; not an official past question"
     }
   ],
-  "description": "Bundled FuturePath offline starter bank. These are original UTME-syllabus practice questions, not historical JAMB papers.",
-  "exported_at": "2026-11-15T20:48:55.812308+00:00",
+  "description": "FuturePath UTME offline starter pack. Questions labelled FuturePath original practice are not official JAMB past questions.",
+  "exported_at": "2026-11-15T21:00:53.205Z",
   "format_version": 1
 }
