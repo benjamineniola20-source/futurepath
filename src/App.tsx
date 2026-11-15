@@ -26,7 +26,7 @@ export default function App(){
  const [subjectId,setSubjectId]=useState(""),[search,setSearch]=useState(""),[activeNote,setActiveNote]=useState<Note|null>(null),[activeTopic,setActiveTopic]=useState<Topic|null>(null),[mobile,setMobile]=useState(false);
  const [questions,setQuestions]=useState<Question[]>([]),[answers,setAnswers]=useState<Record<string,number>>({}),[reviews,setReviews]=useState<Record<string,{correct_option:number;explanation:string}>>({}),[index,setIndex]=useState(0),[started,setStarted]=useState(false),[result,setResult]=useState<{score_percent:number;correct_answers:number;total_questions:number}|null>(null),[busy,setBusy]=useState(false);
  const [year,setYear]=useState("2023"),[pastSubject,setPastSubject]=useState("");
- const [isOnline,setIsOnline]=useState(typeof navigator==="undefined"?true:navigator.onLine),[downloadBusy,setDownloadBusy]=useState(false),[questionBankCount,setQuestionBankCount]=useState(0);
+ const [isOnline,setIsOnline]=useState(typeof navigator==="undefined"?true:navigator.onLine),[questionBankCount,setQuestionBankCount]=useState(0);
  const [quizMode,setQuizMode]=useState<"quiz"|"mock">("quiz"),[examStartedAt,setExamStartedAt]=useState(0),[secondsLeft,setSecondsLeft]=useState(0);
  const submittingRef=useRef(false);
  const submitQuizRef=useRef<()=>Promise<void>>(async()=>{});
@@ -35,10 +35,10 @@ export default function App(){
  const [editingQuestionId,setEditingQuestionId]=useState<string|null>(null);
  const [importText,setImportText]=useState("");
  const [importSubjectId,setImportSubjectId]=useState("");
- const [importYear,setImportYear]=useState("2023");
- const [importSource,setImportSource]=useState("User-provided past-question material");
+ const [importYear,setImportYear]=useState("");
+ const [importSource,setImportSource]=useState("Original FuturePath practice material — not official JAMB");
  const [importFileName,setImportFileName]=useState("");
- const [qForm,setQForm]=useState({subject_id:"",question_text:"",a:"",b:"",c:"",d:"",correct_option:"0",explanation:"",exam_type:"UTME",exam_year:""});
+ const [qForm,setQForm]=useState({subject_id:"",question_text:"",a:"",b:"",c:"",d:"",correct_option:"0",explanation:"",exam_type:"PRACTICE",exam_year:""});
  const [nForm,setNForm]=useState({subject_id:"",title:"",summary:"",content:""});
  async function refresh(){
   setLoading(true);
@@ -106,24 +106,13 @@ export default function App(){
    window.removeEventListener("focus",syncWhenAvailable);document.removeEventListener("visibilitychange",visible);
   };
  },[]);
- async function downloadForOffline(){
-  if(!supabase||!navigator.onLine){setError("Connect to the internet to download the offline library.");return}
-  setDownloadBusy(true);setError("");
-  try{
-   const snapshot=await syncOfflineContent();
-   setSubjects(snapshot.subjects);setTopics(snapshot.topics);setNotes(snapshot.notes);setQuestionBankCount(snapshot.questions.length);
-   setNotice(`Downloaded ${snapshot.subjects.length} subjects, ${snapshot.notes.length} notes and ${snapshot.questions.length} questions for offline use.`);
-   await syncPendingOfflineAttempts();
-  }catch(e){setError(e instanceof Error?e.message:"Download failed. Please try again.")}
-  finally{setDownloadBusy(false)}
- }
  useEffect(()=>{if(!subjectId&&subjects.length)setSubjectId(subjects[0].id)},[subjects,subjectId]);
  const subjectName=(id:string|null)=>subjects.find(s=>s.id===id)?.name||"General";
  const avg=attempts.length?attempts.reduce((v,a)=>v+Number(a.score_percent),0)/attempts.length:0;
  const count=attempts.reduce((v,a)=>v+Number(a.total_questions||0),0);
  const visibleNotes=useMemo(()=>notes.filter(n=>(n.title+" "+n.summary+" "+subjectName(n.subject_id)).toLowerCase().includes(search.toLowerCase())&&(!subjectId||n.subject_id===subjectId)&&(!activeTopic||n.topic_id===activeTopic.id)),[notes,search,subjectId,subjects,activeTopic]);
  const visibleTopics=useMemo(()=>topics.filter(t=>(!subjectId||t.subject_id===subjectId)&&(t.title+" "+t.description+" "+subjectName(t.subject_id)).toLowerCase().includes(search.toLowerCase())),[topics,subjectId,search,subjects]);
- const nav=[["dashboard","Dashboard",LayoutDashboard],["study","Study notes",BookOpen],["quiz","Quiz activity",Brain],["past","Past questions",Clock3],["progress","My progress",Activity]] as const;
+ const nav=[["dashboard","Dashboard",LayoutDashboard],["study","Study notes",BookOpen],["quiz","Quiz activity",Brain],["past","Question bank",Clock3],["progress","My progress",Activity]] as const;
  function go(p:Page){setPage(p);setMobile(false);setError("");setNotice("");setActiveNote(null)}
  async function startQuiz(mode:"quiz"|"mock"="quiz",sid=subjectId,examYear:number|null=null){
   if(!sid){setError("Choose a subject first.");return}
@@ -136,7 +125,7 @@ export default function App(){
    const pool=snapshot.questions.filter(q=>q.subject_id===sid&&(!examYear||(q.exam_type==="UTME"&&q.exam_year===examYear)));
    const shuffled=[...pool].sort(()=>Math.random()-.5);
    const chosen=shuffled.slice(0,Math.min(mode==="mock"?40:10,shuffled.length));
-   if(!chosen.length){setError(examYear?`No ${examYear} questions for this subject have been downloaded yet.`:"No downloaded questions are available for this subject. Connect and download the offline library first.");return}
+   if(!chosen.length){setError(examYear?`No ${examYear} questions for this subject have been downloaded yet.`:"No bundled practice questions are available for this subject yet.");return}
    const now=Date.now();setQuestions(chosen);setIndex(0);setQuizMode(mode);setExamStartedAt(now);
    setSecondsLeft(mode==="mock"?40*60:10*60);setStarted(true);setPage("quiz");
    await saveActiveExam({questions:chosen,answers:{},index:0,mode,subjectId:sid,startedAt:now,deadline:now+(mode==="mock"?40*60:10*60)*1000});
@@ -220,7 +209,7 @@ export default function App(){
     options:Array.isArray(r.options)?r.options:[r.a,r.b,r.c,r.d],
     correct_option:typeof r.correct_option==="number"?r.correct_option:"ABCD".indexOf(String(r.correct_option||r.answer||r.correct_answer||"").trim().toUpperCase()),
     explanation:String(r.explanation||""),
-    exam_year:r.exam_year?Number(r.exam_year):Number(importYear)
+    exam_year:r.exam_year?Number(r.exam_year):(Number(importYear)||null)
    }));
   }
   return trimmed.split(/\\n\\s*---+\\s*\\n/g).map(block=>{
@@ -228,7 +217,7 @@ export default function App(){
    const question=(block.match(/^\\s*Question\\s*:\\s*([\\s\\S]*?)(?=^\\s*A\\s*[:.)]|$)/im)?.[1]||"").trim();
    const options=["A","B","C","D"].map(k=>value(k));
    const answer=value("Answer").toUpperCase().replace(/[^A-D]/g,"");
-   return {question_text:question,options,correct_option:"ABCD".indexOf(answer[0]||""),explanation:value("Explanation"),exam_year:Number(value("Year")||importYear)};
+   return {question_text:question,options,correct_option:"ABCD".indexOf(answer[0]||""),explanation:value("Explanation"),exam_year:Number(value("Year")||importYear)||null};
   });
  }
  async function importQuestions(e:FormEvent){
@@ -244,14 +233,14 @@ export default function App(){
    const rows=parsed.map((q:any)=>({
     subject_id:importSubjectId,question_text:q.question_text,options:q.options,
     correct_option:q.correct_option,explanation:q.explanation||'',
-    exam_type:'PRACTICE',exam_year:q.exam_year||Number(importYear),
+    exam_type:'PRACTICE',exam_year:q.exam_year||null,
     source_label:importSource,published:true,created_by:createdBy
    }));
    const invalid=rows.findIndex((q:any)=>!q.question_text||!Array.isArray(q.options)||q.options.length!==4||q.options.some((o:any)=>!String(o||"").trim())||![0,1,2,3].includes(q.correct_option));
    if(invalid>=0)throw new Error("Question "+(invalid+1)+" is incomplete. Each question needs its text, four options (A–D), and a valid answer.");
    const {error:insertError}=await supabase.from("questions").insert(rows);
    if(insertError)throw insertError;
-   setNotice("Successfully imported and published "+rows.length+" questions. They will be included in the next offline download.");
+   setNotice("Successfully imported and published "+rows.length+" questions. They will be available after the next content sync. Bundling them into a new installable app requires a new app build.");
    setImportText("");setImportFileName("");await refreshAdminData();
   }catch(err){
    setError(err instanceof Error?err.message:"Import failed. Check the file format and try again.");
@@ -269,9 +258,9 @@ export default function App(){
    {profile?.role==="admin"&&<button className={page==="admin"?"fp-nav active":"fp-nav"} onClick={()=>go("admin")}><ShieldCheck size={18}/>Admin dashboard</button>}
    <div className="fp-side-bottom"><div className="fp-side-tip"><Target/><b>Keep moving forward</b><p>Consistent practice builds confidence.</p></div><button className="fp-nav" onClick={()=>supabase?.auth.signOut()}><LogOut size={18}/>Sign out</button></div>
   </aside>{mobile&&<button className="fp-scrim" onClick={()=>setMobile(false)}/>}
-  <main className="fp-main"><header className="fp-topbar"><button className="fp-menu" onClick={()=>setMobile(true)}><Menu/></button><div><small>YOUR LEARNING SPACE</small><b>{page==="dashboard"?"Dashboard":page==="study"?"Study centre":page==="quiz"?"Quiz activity":page==="past"?"Past questions":page==="progress"?"My progress":"Admin dashboard"}</b></div><div className="fp-user"><span>{(profile?.full_name||"S")[0].toUpperCase()}</span><div><b>{profile?.full_name||"Student"}</b><small>{profile?.role==="admin"?"Administrator":"UTME Candidate"}</small></div></div></header>
+  <main className="fp-main"><header className="fp-topbar"><button className="fp-menu" onClick={()=>setMobile(true)}><Menu/></button><div><small>YOUR LEARNING SPACE</small><b>{page==="dashboard"?"Dashboard":page==="study"?"Study centre":page==="quiz"?"Quiz activity":page==="past"?"Question bank":page==="progress"?"My progress":"Admin dashboard"}</b></div><div className="fp-user"><span>{(profile?.full_name||"S")[0].toUpperCase()}</span><div><b>{profile?.full_name||"Student"}</b><small>{profile?.role==="admin"?"Administrator":"UTME Candidate"}</small></div></div></header>
    <div className="fp-content">
-    <div className="fp-offline-tools"><span className={isOnline?"fp-online":"fp-offline"}>{isOnline?"● Online":"● Offline — downloaded learning materials remain available"}</span><button className="fp-secondary" disabled={!isOnline||downloadBusy} onClick={downloadForOffline}>{downloadBusy?"Downloading…":"Download for offline"}</button></div>
+    <div className="fp-offline-tools"><span className={isOnline?"fp-online":"fp-offline"}>{isOnline?"● Online — learning library included with the app":"● Offline — learning library available on this device"}</span><span>Core learning materials are built into this app.</span></div>
     {loading&&<p className="fp-loading">Loading your learning space…</p>}
     {error&&<div className="fp-alert error">{error}<button onClick={()=>setError("")}>×</button></div>}{notice&&<div className="fp-alert success">{notice}<button onClick={()=>setNotice("")}>×</button></div>}
     {!loading&&page==="dashboard"&&<><section className="fp-welcome"><div><small>YOUR FUTURE STARTS HERE</small><h1>Welcome back, {profile?.full_name?.split(" ")[0]||"Student"}.</h1><p>Make every study session count. Your next step starts here.</p></div><GraduationCap size={54}/></section>
