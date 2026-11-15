@@ -24,6 +24,7 @@ export default function App(){
  const [isOnline,setIsOnline]=useState(typeof navigator==="undefined"?true:navigator.onLine),[downloadBusy,setDownloadBusy]=useState(false);
  const [quizMode,setQuizMode]=useState<"quiz"|"mock">("quiz"),[examStartedAt,setExamStartedAt]=useState(0),[secondsLeft,setSecondsLeft]=useState(0);
  const submittingRef=useRef(false);
+ const submitQuizRef=useRef<()=>Promise<void>>(async()=>{});
  const [adminTab,setAdminTab]=useState<"question"|"note">("question");
  const [qForm,setQForm]=useState({subject_id:"",question_text:"",a:"",b:"",c:"",d:"",correct_option:"0",explanation:"",exam_type:"UTME",exam_year:""});
  const [nForm,setNForm]=useState({subject_id:"",title:"",summary:"",content:""});
@@ -149,9 +150,10 @@ export default function App(){
   }catch(e){setError(e instanceof Error?e.message:"Could not save this attempt on your device.")}
   finally{setBusy(false);submittingRef.current=false}
  }
+ submitQuizRef.current=submitQuiz;
  useEffect(()=>{
   if(!started)return;
-  const tick=()=>{const end=examStartedAt+(quizMode==="mock"?40*60:10*60)*1000;const left=Math.max(0,Math.ceil((end-Date.now())/1000));setSecondsLeft(left);if(left===0)submitQuiz()};
+  const tick=()=>{const end=examStartedAt+(quizMode==="mock"?40*60:10*60)*1000;const left=Math.max(0,Math.ceil((end-Date.now())/1000));setSecondsLeft(left);if(left===0)submitQuizRef.current()};
   tick();const timer=window.setInterval(tick,1000);return()=>window.clearInterval(timer);
  },[started,examStartedAt,quizMode]);
  async function saveQuestion(e:FormEvent){
