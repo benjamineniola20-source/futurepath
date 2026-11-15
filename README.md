@@ -2,6 +2,22 @@
 
 FuturePath is a mobile-first UTME and Post-UTME preparation platform for Nigerian students.
 
+## Current build
+
+FuturePath is being built as an offline-first application with one shared React codebase for the web and Android app. The Android experience is designed around downloaded learning content, local exam sessions and later synchronisation.
+
+### Offline-first foundation
+
+- Installable web app manifest and service worker for the app shell.
+- IndexedDB storage for downloaded subjects, topics, notes, questions and attempts.
+- Student practice questions are selected from the local library and marked on the device without a live server request.
+- Timed CBT sessions and answers are saved locally and restored if the app is closed or interrupted.
+- Completed attempts are queued and synchronised when the device reconnects.
+- A unique client attempt ID prevents duplicate server records when a sync is retried.
+- Previously signed-in users can reopen the app offline on the same device after downloading content.
+
+**Important:** the student must sign in and download content while connected before first offline use. Only downloaded question packs and notes are available without internet. The current starter library is small; it is not yet a complete JAMB archive. Offline marking requires answer keys on the device, so this is designed for learning and practice, not tamper-proof high-stakes examinations.
+
 ## Current prototype
 
 - Supabase email/password authentication and student profiles.
@@ -9,7 +25,7 @@ FuturePath is a mobile-first UTME and Post-UTME preparation platform for Nigeria
 - Five subjects: English, Mathematics, Biology, Chemistry and Physics.
 - Topic-based study notes stored in Supabase.
 - Randomised quiz and mock-question flows.
-- Secure server-side answer marking and attempt recording.
+- Offline answer marking and local attempt recording, with server synchronisation when online.
 - Past-question archive filters by subject and year.
 - Admin-only content publishing for questions and study notes.
 - Row Level Security on the learning and student data tables.
@@ -62,7 +78,7 @@ A GitHub Actions workflow builds and deploys the site from the `main` branch.
 2. Under **Build and deployment**, set **Source** to **GitHub Actions**.
 3. Open the **Actions** tab and check the “Deploy FuturePath prototype” workflow.
 
-The intended site address is:
+The installable web app is available from the same site. Android packaging with Capacitor is the next delivery stage; an Android APK/AAB has not yet been built.\n\nThe intended site address is:
 
 `https://benjamineniola20-source.github.io/futurepath/`
 
