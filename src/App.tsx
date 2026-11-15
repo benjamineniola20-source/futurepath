@@ -30,7 +30,7 @@ export default function App(){
  const [quizMode,setQuizMode]=useState<"quiz"|"mock">("quiz"),[examStartedAt,setExamStartedAt]=useState(0),[secondsLeft,setSecondsLeft]=useState(0);
  const submittingRef=useRef(false);
  const submitQuizRef=useRef<()=>Promise<void>>(async()=>{});
- const [adminTab,setAdminTab]=useState<"overview"|"students"|"performance"|"questions"|"content"|"import"|"note">("overview");
+ const [adminTab,setAdminTab]=useState<"overview"|"students"|"performance"|"questions"|"content"|"import"|"note"|"question">("overview");
  const [adminStudents,setAdminStudents]=useState<AdminStudent[]>([]),[adminAttempts,setAdminAttempts]=useState<AdminAttempt[]>([]),[adminQuestions,setAdminQuestions]=useState<AdminQuestion[]>([]),[adminNotes,setAdminNotes]=useState<AdminNote[]>([]);
  const [editingQuestionId,setEditingQuestionId]=useState<string|null>(null);
  const [importText,setImportText]=useState("");
