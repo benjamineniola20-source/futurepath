@@ -1,4 +1,4 @@
-const CACHE_NAME = "futurepath-shell-v1";
+const CACHE_NAME = "futurepath-shell-v2";
 const APP_BASE = new URL(self.registration.scope).pathname;
 const APP_ENTRY = APP_BASE.endsWith("/") ? APP_BASE : APP_BASE + "/";
 
