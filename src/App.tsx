@@ -2,7 +2,7 @@ import { FormEvent, useEffect, useMemo, useRef, useState } from "react";
 import { Activity, BookOpen, Brain, CheckCircle2, ChevronRight, Clock3, GraduationCap, LayoutDashboard, LogOut, Menu, Search, ShieldCheck, Target, Trophy, X } from "lucide-react";
 import { supabase } from "./lib/supabase";
 import {
-  clearActiveExam, getActiveExam, getLocalAttempts, getOfflineSnapshot, makeLocalId,
+  clearActiveExam, getActiveExam, getLocalAttempts, getOfflineAccount, getOfflineSnapshot, makeLocalId,
   saveActiveExam, saveOfflineAttempt, syncOfflineContent, syncPendingOfflineAttempts,
   type OfflineAttempt, type OfflineQuestion
 } from "./lib/offline";
@@ -35,6 +35,8 @@ export default function App(){
    if(cached.notes.length)setNotes(cached.notes);
    const local=await getLocalAttempts();
    if(!navigator.onLine||!supabase){
+    const account=await getOfflineAccount();
+    if(account)setProfile({full_name:account.full_name||"",role:"student"});
     setAttempts(local.map(a=>({id:a.client_attempt_id,client_attempt_id:a.client_attempt_id,subject_id:a.subject_id,score_percent:a.score_percent,correct_answers:a.correct_answers,total_questions:a.total_questions,started_at:a.started_at,mode:a.mode})));
     setLoading(false);return;
    }
@@ -67,7 +69,6 @@ export default function App(){
   getActiveExam<{questions:Question[];answers:Record<string,number>;index:number;mode:"quiz"|"mock";subjectId:string;startedAt:number;deadline:number}>()
    .then(exam=>{
     if(!exam)return;
-    if(exam.deadline<=Date.now()){clearActiveExam();return}
     setQuestions(exam.questions);setAnswers(exam.answers||{});setIndex(exam.index||0);
     setQuizMode(exam.mode);setSubjectId(exam.subjectId);setExamStartedAt(exam.startedAt);
     setStarted(true);setPage("quiz");
