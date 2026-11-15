@@ -1,0 +1,14 @@
+{
+  "name": "FuturePath - UTME and Post-UTME Preparation",
+  "short_name": "FuturePath",
+  "description": "Study notes, past questions and offline CBT practice.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f8fc",
+  "theme_color": "#102b55",
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
