@@ -1,47 +1,73 @@
 # FuturePath
 
-FuturePath is a mobile-friendly UTME and Post-UTME preparation platform.
+FuturePath is a mobile-first UTME and Post-UTME preparation platform for Nigerian students.
 
-## Current foundation
+## Current prototype
 
-- React + TypeScript + Vite frontend
-- Responsive student dashboard
-- Subject selection for English, Mathematics, Biology, Chemistry and Physics
-- Starter CBT practice flow with answer checking and explanations
-- Starter study-note library with topic search
+- Supabase email/password authentication and student profiles.
+- Student dashboard with recorded quiz scores and activity.
+- Five subjects: English, Mathematics, Biology, Chemistry and Physics.
+- Topic-based study notes stored in Supabase.
+- Randomised quiz and mock-question flows.
+- Secure server-side answer marking and attempt recording.
+- Past-question archive filters by subject and year.
+- Admin-only content publishing for questions and study notes.
+- Row Level Security on the learning and student data tables.
+
+The current database starts with five original demonstration questions and five starter notes. These are **not** official JAMB past questions. The archive will be expanded using verified, licensed or user-provided source material, with the correct year and source label.
 
 ## Run locally
 
-Requirements: Node.js 20 or newer.
+Requires Node.js 20 or newer.
 
 ```bash
 npm install
 npm run dev
 ```
 
-Create a production build with:
+For a production build:
 
 ```bash
 npm run build
 ```
 
-## Important
+## Supabase
 
-The current question and study-note content is starter demonstration material, not a verified collection of official JAMB past questions. Authentication, persistent progress, admin question management, timed full exams and payment verification are not connected yet. Those will be added as separate, tested milestones.
+The connected Supabase project is configured in `src/lib/supabase.ts` with its public publishable key. A publishable key is intended for frontend use; all access must still be controlled by database Row Level Security. Never add a service-role key or database password to frontend code or Git.
 
-Never put database service-role keys or payment secret keys in frontend code.
+The database contains:
+- `profiles`, `subjects`, `topics`, `study_notes`, `questions`
+- `exams`, `exam_questions`, `attempts`, `attempt_answers`
+- Secure RPC functions for random question delivery and attempt submission.
 
-## Connect Supabase authentication
+New accounts receive the student role automatically. To make the first administrator:
+1. Create your own account through FuturePath.
+2. In Supabase SQL Editor, run the following after replacing the email with the exact email used for that account:
 
-1. Create a Supabase project.
-2. In Project Settings > API, copy the Project URL and the publishable key (or legacy anon key).
-3. Copy `.env.example` to `.env.local` and fill in:
-   - `VITE_SUPABASE_URL`
-   - `VITE_SUPABASE_PUBLISHABLE_KEY`
-4. In Supabase Dashboard > SQL Editor, run `supabase/schema.sql`.
-5. In Authentication > URL Configuration, set the Site URL to your deployed app URL. Add your local development URL (for example `http://localhost:5173`) to the allowed redirect URLs while testing.
-6. Install dependencies and restart the dev server after changing environment variables.
+```sql
+update public.profiles p
+set role = 'admin'
+from auth.users u
+where p.id = u.id
+  and lower(u.email) = lower('YOUR-ACCOUNT-EMAIL');
+```
 
-The frontend uses Supabase Auth for email/password sign-up and sign-in. If email confirmation is enabled in Supabase, students must confirm their email before they can sign in. The SQL creates a protected profile row for each new account. New accounts are always students; assign admin access manually from the SQL editor to a trusted account.
+Only do this for the trusted owner account. Never allow public signup to choose its own role.
 
-Only use the publishable/anon key in frontend environment variables. Never put a Supabase service-role or secret key in a browser app.
+## GitHub Pages prototype
+
+A GitHub Actions workflow builds and deploys the site from the `main` branch.
+
+1. Open this repository's **Settings → Pages**.
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**.
+3. Open the **Actions** tab and check the “Deploy FuturePath prototype” workflow.
+
+The intended site address is:
+
+`https://benjamineniola20-source.github.io/futurepath/`
+
+After deployment, add that address to Supabase Authentication → URL Configuration as the Site URL and an allowed redirect URL.
+
+## Content and copyright
+
+Do not label original practice questions as official JAMB questions. Add past-question content only when it is provided by the project owner or obtained from a source that permits its use. Keep source, year and subject metadata accurate.
