@@ -13,6 +13,7 @@ create table if not exists public.profiles (
 alter table public.profiles enable row level security;
 
 revoke all on public.profiles from anon;
+revoke all on public.profiles from authenticated;
 grant select on public.profiles to authenticated;
 grant update (full_name) on public.profiles to authenticated;
 
