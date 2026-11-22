@@ -105,7 +105,7 @@ export default function AuthGate({ children }: Props) {
     return <main className="auth-screen"><div className="auth-loading">Preparing your learning space...</div></main>;
   }
 
-  if (session || !navigator.onLine) {
+  if (session || (!navigator.onLine && offlineAccount)) {
     return <div className="authenticated-app">
       <div className="account-strip">
         <span>{session ? "Signed in as" : "Offline access for"} <strong>{session?.user.email || offlineAccount?.email}</strong></span>
@@ -113,6 +113,16 @@ export default function AuthGate({ children }: Props) {
       </div>
       {children}
     </div>;
+  }
+
+  if (!navigator.onLine && !offlineAccount) {
+    return <main className="auth-screen">
+      <section className="auth-card">
+        <div className="auth-brand"><div className="auth-brand-mark"><GraduationCap size={25}/></div><span>Future<span>Path</span></span></div>
+        <h1>Connect before offline study</h1>
+        <p className="auth-intro">You need to sign in while connected to the internet and download your learning materials first. Then you can return to FuturePath offline on this device.</p>
+      </section>
+    </main>;
   }
 
   return <main className="auth-screen">
