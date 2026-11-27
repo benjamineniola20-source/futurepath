@@ -10,7 +10,8 @@ export default function AuthGate({ children }: Props) {
   const [session, setSession] = useState<Session | null>(null);
   const [offlineAccount, setOfflineAccount] = useState<OfflineAccount | null>(null);
   const [checkingSession, setCheckingSession] = useState(true);
-  const [mode, setMode] = useState<"login" | "signup">("signup");
+  const [mode, setMode] = useState<"login" | "signup" | "forgot" | "reset">("signup");
+  const [newPassword, setNewPassword] = useState("");
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -40,7 +41,8 @@ export default function AuthGate({ children }: Props) {
       }
     };
     loadSession();
-    const { data } = client.auth.onAuthStateChange((_event, nextSession) => {
+    const { data } = client.auth.onAuthStateChange((event, nextSession) => {
+      if (event === "PASSWORD_RECOVERY") setMode("reset");
       setSession(nextSession);
       if (nextSession) {
         const account = { id: nextSession.user.id, email: nextSession.user.email || "", full_name: String(nextSession.user.user_metadata?.full_name || "") };
@@ -65,7 +67,22 @@ export default function AuthGate({ children }: Props) {
     setError("");
     setMessage("");
     try {
-      if (mode === "signup") {
+      if (mode === "forgot") {
+        const { error: resetError } = await supabase.auth.resetPasswordForEmail(email.trim(), {
+          redirectTo: window.location.origin,
+        });
+        if (resetError) throw resetError;
+        setMessage("If an account exists for this email, a password-reset link has been sent. Check your inbox and spam folder.");
+      } else if (mode === "reset") {
+        if (newPassword.length < 8) throw new Error("Your new password must contain at least 8 characters.");
+        const { error: updateError } = await supabase.auth.updateUser({ password: newPassword });
+        if (updateError) throw updateError;
+        await supabase.auth.signOut();
+        setPassword("");
+        setNewPassword("");
+        setMode("login");
+        setMessage("Your password has been changed. Sign in with your new password.");
+      } else if (mode === "signup") {
         const { data, error: authError } = await supabase.auth.signUp({
           email: email.trim(),
           password,
@@ -105,7 +122,7 @@ export default function AuthGate({ children }: Props) {
     return <main className="auth-screen"><div className="auth-loading">Preparing your learning space...</div></main>;
   }
 
-  if (session || (!navigator.onLine && offlineAccount)) {
+  if ((session && mode !== "reset") || (!navigator.onLine && offlineAccount)) {
     return <div className="authenticated-app">
       <div className="account-strip">
         <span>{session ? "Signed in as" : "Offline access for"} <strong>{session?.user.email || offlineAccount?.email}</strong></span>
@@ -129,8 +146,8 @@ export default function AuthGate({ children }: Props) {
     <section className="auth-card">
       <div className="auth-brand"><div className="auth-brand-mark"><GraduationCap size={25}/></div><span>Future<span>Path</span></span></div>
       <div className="auth-eyebrow">YOUR LEARNING JOURNEY STARTS HERE</div>
-      <h1>{mode === "signup" ? "Create your student account" : "Welcome back"}</h1>
-      <p className="auth-intro">{mode === "signup" ? "Join FuturePath and prepare for your next big step." : "Sign in to continue your preparation."}</p>
+      <h1>{mode === "signup" ? "Create your student account" : mode === "forgot" ? "Reset your password" : mode === "reset" ? "Choose a new password" : "Welcome back"}</h1>
+      <p className="auth-intro">{mode === "signup" ? "Join FuturePath and prepare for your next big step." : mode === "forgot" ? "Enter the email address linked to your FuturePath account." : mode === "reset" ? "Create a new password for your account." : "Sign in to continue your preparation."}</p>
       <div className="auth-tabs">
         <button className={mode === "signup" ? "selected" : ""} onClick={() => { setMode("signup"); setError(""); setMessage(""); }}><UserPlus size={16}/> Create account</button>
         <button className={mode === "login" ? "selected" : ""} onClick={() => { setMode("login"); setError(""); setMessage(""); }}><LogIn size={16}/> Sign in</button>
@@ -138,10 +155,13 @@ export default function AuthGate({ children }: Props) {
       <form onSubmit={handleSubmit} className="auth-form">
         {mode === "signup" && <label>Full name<input autoComplete="name" value={fullName} onChange={e => setFullName(e.target.value)} placeholder="Enter your full name" required /></label>}
         <label>Email address<input type="email" autoComplete="email" value={email} onChange={e => setEmail(e.target.value)} placeholder="you@example.com" required /></label>
-        <label>Password<input type="password" autoComplete={mode === "signup" ? "new-password" : "current-password"} value={password} onChange={e => setPassword(e.target.value)} placeholder="At least 8 characters" minLength={8} required /></label>
+        {mode === "reset" ? <label>New password<input type="password" autoComplete="new-password" value={newPassword} onChange={e => setNewPassword(e.target.value)} placeholder="At least 8 characters" minLength={8} required /></label> : mode !== "forgot" && <label>Password<input type="password" autoComplete={mode === "signup" ? "new-password" : "current-password"} value={password} onChange={e => setPassword(e.target.value)} placeholder="At least 8 characters" minLength={8} required /></label>}
+        {mode === "login" && <button type="button" className="text-button" onClick={() => { setMode("forgot"); setError(""); setMessage(""); }}>Forgot password?</button>}
+        {mode === "forgot" && <button type="button" className="text-button" onClick={() => { setMode("login"); setError(""); setMessage(""); }}>Back to sign in</button>}
+        {mode === "reset" && <button type="button" className="text-button" onClick={() => { setMode("login"); setError(""); setMessage(""); }}>Back to sign in</button>}
         {error && <p className="auth-error" role="alert">{error}</p>}
         {message && <p className="auth-message" role="status">{message}</p>}
-        <button className="auth-submit" type="submit" disabled={busy}>{busy ? "Please wait..." : mode === "signup" ? "Create my account" : "Sign in to FuturePath"}</button>
+        <button className="auth-submit" type="submit" disabled={busy}>{busy ? "Please wait..." : mode === "signup" ? "Create my account" : mode === "forgot" ? "Send reset link" : mode === "reset" ? "Save new password" : "Sign in to FuturePath"}</button>
       </form>
       <p className="auth-footnote">Your account is for your own learning progress. Keep your password private.</p>
     </section>
