@@ -154,7 +154,7 @@ export default function AuthGate({ children }: Props) {
       </div>
       <form onSubmit={handleSubmit} className="auth-form">
         {mode === "signup" && <label>Full name<input autoComplete="name" value={fullName} onChange={e => setFullName(e.target.value)} placeholder="Enter your full name" required /></label>}
-        <label>Email address<input type="email" autoComplete="email" value={email} onChange={e => setEmail(e.target.value)} placeholder="you@example.com" required /></label>
+        {mode !== "reset" && <label>Email address<input type="email" autoComplete="email" value={email} onChange={e => setEmail(e.target.value)} placeholder="you@example.com" required /></label>}
         {mode === "reset" ? <label>New password<input type="password" autoComplete="new-password" value={newPassword} onChange={e => setNewPassword(e.target.value)} placeholder="At least 8 characters" minLength={8} required /></label> : mode !== "forgot" && <label>Password<input type="password" autoComplete={mode === "signup" ? "new-password" : "current-password"} value={password} onChange={e => setPassword(e.target.value)} placeholder="At least 8 characters" minLength={8} required /></label>}
         {mode === "login" && <button type="button" className="text-button" onClick={() => { setMode("forgot"); setError(""); setMessage(""); }}>Forgot password?</button>}
         {mode === "forgot" && <button type="button" className="text-button" onClick={() => { setMode("login"); setError(""); setMessage(""); }}>Back to sign in</button>}
